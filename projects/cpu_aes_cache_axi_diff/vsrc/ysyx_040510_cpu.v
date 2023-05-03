@@ -5,6 +5,7 @@ module ysyx_040510_cpu(
 
 	input								axi_stall,
 	input								icache_stall_i,
+	input								dcache_stall_i,
 
 	output								io_char_valid_o,
 	output [7:0]						io_char_o,
@@ -209,9 +210,8 @@ wire pc_wen;
 wire [63:0]reg_write_value_mem = read_mem_en_mem?sext_read_mem_value_mem:sext_value_mem;
 
 
-
-wire axi_stall_i = axi_stall || icache_stall_i || alu_stall;
-wire device_stall = axi_stall || icache_stall_i;
+wire axi_stall_i = axi_stall || icache_stall_i || dcache_stall_i || alu_stall;
+wire peripheral_stall= axi_stall || icache_stall_i;
 wire clk = clock;
 wire rst = !reset;
 assign	clint_wen_o = clint_wen;
@@ -436,7 +436,7 @@ ysyx_040510_ALU alu_module(
 	.if_inst_aes64ks2(if_inst_aes64ks2_ex),
 	.ks1i_rnum(ks1i_rnum_ex),
 
-	.device_stall(device_stall),
+	.device_stall(peripheral_stall),
 	.alu_stall(alu_stall),
 
 	.Forward_a(Forward_a),

@@ -209,7 +209,7 @@ module ysyx_040510_axi# (
 
 //    wire [7:0] axi_len      = aligned ? TRANS_LEN - 1 : {{7{1'b0}}, overstep};
 	wire [7:0] axi_len		= 0;
-	wire [2:0] axi_size     = AXI_SIZE[2:0];
+	wire [2:0] axi_size     = 3'b011;//AXI_SIZE[2:0];
     
     // ------------------Number of the data in transmission------------------
     reg [7:0] len;

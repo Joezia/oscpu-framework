@@ -217,47 +217,58 @@ module SimTop(
 	   wire rst = !reset;
 	   wire clk = clock;
 
-	   wire		if_valid;
-	   wire		if_ready;
-	   wire		if_req;
-	   wire [63:0] if_data_read;
-	   wire [63:0] if_addr;
+	   wire			if_valid;
+	   wire			if_ready;
+	   wire			if_req;
+	   wire [63:0]	if_data_read;
+	   wire [63:0]	if_addr;
 	   wire [1:0]	if_size;
 	   wire [1:0]	if_resp;
 
-	   wire		mem_valid;
-	   wire		mem_req;
+	   wire			mem_valid;
+	   wire			mem_req;
 	   wire [63:0]	mem_addr;
 	   wire [63:0]	mem_data_read;
 	   wire [63:0]	mem_data_write;
 	   wire [7:0]	mem_write_mask_axi;
 
-	   wire		icache_valid;
+	   wire			icache_valid;
 	   wire [63:0]	icache_addr;
 	   wire [7:0]	icache_len;
-	   wire		icache_req;
+	   wire			icache_req;
 	   wire [63:0]	icache_data_read;
-	   wire		icache_stall;
+	   wire			icache_stall;
 
-	   wire		rw_valid;
-	   wire		rw_ready;
-	   wire		rw_req;
+	   wire			dcache_valid;
+	   wire			dcache_req;
+	   wire	[63:0]	dcache_addr;
+	   wire	[7:0]	dcache_len;
+	   wire [7:0]	dcache_mask;
+	   wire [63:0]	dcache_data_write;
+	   wire [63:0]	dcache_data_read;
+	   wire			dcache_stall;
+
+	   wire			rw_valid;
+	   wire			rw_ready;
+	   wire			rw_req;
 	   wire [63:0]	rw_data_read;
 	   wire [63:0]	rw_data_write;
 	   wire [63:0]	rw_addr;
 	   wire [1:0]	rw_size;
 	   wire [7:0]	rw_len;
 	   wire [1:0]	rw_arb_state;
-	   wire		rw_trans_done;
-	   wire		rw_r_hs;
+	   wire			rw_trans_done;
+	   wire			rw_r_hs;
 
-	   wire		arb_if_r_hs;
-	   wire		arb_if_trans_done;
+	   wire			arb_if_r_hs;
+	   wire			arb_if_trans_done;
+	   wire			arb_mem_r_hs;
+	   wire			arb_mem_trans_done;
 
-	   wire		axi_trans_done_pulse;
-	   wire		axi_stall;
+	   wire			axi_trans_done_pulse;
+	   wire			axi_stall;
 
-	   wire		io_char_valid;
+	   wire			io_char_valid;
 	   wire [7:0]	io_char;
 
 	   wire [127:0]	iram_0_data_read_128;
@@ -370,7 +381,7 @@ module SimTop(
         .rw_req_i                       (rw_req),
         .data_read_o                    (rw_data_read),
         .data_write_i                   (rw_data_write),
-		.mask_write_i					(mem_write_mask_axi),
+		.mask_write_i					(dcache_mask),
         .rw_addr_i                      (rw_addr),
         .rw_size_i                      (rw_size),
 		.rw_len_i						(rw_len),
@@ -434,18 +445,26 @@ module SimTop(
 		.clk					(clk),
 		.rst					(rst),
 	
-		.if_valid_i				(icache_valid),
-		.if_data_read_o			(icache_data_read),
-		.if_addr_i				(icache_addr),
-		.if_len_i				(icache_len),
-		.if_size_i				(if_size),
-		.if_req_i				(icache_req),
+		.icache_valid_i			(icache_valid),
+		.icache_data_read_o		(icache_data_read),
+		.icache_addr_i			(icache_addr),
+		.icache_len_i			(icache_len),
+		.icache_size_i			(if_size),
+		.icache_req_i			(icache_req),
+		
+//		.dcache_valid_i			(mem_valid),
+//		.dcache_addr_i			(mem_addr),
+//		.dcache_data_read_o		(mem_data_read),
+//		.dcache_data_write_i	(mem_data_write),
+//		.dcache_req_i			(mem_req),
+//		.dcache_len_i			(),
 
-		.mem_valid_i			(mem_valid),
-		.mem_addr_i				(mem_addr),
-		.mem_data_read_o		(mem_data_read),
-		.mem_data_write_i		(mem_data_write),
-		.mem_req_i				(mem_req),
+		.dcache_valid_i			(dcache_valid),
+		.dcache_addr_i			(dcache_addr),
+		.dcache_data_read_o		(dcache_data_read),
+		.dcache_data_write_i	(dcache_data_write),
+		.dcache_req_i			(dcache_req),
+		.dcache_len_i			(dcache_len),
 
 		.rw_valid_o				(rw_valid),
 		.rw_ready_i				(rw_ready),
@@ -461,9 +480,38 @@ module SimTop(
 
 		.arb_if_r_hs_o			(arb_if_r_hs),
 		.arb_if_trans_done_o	(arb_if_trans_done),
+		.arb_mem_r_hs_o			(arb_mem_r_hs),
+		.arb_mem_trans_done_o	(arb_mem_trans_done),
+
 
 		.axi_trans_done_pulse	(axi_trans_done_pulse),
 		.axi_stall_o			(axi_stall)
+	);
+
+	ysyx_040510_dcache u_dcache(
+		.clk					(clk),
+		.rst					(rst),
+
+		.mem_valid_i			(mem_valid),
+		.mem_req_i				(mem_req),
+		.mem_addr_i				(mem_addr),
+		.mem_data_read_o		(mem_data_read),
+		.mem_data_write_i		(mem_data_write),
+		.mem_write_mask_i		(mem_write_mask_axi),
+		
+		.arb_mem_trans_done_i	(arb_mem_trans_done),
+		.arb_mem_r_hs_i			(arb_mem_r_hs),
+		.arb_state_i			(rw_arb_state),	
+
+		.dcache_valid_o			(dcache_valid),
+		.dcache_req_o			(dcache_req),
+		.dcache_addr_o			(dcache_addr),
+		.dcache_len_o			(dcache_len),
+		.dcache_mask_o			(dcache_mask),
+		.dcache_data_o			(dcache_data_write),
+		.dcache_data_read_i		(dcache_data_read),
+
+		.dcache_stall_o			(dcache_stall)
 	);
 
 		ysyx_040510_icache u_icache(
@@ -567,6 +615,7 @@ module SimTop(
 		.io_char_o						(io_char),
 		.axi_stall						(axi_stall),
 		.icache_stall_i					(icache_stall),
+		.dcache_stall_i					(dcache_stall),
 
 		.clint_wen_o					(clint_wen),
 		.clint_ren_o					(clint_ren),

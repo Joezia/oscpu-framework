@@ -24,7 +24,7 @@ always @(posedge CLK) begin
     if(cen && wen) begin
         ram[A]	<= (D & bwen) | (ram[A] & ~bwen);
     end
-		Q <= cen && !wen ? ram[A] : {128'h0};
+		Q <= cen && !wen ? ram[A] : {128'h9};
 end
 
 endmodule

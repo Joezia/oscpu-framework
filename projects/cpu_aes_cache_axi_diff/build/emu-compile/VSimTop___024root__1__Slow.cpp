@@ -107,6 +107,24 @@ void VSimTop___024root___settle__TOP__2(VSimTop___024root* vlSelf) {
     CData/*7:0*/ __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xtN__280__Vfuncout;
     CData/*7:0*/ __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xtN__280__a;
     CData/*7:0*/ __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xtN__281__Vfuncout;
+    CData/*7:0*/ __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xtN__281__a;
+    CData/*7:0*/ __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xtN__282__Vfuncout;
+    CData/*7:0*/ __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__291__Vfuncout;
+    CData/*7:0*/ __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__291__a;
+    CData/*7:0*/ __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__292__Vfuncout;
+    CData/*7:0*/ __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__292__a;
+    CData/*7:0*/ __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__293__Vfuncout;
+    CData/*7:0*/ __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__295__Vfuncout;
+    CData/*7:0*/ __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__295__a;
+    CData/*7:0*/ __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__296__Vfuncout;
+    CData/*7:0*/ __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__296__a;
+    CData/*7:0*/ __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__298__Vfuncout;
+    CData/*7:0*/ __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__298__a;
+    CData/*7:0*/ __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__299__Vfuncout;
+    CData/*7:0*/ __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__299__a;
+    CData/*7:0*/ __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__300__Vfuncout;
+    CData/*7:0*/ __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__300__a;
+    CData/*7:0*/ __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__301__a;
     CData/*7:0*/ __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__302__Vfuncout;
     CData/*7:0*/ __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__302__a;
     CData/*7:0*/ __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__303__Vfuncout;
@@ -125,10 +143,65 @@ void VSimTop___024root___settle__TOP__2(VSimTop___024root* vlSelf) {
     VlWide<3>/*95:0*/ __Vtemp378;
     VlWide<3>/*95:0*/ __Vtemp385;
     // Body
+    __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__293__Vfuncout 
+        = (0xffU & (((IData)(vlSelf->__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__293__a) 
+                     << 1U) ^ ((0x80U & (IData)(vlSelf->__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__293__a))
+                                ? 0x1bU : 0U)));
+    __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__292__a 
+        = __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__293__Vfuncout;
+    __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__292__Vfuncout 
+        = (0xffU & (((IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__292__a) 
+                     << 1U) ^ ((0x80U & (IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__292__a))
+                                ? 0x1bU : 0U)));
+    __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__295__a 
+        = vlSelf->__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xtN__282__a;
+    __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__295__Vfuncout 
+        = (0xffU & (((IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__295__a) 
+                     << 1U) ^ ((0x80U & (IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__295__a))
+                                ? 0x1bU : 0U)));
+    __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__291__a 
+        = __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__295__Vfuncout;
+    __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__291__Vfuncout 
+        = (0xffU & (((IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__291__a) 
+                     << 1U) ^ ((0x80U & (IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__291__a))
+                                ? 0x1bU : 0U)));
+    __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xtN__282__Vfuncout 
+        = (((IData)(vlSelf->__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xtN__282__a) 
+            ^ (IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__291__Vfuncout)) 
+           ^ (IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__292__Vfuncout));
+    __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xtN__281__a 
+        = (0xffU & (vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__mix_in_2 
+                    >> 0x10U));
+    __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__300__a 
+        = __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xtN__281__a;
+    __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__300__Vfuncout 
+        = (0xffU & (((IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__300__a) 
+                     << 1U) ^ ((0x80U & (IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__300__a))
+                                ? 0x1bU : 0U)));
+    __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__299__a 
+        = __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__300__Vfuncout;
+    __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__299__Vfuncout 
+        = (0xffU & (((IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__299__a) 
+                     << 1U) ^ ((0x80U & (IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__299__a))
+                                ? 0x1bU : 0U)));
+    __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__298__a 
+        = __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__299__Vfuncout;
+    __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__298__Vfuncout 
+        = (0xffU & (((IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__298__a) 
+                     << 1U) ^ ((0x80U & (IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__298__a))
+                                ? 0x1bU : 0U)));
+    __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__301__a 
+        = __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xtN__281__a;
+    __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__296__a 
+        = __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xtN__281__a;
+    __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__296__Vfuncout 
+        = (0xffU & (((IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__296__a) 
+                     << 1U) ^ ((0x80U & (IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__296__a))
+                                ? 0x1bU : 0U)));
     __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xtN__281__Vfuncout 
-        = (((IData)(vlSelf->__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xtN__281__a) 
-            ^ (IData)(vlSelf->__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__296__Vfuncout)) 
-           ^ (IData)(vlSelf->__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__298__Vfuncout));
+        = (((IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xtN__281__a) 
+            ^ (IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__296__Vfuncout)) 
+           ^ (IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__298__Vfuncout));
     __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xtN__280__a 
         = (vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__mix_in_2 
            >> 0x18U);
@@ -175,7 +248,7 @@ void VSimTop___024root___settle__TOP__2(VSimTop___024root* vlSelf) {
     vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__mix_out_2 
         = ((((IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xtN__280__Vfuncout) 
              ^ (IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xtN__281__Vfuncout)) 
-            ^ (IData)(vlSelf->__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xtN__282__Vfuncout)) 
+            ^ (IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xtN__282__Vfuncout)) 
            ^ (IData)(vlSelf->__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xtN__283__Vfuncout));
     __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_1__DOT__xtN__255__a 
         = (0xffU & vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__mix_in_1);
@@ -2145,7 +2218,6 @@ void VSimTop___024root___ctor_var_reset(VSimTop___024root* vlSelf) {
     vlSelf->io_memAXI_0_r_bits_user = VL_RAND_RESET_I(1);
     vlSelf->SimTop__DOT__if_ready = VL_RAND_RESET_I(1);
     vlSelf->SimTop__DOT__mem_valid = VL_RAND_RESET_I(1);
-    vlSelf->SimTop__DOT__mem_data_read = VL_RAND_RESET_Q(64);
     vlSelf->SimTop__DOT__mem_write_mask_axi = VL_RAND_RESET_I(8);
     vlSelf->SimTop__DOT__icache_valid = VL_RAND_RESET_I(1);
     vlSelf->SimTop__DOT__icache_addr = VL_RAND_RESET_Q(64);
@@ -2153,11 +2225,20 @@ void VSimTop___024root___ctor_var_reset(VSimTop___024root* vlSelf) {
     vlSelf->SimTop__DOT__icache_req = VL_RAND_RESET_I(1);
     vlSelf->SimTop__DOT__icache_data_read = VL_RAND_RESET_Q(64);
     vlSelf->SimTop__DOT__icache_stall = VL_RAND_RESET_I(1);
+    vlSelf->SimTop__DOT__dcache_valid = VL_RAND_RESET_I(1);
+    vlSelf->SimTop__DOT__dcache_req = VL_RAND_RESET_I(1);
+    vlSelf->SimTop__DOT__dcache_addr = VL_RAND_RESET_Q(64);
+    vlSelf->SimTop__DOT__dcache_len = VL_RAND_RESET_I(8);
+    vlSelf->SimTop__DOT__dcache_mask = VL_RAND_RESET_I(8);
+    vlSelf->SimTop__DOT__dcache_data_write = VL_RAND_RESET_Q(64);
+    vlSelf->SimTop__DOT__dcache_data_read = VL_RAND_RESET_Q(64);
     vlSelf->SimTop__DOT__rw_valid = VL_RAND_RESET_I(1);
     vlSelf->SimTop__DOT__rw_req = VL_RAND_RESET_I(1);
     vlSelf->SimTop__DOT__rw_addr = VL_RAND_RESET_Q(64);
     vlSelf->SimTop__DOT__arb_if_r_hs = VL_RAND_RESET_I(1);
     vlSelf->SimTop__DOT__arb_if_trans_done = VL_RAND_RESET_I(1);
+    vlSelf->SimTop__DOT__arb_mem_r_hs = VL_RAND_RESET_I(1);
+    vlSelf->SimTop__DOT__arb_mem_trans_done = VL_RAND_RESET_I(1);
     vlSelf->SimTop__DOT__axi_stall = VL_RAND_RESET_I(1);
     VL_RAND_RESET_W(128, vlSelf->SimTop__DOT__iram_0_data_read_128);
     vlSelf->SimTop__DOT__iram_0_wen = VL_RAND_RESET_I(1);
@@ -2195,6 +2276,22 @@ void VSimTop___024root___ctor_var_reset(VSimTop___024root* vlSelf) {
     vlSelf->SimTop__DOT__arbitrating__DOT__zza_pulse_3 = VL_RAND_RESET_I(1);
     vlSelf->SimTop__DOT__arbitrating__DOT__zza_count = VL_RAND_RESET_I(2);
     vlSelf->SimTop__DOT__arbitrating__DOT__zza_pulse = VL_RAND_RESET_I(1);
+    for (int __Vi0=0; __Vi0<128; ++__Vi0) {
+        vlSelf->SimTop__DOT__u_dcache__DOT__tag[__Vi0] = VL_RAND_RESET_Q(54);
+    }
+    VL_RAND_RESET_W(128, vlSelf->SimTop__DOT__u_dcache__DOT__valid);
+    VL_RAND_RESET_W(128, vlSelf->SimTop__DOT__u_dcache__DOT__dirty);
+    vlSelf->SimTop__DOT__u_dcache__DOT__hit = VL_RAND_RESET_I(1);
+    vlSelf->SimTop__DOT__u_dcache__DOT__is_dirty = VL_RAND_RESET_I(1);
+    vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr = VL_RAND_RESET_Q(64);
+    vlSelf->SimTop__DOT__u_dcache__DOT__dcache_state = VL_RAND_RESET_I(3);
+    vlSelf->SimTop__DOT__u_dcache__DOT__tmp_counter = VL_RAND_RESET_I(2);
+    VL_RAND_RESET_W(128, vlSelf->SimTop__DOT__u_dcache__DOT__dram_data_read_128);
+    vlSelf->SimTop__DOT__u_dcache__DOT__dram_mem_write_mask_i = VL_RAND_RESET_Q(64);
+    vlSelf->SimTop__DOT__u_dcache__DOT__dram_addr = VL_RAND_RESET_I(6);
+    for (int __Vi0=0; __Vi0<64; ++__Vi0) {
+        VL_RAND_RESET_W(128, vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram__DOT__ram[__Vi0]);
+    }
     for (int __Vi0=0; __Vi0<128; ++__Vi0) {
         vlSelf->SimTop__DOT__u_icache__DOT__tag_0[__Vi0] = VL_RAND_RESET_Q(54);
     }
@@ -2362,7 +2459,7 @@ void VSimTop___024root___ctor_var_reset(VSimTop___024root* vlSelf) {
     vlSelf->SimTop__DOT__u_cpu__DOT__pipeline_stall_wb = VL_RAND_RESET_I(1);
     vlSelf->SimTop__DOT__u_cpu__DOT__reg_write_value_mem = VL_RAND_RESET_Q(64);
     vlSelf->SimTop__DOT__u_cpu__DOT__axi_stall_i = VL_RAND_RESET_I(1);
-    vlSelf->SimTop__DOT__u_cpu__DOT__device_stall = VL_RAND_RESET_I(1);
+    vlSelf->SimTop__DOT__u_cpu__DOT__peripheral_stall = VL_RAND_RESET_I(1);
     for (int __Vi0=0; __Vi0<32; ++__Vi0) {
         vlSelf->SimTop__DOT__u_cpu__DOT____Vcellout__rf__regs_gpr[__Vi0] = VL_RAND_RESET_Q(64);
     }
@@ -3501,11 +3598,9 @@ void VSimTop___024root___ctor_var_reset(VSimTop___024root* vlSelf) {
     vlSelf->SimTop__DOT__u_cpu__DOT__npc_processing__DOT__branch_test__DOT__i0__DOT__hit = VL_RAND_RESET_I(1);
     vlSelf->SimTop__DOT__clint__DOT__mtime = VL_RAND_RESET_Q(64);
     vlSelf->SimTop__DOT__clint__DOT__mtimecmp = VL_RAND_RESET_Q(64);
-    vlSelf->__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xtN__281__a = VL_RAND_RESET_I(8);
-    vlSelf->__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xtN__282__Vfuncout = VL_RAND_RESET_I(8);
+    vlSelf->__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xtN__282__a = VL_RAND_RESET_I(8);
     vlSelf->__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xtN__283__Vfuncout = VL_RAND_RESET_I(8);
-    vlSelf->__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__296__Vfuncout = VL_RAND_RESET_I(8);
-    vlSelf->__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__298__Vfuncout = VL_RAND_RESET_I(8);
+    vlSelf->__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__293__a = VL_RAND_RESET_I(8);
     for (int __Vi0=0; __Vi0<4; ++__Vi0) {
         vlSelf->__Vm_traceActivity[__Vi0] = VL_RAND_RESET_I(1);
     }
