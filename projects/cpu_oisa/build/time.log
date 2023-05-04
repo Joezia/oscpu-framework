@@ -1033,3 +1033,13 @@ Wed, 03 May 2023 11:47:57 +0800
 Wed, 03 May 2023 11:47:58 +0800
 0.68user 0.15system 0:00.83elapsed 99%CPU (0avgtext+0avgdata 105212maxresident)k
 0inputs+13360outputs (0major+45693minor)pagefaults 0swaps
+
+[verilator] Generating C++ files...
+Wed, 03 May 2023 18:49:30 +0800
+0.77user 0.12system 0:00.90elapsed 99%CPU (0avgtext+0avgdata 90608maxresident)k
+0inputs+13376outputs (0major+23187minor)pagefaults 0swaps
+
+[g++] Compiling C++ files...
+Wed, 03 May 2023 18:49:30 +0800
+0.68user 0.21system 0:00.89elapsed 99%CPU (0avgtext+0avgdata 105084maxresident)k
+32inputs+13360outputs (0major+45697minor)pagefaults 0swaps

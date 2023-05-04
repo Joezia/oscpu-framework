@@ -34,14 +34,38 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
     CData/*1:0*/ __Vdly__SimTop__DOT__arbitrating__DOT__arb_state;
     CData/*2:0*/ __Vdly__SimTop__DOT__u_dcache__DOT__dcache_state;
     CData/*1:0*/ __Vdly__SimTop__DOT__u_dcache__DOT__tmp_counter;
-    CData/*6:0*/ __Vdlyvdim0__SimTop__DOT__u_dcache__DOT__tag__v0;
-    CData/*0:0*/ __Vdlyvset__SimTop__DOT__u_dcache__DOT__tag__v0;
-    CData/*6:0*/ __Vdlyvdim0__SimTop__DOT__u_dcache__DOT__tag__v1;
-    CData/*0:0*/ __Vdlyvset__SimTop__DOT__u_dcache__DOT__tag__v1;
-    CData/*6:0*/ __Vdlyvdim0__SimTop__DOT__u_dcache__DOT__tag__v2;
-    CData/*0:0*/ __Vdlyvset__SimTop__DOT__u_dcache__DOT__tag__v2;
-    CData/*5:0*/ __Vdlyvdim0__SimTop__DOT__u_dcache__DOT__dcache_ram__DOT__ram__v0;
-    CData/*0:0*/ __Vdlyvset__SimTop__DOT__u_dcache__DOT__dcache_ram__DOT__ram__v0;
+    CData/*6:0*/ __Vdlyvdim0__SimTop__DOT__u_dcache__DOT__tag_0__v0;
+    CData/*0:0*/ __Vdlyvset__SimTop__DOT__u_dcache__DOT__tag_0__v0;
+    CData/*6:0*/ __Vdlyvdim0__SimTop__DOT__u_dcache__DOT__tag_1__v0;
+    CData/*0:0*/ __Vdlyvset__SimTop__DOT__u_dcache__DOT__tag_1__v0;
+    CData/*6:0*/ __Vdlyvdim0__SimTop__DOT__u_dcache__DOT__tag_2__v0;
+    CData/*0:0*/ __Vdlyvset__SimTop__DOT__u_dcache__DOT__tag_2__v0;
+    CData/*6:0*/ __Vdlyvdim0__SimTop__DOT__u_dcache__DOT__tag_3__v0;
+    CData/*0:0*/ __Vdlyvset__SimTop__DOT__u_dcache__DOT__tag_3__v0;
+    CData/*6:0*/ __Vdlyvdim0__SimTop__DOT__u_dcache__DOT__tag_0__v1;
+    CData/*0:0*/ __Vdlyvset__SimTop__DOT__u_dcache__DOT__tag_0__v1;
+    CData/*6:0*/ __Vdlyvdim0__SimTop__DOT__u_dcache__DOT__tag_1__v1;
+    CData/*0:0*/ __Vdlyvset__SimTop__DOT__u_dcache__DOT__tag_1__v1;
+    CData/*6:0*/ __Vdlyvdim0__SimTop__DOT__u_dcache__DOT__tag_2__v1;
+    CData/*0:0*/ __Vdlyvset__SimTop__DOT__u_dcache__DOT__tag_2__v1;
+    CData/*6:0*/ __Vdlyvdim0__SimTop__DOT__u_dcache__DOT__tag_3__v1;
+    CData/*0:0*/ __Vdlyvset__SimTop__DOT__u_dcache__DOT__tag_3__v1;
+    CData/*6:0*/ __Vdlyvdim0__SimTop__DOT__u_dcache__DOT__tag_0__v2;
+    CData/*0:0*/ __Vdlyvset__SimTop__DOT__u_dcache__DOT__tag_0__v2;
+    CData/*6:0*/ __Vdlyvdim0__SimTop__DOT__u_dcache__DOT__tag_1__v2;
+    CData/*0:0*/ __Vdlyvset__SimTop__DOT__u_dcache__DOT__tag_1__v2;
+    CData/*6:0*/ __Vdlyvdim0__SimTop__DOT__u_dcache__DOT__tag_2__v2;
+    CData/*0:0*/ __Vdlyvset__SimTop__DOT__u_dcache__DOT__tag_2__v2;
+    CData/*6:0*/ __Vdlyvdim0__SimTop__DOT__u_dcache__DOT__tag_3__v2;
+    CData/*0:0*/ __Vdlyvset__SimTop__DOT__u_dcache__DOT__tag_3__v2;
+    CData/*5:0*/ __Vdlyvdim0__SimTop__DOT__u_dcache__DOT__dcache_ram_0__DOT__ram__v0;
+    CData/*0:0*/ __Vdlyvset__SimTop__DOT__u_dcache__DOT__dcache_ram_0__DOT__ram__v0;
+    CData/*5:0*/ __Vdlyvdim0__SimTop__DOT__u_dcache__DOT__dcache_ram_1__DOT__ram__v0;
+    CData/*0:0*/ __Vdlyvset__SimTop__DOT__u_dcache__DOT__dcache_ram_1__DOT__ram__v0;
+    CData/*5:0*/ __Vdlyvdim0__SimTop__DOT__u_dcache__DOT__dcache_ram_2__DOT__ram__v0;
+    CData/*0:0*/ __Vdlyvset__SimTop__DOT__u_dcache__DOT__dcache_ram_2__DOT__ram__v0;
+    CData/*5:0*/ __Vdlyvdim0__SimTop__DOT__u_dcache__DOT__dcache_ram_3__DOT__ram__v0;
+    CData/*0:0*/ __Vdlyvset__SimTop__DOT__u_dcache__DOT__dcache_ram_3__DOT__ram__v0;
     CData/*1:0*/ __Vdly__SimTop__DOT__u_icache__DOT__icache_state;
     CData/*1:0*/ __Vdly__SimTop__DOT__u_icache__DOT__iram_sel;
     CData/*1:0*/ __Vdly__SimTop__DOT__u_icache__DOT__re_write_state;
@@ -76,7 +100,10 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
     CData/*6:0*/ __Vdly__SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__div_cnt;
     CData/*0:0*/ __Vdlyvset__SimTop__DOT__u_cpu__DOT__rf__DOT__rf_tmp__v0;
     CData/*0:0*/ __Vdlyvset__SimTop__DOT__u_cpu__DOT__rf__DOT__rf_tmp__v32;
-    VlWide<4>/*127:0*/ __Vdlyvval__SimTop__DOT__u_dcache__DOT__dcache_ram__DOT__ram__v0;
+    VlWide<4>/*127:0*/ __Vdlyvval__SimTop__DOT__u_dcache__DOT__dcache_ram_0__DOT__ram__v0;
+    VlWide<4>/*127:0*/ __Vdlyvval__SimTop__DOT__u_dcache__DOT__dcache_ram_1__DOT__ram__v0;
+    VlWide<4>/*127:0*/ __Vdlyvval__SimTop__DOT__u_dcache__DOT__dcache_ram_2__DOT__ram__v0;
+    VlWide<4>/*127:0*/ __Vdlyvval__SimTop__DOT__u_dcache__DOT__dcache_ram_3__DOT__ram__v0;
     VlWide<4>/*127:0*/ __Vdlyvval__SimTop__DOT__icache_ram_0__DOT__ram__v0;
     VlWide<4>/*127:0*/ __Vdlyvval__SimTop__DOT__icache_ram_1__DOT__ram__v0;
     VlWide<4>/*127:0*/ __Vdlyvval__SimTop__DOT__icache_ram_2__DOT__ram__v0;
@@ -84,49 +111,55 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
     VlWide<4>/*127:0*/ __Vdly__SimTop__DOT__u_cpu__DOT__alu_module__DOT__mul_u__DOT__mul_result;
     VlWide<4>/*127:0*/ __Vdly__SimTop__DOT__u_cpu__DOT__alu_module__DOT__mul_u__DOT__multiplcand;
     VlWide<4>/*127:0*/ __Vdly__SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__dividend_abs;
-    VlWide<4>/*127:0*/ __Vtemp455;
     VlWide<4>/*127:0*/ __Vtemp475;
     VlWide<4>/*127:0*/ __Vtemp495;
     VlWide<4>/*127:0*/ __Vtemp515;
-    VlWide<4>/*127:0*/ __Vtemp534;
     VlWide<4>/*127:0*/ __Vtemp535;
-    VlWide<4>/*127:0*/ __Vtemp536;
-    VlWide<4>/*127:0*/ __Vtemp537;
-    VlWide<4>/*127:0*/ __Vtemp538;
-    VlWide<4>/*127:0*/ __Vtemp539;
-    VlWide<3>/*95:0*/ __Vtemp542;
-    VlWide<3>/*95:0*/ __Vtemp543;
-    VlWide<4>/*127:0*/ __Vtemp546;
-    VlWide<4>/*127:0*/ __Vtemp547;
-    VlWide<4>/*127:0*/ __Vtemp548;
-    VlWide<4>/*127:0*/ __Vtemp550;
-    VlWide<4>/*127:0*/ __Vtemp551;
-    VlWide<4>/*127:0*/ __Vtemp552;
-    VlWide<3>/*95:0*/ __Vtemp558;
-    VlWide<3>/*95:0*/ __Vtemp559;
+    VlWide<4>/*127:0*/ __Vtemp554;
+    VlWide<4>/*127:0*/ __Vtemp555;
+    VlWide<4>/*127:0*/ __Vtemp556;
+    VlWide<4>/*127:0*/ __Vtemp557;
+    VlWide<4>/*127:0*/ __Vtemp558;
+    VlWide<4>/*127:0*/ __Vtemp559;
+    VlWide<3>/*95:0*/ __Vtemp562;
     VlWide<3>/*95:0*/ __Vtemp563;
-    VlWide<4>/*127:0*/ __Vtemp565;
-    VlWide<4>/*127:0*/ __Vtemp569;
-    VlWide<4>/*127:0*/ __Vtemp598;
-    VlWide<3>/*95:0*/ __Vtemp603;
-    VlWide<3>/*95:0*/ __Vtemp608;
-    VlWide<3>/*95:0*/ __Vtemp631;
-    VlWide<7>/*223:0*/ __Vtemp634;
-    VlWide<9>/*287:0*/ __Vtemp636;
-    VlWide<13>/*415:0*/ __Vtemp640;
-    VlWide<15>/*479:0*/ __Vtemp642;
-    VlWide<3>/*95:0*/ __Vtemp656;
-    VlWide<3>/*95:0*/ __Vtemp657;
-    VlWide<5>/*159:0*/ __Vtemp708;
-    VlWide<4>/*127:0*/ __Vtemp709;
-    VlWide<8>/*255:0*/ __Vtemp710;
-    VlWide<9>/*287:0*/ __Vtemp711;
+    VlWide<4>/*127:0*/ __Vtemp566;
+    VlWide<4>/*127:0*/ __Vtemp567;
+    VlWide<4>/*127:0*/ __Vtemp568;
+    VlWide<4>/*127:0*/ __Vtemp570;
+    VlWide<4>/*127:0*/ __Vtemp571;
+    VlWide<4>/*127:0*/ __Vtemp572;
+    VlWide<3>/*95:0*/ __Vtemp578;
+    VlWide<3>/*95:0*/ __Vtemp579;
+    VlWide<3>/*95:0*/ __Vtemp583;
+    VlWide<3>/*95:0*/ __Vtemp620;
+    VlWide<3>/*95:0*/ __Vtemp625;
+    VlWide<3>/*95:0*/ __Vtemp648;
+    VlWide<7>/*223:0*/ __Vtemp651;
+    VlWide<9>/*287:0*/ __Vtemp653;
+    VlWide<13>/*415:0*/ __Vtemp657;
+    VlWide<15>/*479:0*/ __Vtemp659;
+    VlWide<3>/*95:0*/ __Vtemp673;
+    VlWide<3>/*95:0*/ __Vtemp674;
+    VlWide<5>/*159:0*/ __Vtemp725;
+    VlWide<4>/*127:0*/ __Vtemp726;
+    VlWide<8>/*255:0*/ __Vtemp727;
+    VlWide<9>/*287:0*/ __Vtemp728;
     IData/*31:0*/ __Vilp;
     QData/*63:0*/ __Vdly__SimTop__DOT__u_dcache__DOT__dcache_ram_addr;
     QData/*63:0*/ __Vdly__SimTop__DOT__dcache_addr;
-    QData/*53:0*/ __Vdlyvval__SimTop__DOT__u_dcache__DOT__tag__v0;
-    QData/*53:0*/ __Vdlyvval__SimTop__DOT__u_dcache__DOT__tag__v1;
-    QData/*53:0*/ __Vdlyvval__SimTop__DOT__u_dcache__DOT__tag__v2;
+    QData/*53:0*/ __Vdlyvval__SimTop__DOT__u_dcache__DOT__tag_0__v0;
+    QData/*53:0*/ __Vdlyvval__SimTop__DOT__u_dcache__DOT__tag_1__v0;
+    QData/*53:0*/ __Vdlyvval__SimTop__DOT__u_dcache__DOT__tag_2__v0;
+    QData/*53:0*/ __Vdlyvval__SimTop__DOT__u_dcache__DOT__tag_3__v0;
+    QData/*53:0*/ __Vdlyvval__SimTop__DOT__u_dcache__DOT__tag_0__v1;
+    QData/*53:0*/ __Vdlyvval__SimTop__DOT__u_dcache__DOT__tag_1__v1;
+    QData/*53:0*/ __Vdlyvval__SimTop__DOT__u_dcache__DOT__tag_2__v1;
+    QData/*53:0*/ __Vdlyvval__SimTop__DOT__u_dcache__DOT__tag_3__v1;
+    QData/*53:0*/ __Vdlyvval__SimTop__DOT__u_dcache__DOT__tag_0__v2;
+    QData/*53:0*/ __Vdlyvval__SimTop__DOT__u_dcache__DOT__tag_1__v2;
+    QData/*53:0*/ __Vdlyvval__SimTop__DOT__u_dcache__DOT__tag_2__v2;
+    QData/*53:0*/ __Vdlyvval__SimTop__DOT__u_dcache__DOT__tag_3__v2;
     QData/*63:0*/ __Vdly__SimTop__DOT__u_icache__DOT__re_write_addr;
     QData/*53:0*/ __Vdlyvval__SimTop__DOT__u_icache__DOT__tag_0__v128;
     QData/*53:0*/ __Vdlyvval__SimTop__DOT__u_icache__DOT__tag_1__v128;
@@ -194,11 +227,14 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
     __Vdlyvset__SimTop__DOT__u_icache__DOT__tag_2__v129 = 0U;
     __Vdlyvset__SimTop__DOT__u_icache__DOT__tag_1__v128 = 0U;
     __Vdlyvset__SimTop__DOT__u_icache__DOT__tag_1__v129 = 0U;
-    __Vdlyvset__SimTop__DOT__u_dcache__DOT__dcache_ram__DOT__ram__v0 = 0U;
     __Vdlyvset__SimTop__DOT__u_icache__DOT__tag_0__v128 = 0U;
     __Vdlyvset__SimTop__DOT__u_icache__DOT__tag_0__v129 = 0U;
     __Vdlyvset__SimTop__DOT__u_icache__DOT__tag_0__v0 = 0U;
     __Vdlyvset__SimTop__DOT__u_icache__DOT__tag_0__v1 = 0U;
+    __Vdlyvset__SimTop__DOT__u_dcache__DOT__dcache_ram_3__DOT__ram__v0 = 0U;
+    __Vdlyvset__SimTop__DOT__u_dcache__DOT__dcache_ram_2__DOT__ram__v0 = 0U;
+    __Vdlyvset__SimTop__DOT__u_dcache__DOT__dcache_ram_1__DOT__ram__v0 = 0U;
+    __Vdlyvset__SimTop__DOT__u_dcache__DOT__dcache_ram_0__DOT__ram__v0 = 0U;
     __Vdly__SimTop__DOT__u_cpu__DOT__alu_module__DOT__mul_u__DOT__mul_result_cnt 
         = vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__mul_u__DOT__mul_result_cnt;
     __Vdly__SimTop__DOT__u_cpu__DOT__alu_module__DOT__mul_u__DOT__mul_result[0U] 
@@ -243,9 +279,18 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
     __Vdly__SimTop__DOT__arbitrating__DOT__arb_state 
         = vlSelf->SimTop__DOT__arbitrating__DOT__arb_state;
     __Vdly__SimTop__DOT__clint__DOT__mtime = vlSelf->SimTop__DOT__clint__DOT__mtime;
-    __Vdlyvset__SimTop__DOT__u_dcache__DOT__tag__v0 = 0U;
-    __Vdlyvset__SimTop__DOT__u_dcache__DOT__tag__v1 = 0U;
-    __Vdlyvset__SimTop__DOT__u_dcache__DOT__tag__v2 = 0U;
+    __Vdlyvset__SimTop__DOT__u_dcache__DOT__tag_3__v0 = 0U;
+    __Vdlyvset__SimTop__DOT__u_dcache__DOT__tag_3__v1 = 0U;
+    __Vdlyvset__SimTop__DOT__u_dcache__DOT__tag_3__v2 = 0U;
+    __Vdlyvset__SimTop__DOT__u_dcache__DOT__tag_2__v0 = 0U;
+    __Vdlyvset__SimTop__DOT__u_dcache__DOT__tag_2__v1 = 0U;
+    __Vdlyvset__SimTop__DOT__u_dcache__DOT__tag_2__v2 = 0U;
+    __Vdlyvset__SimTop__DOT__u_dcache__DOT__tag_1__v0 = 0U;
+    __Vdlyvset__SimTop__DOT__u_dcache__DOT__tag_1__v1 = 0U;
+    __Vdlyvset__SimTop__DOT__u_dcache__DOT__tag_1__v2 = 0U;
+    __Vdlyvset__SimTop__DOT__u_dcache__DOT__tag_0__v0 = 0U;
+    __Vdlyvset__SimTop__DOT__u_dcache__DOT__tag_0__v1 = 0U;
+    __Vdlyvset__SimTop__DOT__u_dcache__DOT__tag_0__v2 = 0U;
     if ((1U & (~ (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__axi_stall_i)))) {
         if ((1U & (~ (IData)(vlSelf->reset)))) {
             if (VL_UNLIKELY((1U & (~ ((((((((((((((
@@ -455,6 +500,13 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
     } else {
         vlSelf->SimTop__DOT__arbitrating__DOT__zza_pulse_3 = 1U;
     }
+    if (vlSelf->reset) {
+        vlSelf->SimTop__DOT__dcache_data_read = 0ULL;
+    } else if (((1U == (IData)(vlSelf->SimTop__DOT__arbitrating__DOT__arb_state)) 
+                & (IData)(vlSelf->SimTop__DOT__axi_rw__DOT__trans_done))) {
+        vlSelf->SimTop__DOT__dcache_data_read = vlSelf->io_memAXI_0_r_bits_data
+            [0U];
+    }
     vlSelf->SimTop__DOT__arbitrating__DOT__zza_pulse_1 
         = (1U & ((IData)(vlSelf->reset) | (~ (IData)(vlSelf->SimTop__DOT__axi_rw__DOT__trans_done))));
     if (vlSelf->reset) {
@@ -485,10 +537,10 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
                                                     + (IData)(vlSelf->SimTop__DOT__axi_rw__DOT__len)));
     }
     if ((1U & (~ (IData)(vlSelf->SimTop__DOT__iram_3_wen)))) {
-        VL_EXTEND_WQ(128,64, __Vtemp455, vlSelf->SimTop__DOT__icache_data_read);
+        VL_EXTEND_WQ(128,64, __Vtemp475, vlSelf->SimTop__DOT__icache_data_read);
         __Vdlyvval__SimTop__DOT__icache_ram_3__DOT__ram__v0[0U] 
             = ((((1U & (IData)((vlSelf->SimTop__DOT__u_icache__DOT__re_write_addr 
-                                >> 3U))) ? 0U : __Vtemp455[0U]) 
+                                >> 3U))) ? 0U : __Vtemp475[0U]) 
                 & (~ ((1U & (IData)((vlSelf->SimTop__DOT__u_icache__DOT__re_write_addr 
                                      >> 3U))) ? 0xffffffffU
                        : 0U))) | (vlSelf->SimTop__DOT__icache_ram_3__DOT__ram
@@ -500,7 +552,7 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
                                       : 0U)));
         __Vdlyvval__SimTop__DOT__icache_ram_3__DOT__ram__v0[1U] 
             = ((((1U & (IData)((vlSelf->SimTop__DOT__u_icache__DOT__re_write_addr 
-                                >> 3U))) ? 0U : __Vtemp455[1U]) 
+                                >> 3U))) ? 0U : __Vtemp475[1U]) 
                 & (~ ((1U & (IData)((vlSelf->SimTop__DOT__u_icache__DOT__re_write_addr 
                                      >> 3U))) ? 0xffffffffU
                        : 0U))) | (vlSelf->SimTop__DOT__icache_ram_3__DOT__ram
@@ -513,7 +565,7 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
         __Vdlyvval__SimTop__DOT__icache_ram_3__DOT__ram__v0[2U] 
             = ((((1U & (IData)((vlSelf->SimTop__DOT__u_icache__DOT__re_write_addr 
                                 >> 3U))) ? (IData)(vlSelf->SimTop__DOT__icache_data_read)
-                  : __Vtemp455[2U]) & (~ ((1U & (IData)(
+                  : __Vtemp475[2U]) & (~ ((1U & (IData)(
                                                         (vlSelf->SimTop__DOT__u_icache__DOT__re_write_addr 
                                                          >> 3U)))
                                            ? 0U : 0xffffffffU))) 
@@ -526,7 +578,7 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
                                 >> 3U))) ? (IData)(
                                                    (vlSelf->SimTop__DOT__icache_data_read 
                                                     >> 0x20U))
-                  : __Vtemp455[3U]) & (~ ((1U & (IData)(
+                  : __Vtemp475[3U]) & (~ ((1U & (IData)(
                                                         (vlSelf->SimTop__DOT__u_icache__DOT__re_write_addr 
                                                          >> 3U)))
                                            ? 0U : 0xffffffffU))) 
@@ -558,10 +610,10 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
         vlSelf->SimTop__DOT__iram_3_data_read_128[3U] = 0U;
     }
     if ((1U & (~ (IData)(vlSelf->SimTop__DOT__iram_2_wen)))) {
-        VL_EXTEND_WQ(128,64, __Vtemp475, vlSelf->SimTop__DOT__icache_data_read);
+        VL_EXTEND_WQ(128,64, __Vtemp495, vlSelf->SimTop__DOT__icache_data_read);
         __Vdlyvval__SimTop__DOT__icache_ram_2__DOT__ram__v0[0U] 
             = ((((1U & (IData)((vlSelf->SimTop__DOT__u_icache__DOT__re_write_addr 
-                                >> 3U))) ? 0U : __Vtemp475[0U]) 
+                                >> 3U))) ? 0U : __Vtemp495[0U]) 
                 & (~ ((1U & (IData)((vlSelf->SimTop__DOT__u_icache__DOT__re_write_addr 
                                      >> 3U))) ? 0xffffffffU
                        : 0U))) | (vlSelf->SimTop__DOT__icache_ram_2__DOT__ram
@@ -573,7 +625,7 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
                                       : 0U)));
         __Vdlyvval__SimTop__DOT__icache_ram_2__DOT__ram__v0[1U] 
             = ((((1U & (IData)((vlSelf->SimTop__DOT__u_icache__DOT__re_write_addr 
-                                >> 3U))) ? 0U : __Vtemp475[1U]) 
+                                >> 3U))) ? 0U : __Vtemp495[1U]) 
                 & (~ ((1U & (IData)((vlSelf->SimTop__DOT__u_icache__DOT__re_write_addr 
                                      >> 3U))) ? 0xffffffffU
                        : 0U))) | (vlSelf->SimTop__DOT__icache_ram_2__DOT__ram
@@ -586,7 +638,7 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
         __Vdlyvval__SimTop__DOT__icache_ram_2__DOT__ram__v0[2U] 
             = ((((1U & (IData)((vlSelf->SimTop__DOT__u_icache__DOT__re_write_addr 
                                 >> 3U))) ? (IData)(vlSelf->SimTop__DOT__icache_data_read)
-                  : __Vtemp475[2U]) & (~ ((1U & (IData)(
+                  : __Vtemp495[2U]) & (~ ((1U & (IData)(
                                                         (vlSelf->SimTop__DOT__u_icache__DOT__re_write_addr 
                                                          >> 3U)))
                                            ? 0U : 0xffffffffU))) 
@@ -599,7 +651,7 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
                                 >> 3U))) ? (IData)(
                                                    (vlSelf->SimTop__DOT__icache_data_read 
                                                     >> 0x20U))
-                  : __Vtemp475[3U]) & (~ ((1U & (IData)(
+                  : __Vtemp495[3U]) & (~ ((1U & (IData)(
                                                         (vlSelf->SimTop__DOT__u_icache__DOT__re_write_addr 
                                                          >> 3U)))
                                            ? 0U : 0xffffffffU))) 
@@ -631,10 +683,10 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
         vlSelf->SimTop__DOT__iram_2_data_read_128[3U] = 0U;
     }
     if ((1U & (~ (IData)(vlSelf->SimTop__DOT__iram_1_wen)))) {
-        VL_EXTEND_WQ(128,64, __Vtemp495, vlSelf->SimTop__DOT__icache_data_read);
+        VL_EXTEND_WQ(128,64, __Vtemp515, vlSelf->SimTop__DOT__icache_data_read);
         __Vdlyvval__SimTop__DOT__icache_ram_1__DOT__ram__v0[0U] 
             = ((((1U & (IData)((vlSelf->SimTop__DOT__u_icache__DOT__re_write_addr 
-                                >> 3U))) ? 0U : __Vtemp495[0U]) 
+                                >> 3U))) ? 0U : __Vtemp515[0U]) 
                 & (~ ((1U & (IData)((vlSelf->SimTop__DOT__u_icache__DOT__re_write_addr 
                                      >> 3U))) ? 0xffffffffU
                        : 0U))) | (vlSelf->SimTop__DOT__icache_ram_1__DOT__ram
@@ -646,7 +698,7 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
                                       : 0U)));
         __Vdlyvval__SimTop__DOT__icache_ram_1__DOT__ram__v0[1U] 
             = ((((1U & (IData)((vlSelf->SimTop__DOT__u_icache__DOT__re_write_addr 
-                                >> 3U))) ? 0U : __Vtemp495[1U]) 
+                                >> 3U))) ? 0U : __Vtemp515[1U]) 
                 & (~ ((1U & (IData)((vlSelf->SimTop__DOT__u_icache__DOT__re_write_addr 
                                      >> 3U))) ? 0xffffffffU
                        : 0U))) | (vlSelf->SimTop__DOT__icache_ram_1__DOT__ram
@@ -659,7 +711,7 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
         __Vdlyvval__SimTop__DOT__icache_ram_1__DOT__ram__v0[2U] 
             = ((((1U & (IData)((vlSelf->SimTop__DOT__u_icache__DOT__re_write_addr 
                                 >> 3U))) ? (IData)(vlSelf->SimTop__DOT__icache_data_read)
-                  : __Vtemp495[2U]) & (~ ((1U & (IData)(
+                  : __Vtemp515[2U]) & (~ ((1U & (IData)(
                                                         (vlSelf->SimTop__DOT__u_icache__DOT__re_write_addr 
                                                          >> 3U)))
                                            ? 0U : 0xffffffffU))) 
@@ -672,7 +724,7 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
                                 >> 3U))) ? (IData)(
                                                    (vlSelf->SimTop__DOT__icache_data_read 
                                                     >> 0x20U))
-                  : __Vtemp495[3U]) & (~ ((1U & (IData)(
+                  : __Vtemp515[3U]) & (~ ((1U & (IData)(
                                                         (vlSelf->SimTop__DOT__u_icache__DOT__re_write_addr 
                                                          >> 3U)))
                                            ? 0U : 0xffffffffU))) 
@@ -704,10 +756,10 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
         vlSelf->SimTop__DOT__iram_1_data_read_128[3U] = 0U;
     }
     if ((1U & (~ (IData)(vlSelf->SimTop__DOT__iram_0_wen)))) {
-        VL_EXTEND_WQ(128,64, __Vtemp515, vlSelf->SimTop__DOT__icache_data_read);
+        VL_EXTEND_WQ(128,64, __Vtemp535, vlSelf->SimTop__DOT__icache_data_read);
         __Vdlyvval__SimTop__DOT__icache_ram_0__DOT__ram__v0[0U] 
             = ((((1U & (IData)((vlSelf->SimTop__DOT__u_icache__DOT__re_write_addr 
-                                >> 3U))) ? 0U : __Vtemp515[0U]) 
+                                >> 3U))) ? 0U : __Vtemp535[0U]) 
                 & (~ ((1U & (IData)((vlSelf->SimTop__DOT__u_icache__DOT__re_write_addr 
                                      >> 3U))) ? 0xffffffffU
                        : 0U))) | (vlSelf->SimTop__DOT__icache_ram_0__DOT__ram
@@ -719,7 +771,7 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
                                       : 0U)));
         __Vdlyvval__SimTop__DOT__icache_ram_0__DOT__ram__v0[1U] 
             = ((((1U & (IData)((vlSelf->SimTop__DOT__u_icache__DOT__re_write_addr 
-                                >> 3U))) ? 0U : __Vtemp515[1U]) 
+                                >> 3U))) ? 0U : __Vtemp535[1U]) 
                 & (~ ((1U & (IData)((vlSelf->SimTop__DOT__u_icache__DOT__re_write_addr 
                                      >> 3U))) ? 0xffffffffU
                        : 0U))) | (vlSelf->SimTop__DOT__icache_ram_0__DOT__ram
@@ -732,7 +784,7 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
         __Vdlyvval__SimTop__DOT__icache_ram_0__DOT__ram__v0[2U] 
             = ((((1U & (IData)((vlSelf->SimTop__DOT__u_icache__DOT__re_write_addr 
                                 >> 3U))) ? (IData)(vlSelf->SimTop__DOT__icache_data_read)
-                  : __Vtemp515[2U]) & (~ ((1U & (IData)(
+                  : __Vtemp535[2U]) & (~ ((1U & (IData)(
                                                         (vlSelf->SimTop__DOT__u_icache__DOT__re_write_addr 
                                                          >> 3U)))
                                            ? 0U : 0xffffffffU))) 
@@ -745,7 +797,7 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
                                 >> 3U))) ? (IData)(
                                                    (vlSelf->SimTop__DOT__icache_data_read 
                                                     >> 0x20U))
-                  : __Vtemp515[3U]) & (~ ((1U & (IData)(
+                  : __Vtemp535[3U]) & (~ ((1U & (IData)(
                                                         (vlSelf->SimTop__DOT__u_icache__DOT__re_write_addr 
                                                          >> 3U)))
                                            ? 0U : 0xffffffffU))) 
@@ -1394,27 +1446,27 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
     } else if ((1U & (~ (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__peripheral_stall)))) {
         if (((IData)(vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__mul_u__DOT__mul_calculating) 
              & (0x3fU == (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__mul_u__DOT__mul_result_cnt)))) {
-            VL_ADD_W(4, __Vtemp534, vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__mul_u__DOT__mul_result, vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__mul_u__DOT__mul_result_partial);
+            VL_ADD_W(4, __Vtemp554, vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__mul_u__DOT__mul_result, vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__mul_u__DOT__mul_result_partial);
             __Vdly__SimTop__DOT__u_cpu__DOT__alu_module__DOT__mul_u__DOT__mul_result[0U] 
-                = __Vtemp534[0U];
+                = __Vtemp554[0U];
             __Vdly__SimTop__DOT__u_cpu__DOT__alu_module__DOT__mul_u__DOT__mul_result[1U] 
-                = __Vtemp534[1U];
+                = __Vtemp554[1U];
             __Vdly__SimTop__DOT__u_cpu__DOT__alu_module__DOT__mul_u__DOT__mul_result[2U] 
-                = __Vtemp534[2U];
+                = __Vtemp554[2U];
             __Vdly__SimTop__DOT__u_cpu__DOT__alu_module__DOT__mul_u__DOT__mul_result[3U] 
-                = __Vtemp534[3U];
+                = __Vtemp554[3U];
             __Vdly__SimTop__DOT__u_cpu__DOT__alu_module__DOT__mul_u__DOT__mul_result_cnt 
                 = (0x7fU & ((IData)(1U) + (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__mul_u__DOT__mul_result_cnt)));
         } else if (vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__mul_u__DOT__mul_calculating) {
-            VL_ADD_W(4, __Vtemp535, vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__mul_u__DOT__mul_result, vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__mul_u__DOT__mul_result_partial);
+            VL_ADD_W(4, __Vtemp555, vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__mul_u__DOT__mul_result, vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__mul_u__DOT__mul_result_partial);
             __Vdly__SimTop__DOT__u_cpu__DOT__alu_module__DOT__mul_u__DOT__mul_result[0U] 
-                = __Vtemp535[0U];
+                = __Vtemp555[0U];
             __Vdly__SimTop__DOT__u_cpu__DOT__alu_module__DOT__mul_u__DOT__mul_result[1U] 
-                = __Vtemp535[1U];
+                = __Vtemp555[1U];
             __Vdly__SimTop__DOT__u_cpu__DOT__alu_module__DOT__mul_u__DOT__mul_result[2U] 
-                = __Vtemp535[2U];
+                = __Vtemp555[2U];
             __Vdly__SimTop__DOT__u_cpu__DOT__alu_module__DOT__mul_u__DOT__mul_result[3U] 
-                = __Vtemp535[3U];
+                = __Vtemp555[3U];
             __Vdly__SimTop__DOT__u_cpu__DOT__alu_module__DOT__mul_u__DOT__mul_result_cnt 
                 = (0x7fU & ((IData)(1U) + (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__mul_u__DOT__mul_result_cnt)));
         } else if ((0xaU == (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__alu_op_ex))) {
@@ -1475,25 +1527,25 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
         __Vdly__SimTop__DOT__u_cpu__DOT__alu_module__DOT__mul_u__DOT__multiplcand[3U] = 0U;
     } else if ((1U & (~ (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__peripheral_stall)))) {
         if (vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__mul_u__DOT__mul_calculating) {
-            VL_SHIFTL_WWI(128,128,32, __Vtemp536, vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__mul_u__DOT__multiplcand, 1U);
+            VL_SHIFTL_WWI(128,128,32, __Vtemp556, vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__mul_u__DOT__multiplcand, 1U);
             __Vdly__SimTop__DOT__u_cpu__DOT__alu_module__DOT__mul_u__DOT__multiplcand[0U] 
-                = __Vtemp536[0U];
+                = __Vtemp556[0U];
             __Vdly__SimTop__DOT__u_cpu__DOT__alu_module__DOT__mul_u__DOT__multiplcand[1U] 
-                = __Vtemp536[1U];
+                = __Vtemp556[1U];
             __Vdly__SimTop__DOT__u_cpu__DOT__alu_module__DOT__mul_u__DOT__multiplcand[2U] 
-                = __Vtemp536[2U];
+                = __Vtemp556[2U];
             __Vdly__SimTop__DOT__u_cpu__DOT__alu_module__DOT__mul_u__DOT__multiplcand[3U] 
-                = __Vtemp536[3U];
+                = __Vtemp556[3U];
         } else if ((0xaU == (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__alu_op_ex))) {
-            VL_EXTEND_WQ(128,64, __Vtemp537, vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__a);
+            VL_EXTEND_WQ(128,64, __Vtemp557, vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__a);
             __Vdly__SimTop__DOT__u_cpu__DOT__alu_module__DOT__mul_u__DOT__multiplcand[0U] 
-                = __Vtemp537[0U];
+                = __Vtemp557[0U];
             __Vdly__SimTop__DOT__u_cpu__DOT__alu_module__DOT__mul_u__DOT__multiplcand[1U] 
-                = __Vtemp537[1U];
+                = __Vtemp557[1U];
             __Vdly__SimTop__DOT__u_cpu__DOT__alu_module__DOT__mul_u__DOT__multiplcand[2U] 
-                = __Vtemp537[2U];
+                = __Vtemp557[2U];
             __Vdly__SimTop__DOT__u_cpu__DOT__alu_module__DOT__mul_u__DOT__multiplcand[3U] 
-                = __Vtemp537[3U];
+                = __Vtemp557[3U];
         }
     }
     if ((1U & (~ (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__peripheral_stall)))) {
@@ -1514,51 +1566,51 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
             if (vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_ready) {
                 __Vdly__SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__div_state = 1U;
                 __Vdly__SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__div_cnt = 0U;
-                VL_EXTEND_WQ(128,64, __Vtemp538, (1ULL 
+                VL_EXTEND_WQ(128,64, __Vtemp558, (1ULL 
                                                   + 
                                                   (~ vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__a)));
-                VL_EXTEND_WQ(128,64, __Vtemp539, vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__a);
+                VL_EXTEND_WQ(128,64, __Vtemp559, vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__a);
                 if (((IData)(vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_s_or_u) 
                      & (IData)((vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__a 
                                 >> 0x3fU)))) {
                     __Vdly__SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__dividend_abs[0U] 
-                        = __Vtemp538[0U];
+                        = __Vtemp558[0U];
                     __Vdly__SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__dividend_abs[1U] 
-                        = __Vtemp538[1U];
+                        = __Vtemp558[1U];
                     __Vdly__SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__dividend_abs[2U] 
-                        = __Vtemp538[2U];
+                        = __Vtemp558[2U];
                     __Vdly__SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__dividend_abs[3U] 
-                        = __Vtemp538[3U];
+                        = __Vtemp558[3U];
                 } else {
                     __Vdly__SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__dividend_abs[0U] 
-                        = __Vtemp539[0U];
+                        = __Vtemp559[0U];
                     __Vdly__SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__dividend_abs[1U] 
-                        = __Vtemp539[1U];
+                        = __Vtemp559[1U];
                     __Vdly__SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__dividend_abs[2U] 
-                        = __Vtemp539[2U];
+                        = __Vtemp559[2U];
                     __Vdly__SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__dividend_abs[3U] 
-                        = __Vtemp539[3U];
+                        = __Vtemp559[3U];
                 }
-                VL_EXTEND_WQ(65,64, __Vtemp542, (1ULL 
+                VL_EXTEND_WQ(65,64, __Vtemp562, (1ULL 
                                                  + 
                                                  (~ vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__b)));
-                VL_EXTEND_WQ(65,64, __Vtemp543, vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__b);
+                VL_EXTEND_WQ(65,64, __Vtemp563, vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__b);
                 if (((IData)(vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_s_or_u) 
                      & (IData)((vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__b 
                                 >> 0x3fU)))) {
                     vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__divisor_abs[0U] 
-                        = __Vtemp542[0U];
+                        = __Vtemp562[0U];
                     vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__divisor_abs[1U] 
-                        = __Vtemp542[1U];
+                        = __Vtemp562[1U];
                     vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__divisor_abs[2U] 
-                        = __Vtemp542[2U];
+                        = __Vtemp562[2U];
                 } else {
                     vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__divisor_abs[0U] 
-                        = __Vtemp543[0U];
+                        = __Vtemp563[0U];
                     vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__divisor_abs[1U] 
-                        = __Vtemp543[1U];
+                        = __Vtemp563[1U];
                     vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__divisor_abs[2U] 
-                        = __Vtemp543[2U];
+                        = __Vtemp563[2U];
                 }
                 __Vdly__SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__quotient_abs = 0ULL;
                 vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__quotient_sign 
@@ -1595,14 +1647,14 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
             }
         } else if ((1U == (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__div_state))) {
             if ((0x3fU == (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__div_cnt))) {
-                VL_SHIFTL_WWI(128,128,32, __Vtemp546, vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__dividend_abs, 1U);
-                __Vtemp547[0U] = (IData)((0x7fffffffffffffffULL 
+                VL_SHIFTL_WWI(128,128,32, __Vtemp566, vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__dividend_abs, 1U);
+                __Vtemp567[0U] = (IData)((0x7fffffffffffffffULL 
                                           & (((QData)((IData)(
                                                               vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__dividend_abs[1U])) 
                                               << 0x20U) 
                                              | (QData)((IData)(
                                                                vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__dividend_abs[0U])))));
-                __Vtemp547[1U] = ((vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__diff_temp[0U] 
+                __Vtemp567[1U] = ((vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__diff_temp[0U] 
                                    << 0x1fU) | (IData)(
                                                        ((0x7fffffffffffffffULL 
                                                          & (((QData)((IData)(
@@ -1611,31 +1663,31 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
                                                             | (QData)((IData)(
                                                                               vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__dividend_abs[0U])))) 
                                                         >> 0x20U)));
-                __Vtemp547[2U] = ((vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__diff_temp[0U] 
+                __Vtemp567[2U] = ((vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__diff_temp[0U] 
                                    >> 1U) | (vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__diff_temp[1U] 
                                              << 0x1fU));
-                __Vtemp547[3U] = ((vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__diff_temp[1U] 
+                __Vtemp567[3U] = ((vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__diff_temp[1U] 
                                    >> 1U) | (vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__diff_temp[2U] 
                                              << 0x1fU));
-                VL_SHIFTL_WWI(128,128,32, __Vtemp548, __Vtemp547, 1U);
+                VL_SHIFTL_WWI(128,128,32, __Vtemp568, __Vtemp567, 1U);
                 if (vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__diff_neg) {
                     __Vdly__SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__dividend_abs[0U] 
-                        = __Vtemp546[0U];
+                        = __Vtemp566[0U];
                     __Vdly__SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__dividend_abs[1U] 
-                        = __Vtemp546[1U];
+                        = __Vtemp566[1U];
                     __Vdly__SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__dividend_abs[2U] 
-                        = __Vtemp546[2U];
+                        = __Vtemp566[2U];
                     __Vdly__SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__dividend_abs[3U] 
-                        = __Vtemp546[3U];
+                        = __Vtemp566[3U];
                 } else {
                     __Vdly__SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__dividend_abs[0U] 
-                        = __Vtemp548[0U];
+                        = __Vtemp568[0U];
                     __Vdly__SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__dividend_abs[1U] 
-                        = __Vtemp548[1U];
+                        = __Vtemp568[1U];
                     __Vdly__SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__dividend_abs[2U] 
-                        = __Vtemp548[2U];
+                        = __Vtemp568[2U];
                     __Vdly__SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__dividend_abs[3U] 
-                        = __Vtemp548[3U];
+                        = __Vtemp568[3U];
                 }
                 __Vdly__SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__quotient_abs 
                     = ((vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__quotient_abs 
@@ -1645,14 +1697,14 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
                     = (0x7fU & ((IData)(1U) + (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__div_cnt)));
                 __Vdly__SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__div_state = 2U;
             } else {
-                VL_SHIFTL_WWI(128,128,32, __Vtemp550, vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__dividend_abs, 1U);
-                __Vtemp551[0U] = (IData)((0x7fffffffffffffffULL 
+                VL_SHIFTL_WWI(128,128,32, __Vtemp570, vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__dividend_abs, 1U);
+                __Vtemp571[0U] = (IData)((0x7fffffffffffffffULL 
                                           & (((QData)((IData)(
                                                               vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__dividend_abs[1U])) 
                                               << 0x20U) 
                                              | (QData)((IData)(
                                                                vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__dividend_abs[0U])))));
-                __Vtemp551[1U] = ((vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__diff_temp[0U] 
+                __Vtemp571[1U] = ((vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__diff_temp[0U] 
                                    << 0x1fU) | (IData)(
                                                        ((0x7fffffffffffffffULL 
                                                          & (((QData)((IData)(
@@ -1661,31 +1713,31 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
                                                             | (QData)((IData)(
                                                                               vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__dividend_abs[0U])))) 
                                                         >> 0x20U)));
-                __Vtemp551[2U] = ((vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__diff_temp[0U] 
+                __Vtemp571[2U] = ((vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__diff_temp[0U] 
                                    >> 1U) | (vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__diff_temp[1U] 
                                              << 0x1fU));
-                __Vtemp551[3U] = ((vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__diff_temp[1U] 
+                __Vtemp571[3U] = ((vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__diff_temp[1U] 
                                    >> 1U) | (vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__diff_temp[2U] 
                                              << 0x1fU));
-                VL_SHIFTL_WWI(128,128,32, __Vtemp552, __Vtemp551, 1U);
+                VL_SHIFTL_WWI(128,128,32, __Vtemp572, __Vtemp571, 1U);
                 if (vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__diff_neg) {
                     __Vdly__SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__dividend_abs[0U] 
-                        = __Vtemp550[0U];
+                        = __Vtemp570[0U];
                     __Vdly__SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__dividend_abs[1U] 
-                        = __Vtemp550[1U];
+                        = __Vtemp570[1U];
                     __Vdly__SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__dividend_abs[2U] 
-                        = __Vtemp550[2U];
+                        = __Vtemp570[2U];
                     __Vdly__SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__dividend_abs[3U] 
-                        = __Vtemp550[3U];
+                        = __Vtemp570[3U];
                 } else {
                     __Vdly__SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__dividend_abs[0U] 
-                        = __Vtemp552[0U];
+                        = __Vtemp572[0U];
                     __Vdly__SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__dividend_abs[1U] 
-                        = __Vtemp552[1U];
+                        = __Vtemp572[1U];
                     __Vdly__SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__dividend_abs[2U] 
-                        = __Vtemp552[2U];
+                        = __Vtemp572[2U];
                     __Vdly__SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__dividend_abs[3U] 
-                        = __Vtemp552[3U];
+                        = __Vtemp572[3U];
                 }
                 __Vdly__SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__quotient_abs 
                     = ((vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__quotient_abs 
@@ -2309,31 +2361,31 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
         = ((IData)(vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__quotient_sign)
             ? (1ULL + (~ vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__quotient_abs))
             : vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__quotient_abs);
-    __Vtemp558[0U] = ((vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__dividend_abs[2U] 
+    __Vtemp578[0U] = ((vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__dividend_abs[2U] 
                        << 1U) | (vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__dividend_abs[1U] 
                                  >> 0x1fU));
-    __Vtemp558[1U] = ((vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__dividend_abs[3U] 
+    __Vtemp578[1U] = ((vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__dividend_abs[3U] 
                        << 1U) | (vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__dividend_abs[2U] 
                                  >> 0x1fU));
-    __Vtemp558[2U] = (vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__dividend_abs[3U] 
+    __Vtemp578[2U] = (vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__dividend_abs[3U] 
                       >> 0x1fU);
-    VL_SUB_W(3, __Vtemp559, __Vtemp558, vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__divisor_abs);
+    VL_SUB_W(3, __Vtemp579, __Vtemp578, vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__divisor_abs);
     vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__diff_temp[0U] 
-        = __Vtemp559[0U];
+        = __Vtemp579[0U];
     vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__diff_temp[1U] 
-        = __Vtemp559[1U];
+        = __Vtemp579[1U];
     vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__diff_temp[2U] 
-        = (1U & __Vtemp559[2U]);
-    __Vtemp563[0U] = ((vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__dividend_abs[2U] 
+        = (1U & __Vtemp579[2U]);
+    __Vtemp583[0U] = ((vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__dividend_abs[2U] 
                        << 1U) | (vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__dividend_abs[1U] 
                                  >> 0x1fU));
-    __Vtemp563[1U] = ((vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__dividend_abs[3U] 
+    __Vtemp583[1U] = ((vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__dividend_abs[3U] 
                        << 1U) | (vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__dividend_abs[2U] 
                                  >> 0x1fU));
-    __Vtemp563[2U] = (vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__dividend_abs[3U] 
+    __Vtemp583[2U] = (vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__dividend_abs[3U] 
                       >> 0x1fU);
     vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__diff_neg 
-        = VL_LT_W(3, __Vtemp563, vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__divisor_abs);
+        = VL_LT_W(3, __Vtemp583, vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__divisor_abs);
     vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__rem_value 
         = ((IData)(vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__remainder_sign)
             ? (1ULL + (~ (((QData)((IData)(vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__div_u__DOT__dividend_abs[3U])) 
@@ -2387,128 +2439,535 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
         } else if ((1U & (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dcache_state))) {
             if ((0U == (IData)(vlSelf->SimTop__DOT__arbitrating__DOT__arb_state))) {
                 __Vdly__SimTop__DOT__u_dcache__DOT__dcache_state = 0U;
-                __Vdlyvval__SimTop__DOT__u_dcache__DOT__tag__v0 
-                    = (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
-                       >> 0xaU);
-                __Vdlyvset__SimTop__DOT__u_dcache__DOT__tag__v0 = 1U;
-                __Vdlyvdim0__SimTop__DOT__u_dcache__DOT__tag__v0 
-                    = (0x7fU & (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
-                                        >> 3U)));
-                vlSelf->SimTop__DOT__u_dcache__DOT__valid[(3U 
-                                                           & ((IData)(
-                                                                      (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
-                                                                       >> 3U)) 
-                                                              >> 5U))] 
-                    = (vlSelf->SimTop__DOT__u_dcache__DOT__valid[
-                       (3U & ((IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
-                                       >> 3U)) >> 5U))] 
-                       | ((IData)(1U) << (0x1fU & (IData)(
-                                                          (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
-                                                           >> 3U)))));
-                vlSelf->SimTop__DOT__u_dcache__DOT__dirty[(3U 
-                                                           & ((IData)(
-                                                                      (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
-                                                                       >> 3U)) 
-                                                              >> 5U))] 
-                    = (vlSelf->SimTop__DOT__u_dcache__DOT__dirty[
-                       (3U & ((IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
-                                       >> 3U)) >> 5U))] 
-                       | ((IData)(1U) << (0x1fU & (IData)(
-                                                          (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
-                                                           >> 3U)))));
+                if (vlSelf->SimTop__DOT__u_dcache__DOT__hit_0) {
+                    __Vdlyvval__SimTop__DOT__u_dcache__DOT__tag_0__v0 
+                        = (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                           >> 0xaU);
+                    __Vdlyvset__SimTop__DOT__u_dcache__DOT__tag_0__v0 = 1U;
+                    __Vdlyvdim0__SimTop__DOT__u_dcache__DOT__tag_0__v0 
+                        = (0x7fU & (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                            >> 3U)));
+                    vlSelf->SimTop__DOT__u_dcache__DOT__valid_0[(3U 
+                                                                 & ((IData)(
+                                                                            (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                                                             >> 3U)) 
+                                                                    >> 5U))] 
+                        = (vlSelf->SimTop__DOT__u_dcache__DOT__valid_0[
+                           (3U & ((IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                           >> 3U)) 
+                                  >> 5U))] | ((IData)(1U) 
+                                              << (0x1fU 
+                                                  & (IData)(
+                                                            (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                                             >> 3U)))));
+                    vlSelf->SimTop__DOT__u_dcache__DOT__dirty_0[(3U 
+                                                                 & ((IData)(
+                                                                            (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                                                             >> 3U)) 
+                                                                    >> 5U))] 
+                        = (vlSelf->SimTop__DOT__u_dcache__DOT__dirty_0[
+                           (3U & ((IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                           >> 3U)) 
+                                  >> 5U))] | ((IData)(1U) 
+                                              << (0x1fU 
+                                                  & (IData)(
+                                                            (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                                             >> 3U)))));
+                }
+                if (vlSelf->SimTop__DOT__u_dcache__DOT__hit_1) {
+                    __Vdlyvval__SimTop__DOT__u_dcache__DOT__tag_1__v0 
+                        = (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                           >> 0xaU);
+                    __Vdlyvset__SimTop__DOT__u_dcache__DOT__tag_1__v0 = 1U;
+                    __Vdlyvdim0__SimTop__DOT__u_dcache__DOT__tag_1__v0 
+                        = (0x7fU & (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                            >> 3U)));
+                    vlSelf->SimTop__DOT__u_dcache__DOT__valid_1[(3U 
+                                                                 & ((IData)(
+                                                                            (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                                                             >> 3U)) 
+                                                                    >> 5U))] 
+                        = (vlSelf->SimTop__DOT__u_dcache__DOT__valid_1[
+                           (3U & ((IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                           >> 3U)) 
+                                  >> 5U))] | ((IData)(1U) 
+                                              << (0x1fU 
+                                                  & (IData)(
+                                                            (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                                             >> 3U)))));
+                    vlSelf->SimTop__DOT__u_dcache__DOT__dirty_1[(3U 
+                                                                 & ((IData)(
+                                                                            (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                                                             >> 3U)) 
+                                                                    >> 5U))] 
+                        = (vlSelf->SimTop__DOT__u_dcache__DOT__dirty_1[
+                           (3U & ((IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                           >> 3U)) 
+                                  >> 5U))] | ((IData)(1U) 
+                                              << (0x1fU 
+                                                  & (IData)(
+                                                            (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                                             >> 3U)))));
+                }
+                if (vlSelf->SimTop__DOT__u_dcache__DOT__hit_2) {
+                    __Vdlyvval__SimTop__DOT__u_dcache__DOT__tag_2__v0 
+                        = (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                           >> 0xaU);
+                    __Vdlyvset__SimTop__DOT__u_dcache__DOT__tag_2__v0 = 1U;
+                    __Vdlyvdim0__SimTop__DOT__u_dcache__DOT__tag_2__v0 
+                        = (0x7fU & (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                            >> 3U)));
+                    vlSelf->SimTop__DOT__u_dcache__DOT__valid_2[(3U 
+                                                                 & ((IData)(
+                                                                            (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                                                             >> 3U)) 
+                                                                    >> 5U))] 
+                        = (vlSelf->SimTop__DOT__u_dcache__DOT__valid_2[
+                           (3U & ((IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                           >> 3U)) 
+                                  >> 5U))] | ((IData)(1U) 
+                                              << (0x1fU 
+                                                  & (IData)(
+                                                            (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                                             >> 3U)))));
+                    vlSelf->SimTop__DOT__u_dcache__DOT__dirty_2[(3U 
+                                                                 & ((IData)(
+                                                                            (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                                                             >> 3U)) 
+                                                                    >> 5U))] 
+                        = (vlSelf->SimTop__DOT__u_dcache__DOT__dirty_2[
+                           (3U & ((IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                           >> 3U)) 
+                                  >> 5U))] | ((IData)(1U) 
+                                              << (0x1fU 
+                                                  & (IData)(
+                                                            (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                                             >> 3U)))));
+                }
+                if (vlSelf->SimTop__DOT__u_dcache__DOT__hit_3) {
+                    __Vdlyvval__SimTop__DOT__u_dcache__DOT__tag_3__v0 
+                        = (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                           >> 0xaU);
+                    __Vdlyvset__SimTop__DOT__u_dcache__DOT__tag_3__v0 = 1U;
+                    __Vdlyvdim0__SimTop__DOT__u_dcache__DOT__tag_3__v0 
+                        = (0x7fU & (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                            >> 3U)));
+                    vlSelf->SimTop__DOT__u_dcache__DOT__valid_3[(3U 
+                                                                 & ((IData)(
+                                                                            (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                                                             >> 3U)) 
+                                                                    >> 5U))] 
+                        = (vlSelf->SimTop__DOT__u_dcache__DOT__valid_3[
+                           (3U & ((IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                           >> 3U)) 
+                                  >> 5U))] | ((IData)(1U) 
+                                              << (0x1fU 
+                                                  & (IData)(
+                                                            (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                                             >> 3U)))));
+                    vlSelf->SimTop__DOT__u_dcache__DOT__dirty_3[(3U 
+                                                                 & ((IData)(
+                                                                            (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                                                             >> 3U)) 
+                                                                    >> 5U))] 
+                        = (vlSelf->SimTop__DOT__u_dcache__DOT__dirty_3[
+                           (3U & ((IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                           >> 3U)) 
+                                  >> 5U))] | ((IData)(1U) 
+                                              << (0x1fU 
+                                                  & (IData)(
+                                                            (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                                             >> 3U)))));
+                }
             }
         } else if (vlSelf->SimTop__DOT__arb_mem_trans_done) {
             __Vdly__SimTop__DOT__u_dcache__DOT__dcache_state = 0U;
-            vlSelf->SimTop__DOT__u_dcache__DOT__dirty[(3U 
-                                                       & ((IData)(
-                                                                  (vlSelf->SimTop__DOT__dcache_addr 
-                                                                   >> 3U)) 
-                                                          >> 5U))] 
-                = ((~ ((IData)(1U) << (0x1fU & (IData)(
-                                                       (vlSelf->SimTop__DOT__dcache_addr 
-                                                        >> 3U))))) 
-                   & vlSelf->SimTop__DOT__u_dcache__DOT__dirty[
-                   (3U & ((IData)((vlSelf->SimTop__DOT__dcache_addr 
-                                   >> 3U)) >> 5U))]);
+            if ((0U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__sel_dram))) {
+                vlSelf->SimTop__DOT__u_dcache__DOT__dirty_0[(3U 
+                                                             & ((IData)(
+                                                                        (vlSelf->SimTop__DOT__dcache_addr 
+                                                                         >> 3U)) 
+                                                                >> 5U))] 
+                    = ((~ ((IData)(1U) << (0x1fU & (IData)(
+                                                           (vlSelf->SimTop__DOT__dcache_addr 
+                                                            >> 3U))))) 
+                       & vlSelf->SimTop__DOT__u_dcache__DOT__dirty_0[
+                       (3U & ((IData)((vlSelf->SimTop__DOT__dcache_addr 
+                                       >> 3U)) >> 5U))]);
+                vlSelf->SimTop__DOT__u_dcache__DOT__valid_0[(3U 
+                                                             & ((IData)(
+                                                                        (vlSelf->SimTop__DOT__dcache_addr 
+                                                                         >> 3U)) 
+                                                                >> 5U))] 
+                    = ((~ ((IData)(1U) << (0x1fU & (IData)(
+                                                           (vlSelf->SimTop__DOT__dcache_addr 
+                                                            >> 3U))))) 
+                       & vlSelf->SimTop__DOT__u_dcache__DOT__valid_0[
+                       (3U & ((IData)((vlSelf->SimTop__DOT__dcache_addr 
+                                       >> 3U)) >> 5U))]);
+            }
             vlSelf->SimTop__DOT__dcache_valid = 0U;
-            vlSelf->SimTop__DOT__u_dcache__DOT__valid[(3U 
-                                                       & ((IData)(
-                                                                  (vlSelf->SimTop__DOT__dcache_addr 
-                                                                   >> 3U)) 
-                                                          >> 5U))] 
-                = ((~ ((IData)(1U) << (0x1fU & (IData)(
-                                                       (vlSelf->SimTop__DOT__dcache_addr 
-                                                        >> 3U))))) 
-                   & vlSelf->SimTop__DOT__u_dcache__DOT__valid[
-                   (3U & ((IData)((vlSelf->SimTop__DOT__dcache_addr 
-                                   >> 3U)) >> 5U))]);
+            if ((1U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__sel_dram))) {
+                vlSelf->SimTop__DOT__u_dcache__DOT__dirty_1[(3U 
+                                                             & ((IData)(
+                                                                        (vlSelf->SimTop__DOT__dcache_addr 
+                                                                         >> 3U)) 
+                                                                >> 5U))] 
+                    = ((~ ((IData)(1U) << (0x1fU & (IData)(
+                                                           (vlSelf->SimTop__DOT__dcache_addr 
+                                                            >> 3U))))) 
+                       & vlSelf->SimTop__DOT__u_dcache__DOT__dirty_1[
+                       (3U & ((IData)((vlSelf->SimTop__DOT__dcache_addr 
+                                       >> 3U)) >> 5U))]);
+                vlSelf->SimTop__DOT__u_dcache__DOT__valid_1[(3U 
+                                                             & ((IData)(
+                                                                        (vlSelf->SimTop__DOT__dcache_addr 
+                                                                         >> 3U)) 
+                                                                >> 5U))] 
+                    = ((~ ((IData)(1U) << (0x1fU & (IData)(
+                                                           (vlSelf->SimTop__DOT__dcache_addr 
+                                                            >> 3U))))) 
+                       & vlSelf->SimTop__DOT__u_dcache__DOT__valid_1[
+                       (3U & ((IData)((vlSelf->SimTop__DOT__dcache_addr 
+                                       >> 3U)) >> 5U))]);
+            }
+            if ((2U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__sel_dram))) {
+                vlSelf->SimTop__DOT__u_dcache__DOT__dirty_2[(3U 
+                                                             & ((IData)(
+                                                                        (vlSelf->SimTop__DOT__dcache_addr 
+                                                                         >> 3U)) 
+                                                                >> 5U))] 
+                    = ((~ ((IData)(1U) << (0x1fU & (IData)(
+                                                           (vlSelf->SimTop__DOT__dcache_addr 
+                                                            >> 3U))))) 
+                       & vlSelf->SimTop__DOT__u_dcache__DOT__dirty_2[
+                       (3U & ((IData)((vlSelf->SimTop__DOT__dcache_addr 
+                                       >> 3U)) >> 5U))]);
+                vlSelf->SimTop__DOT__u_dcache__DOT__valid_2[(3U 
+                                                             & ((IData)(
+                                                                        (vlSelf->SimTop__DOT__dcache_addr 
+                                                                         >> 3U)) 
+                                                                >> 5U))] 
+                    = ((~ ((IData)(1U) << (0x1fU & (IData)(
+                                                           (vlSelf->SimTop__DOT__dcache_addr 
+                                                            >> 3U))))) 
+                       & vlSelf->SimTop__DOT__u_dcache__DOT__valid_2[
+                       (3U & ((IData)((vlSelf->SimTop__DOT__dcache_addr 
+                                       >> 3U)) >> 5U))]);
+            }
+            if ((3U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__sel_dram))) {
+                vlSelf->SimTop__DOT__u_dcache__DOT__dirty_3[(3U 
+                                                             & ((IData)(
+                                                                        (vlSelf->SimTop__DOT__dcache_addr 
+                                                                         >> 3U)) 
+                                                                >> 5U))] 
+                    = ((~ ((IData)(1U) << (0x1fU & (IData)(
+                                                           (vlSelf->SimTop__DOT__dcache_addr 
+                                                            >> 3U))))) 
+                       & vlSelf->SimTop__DOT__u_dcache__DOT__dirty_3[
+                       (3U & ((IData)((vlSelf->SimTop__DOT__dcache_addr 
+                                       >> 3U)) >> 5U))]);
+                vlSelf->SimTop__DOT__u_dcache__DOT__valid_3[(3U 
+                                                             & ((IData)(
+                                                                        (vlSelf->SimTop__DOT__dcache_addr 
+                                                                         >> 3U)) 
+                                                                >> 5U))] 
+                    = ((~ ((IData)(1U) << (0x1fU & (IData)(
+                                                           (vlSelf->SimTop__DOT__dcache_addr 
+                                                            >> 3U))))) 
+                       & vlSelf->SimTop__DOT__u_dcache__DOT__valid_3[
+                       (3U & ((IData)((vlSelf->SimTop__DOT__dcache_addr 
+                                       >> 3U)) >> 5U))]);
+            }
         }
     } else if ((2U & (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dcache_state))) {
         if ((1U & (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dcache_state))) {
             if (vlSelf->SimTop__DOT__arb_mem_trans_done) {
-                __Vdlyvval__SimTop__DOT__u_dcache__DOT__tag__v1 
-                    = (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
-                       >> 0xaU);
-                __Vdlyvset__SimTop__DOT__u_dcache__DOT__tag__v1 = 1U;
-                __Vdlyvdim0__SimTop__DOT__u_dcache__DOT__tag__v1 
-                    = (0x7fU & (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
-                                        >> 3U)));
+                if ((0U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__sel_dram))) {
+                    __Vdlyvval__SimTop__DOT__u_dcache__DOT__tag_0__v1 
+                        = (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                           >> 0xaU);
+                    __Vdlyvset__SimTop__DOT__u_dcache__DOT__tag_0__v1 = 1U;
+                    __Vdlyvdim0__SimTop__DOT__u_dcache__DOT__tag_0__v1 
+                        = (0x7fU & (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                            >> 3U)));
+                    vlSelf->SimTop__DOT__u_dcache__DOT__valid_0[(3U 
+                                                                 & ((IData)(
+                                                                            (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                                                             >> 3U)) 
+                                                                    >> 5U))] 
+                        = (vlSelf->SimTop__DOT__u_dcache__DOT__valid_0[
+                           (3U & ((IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                           >> 3U)) 
+                                  >> 5U))] | ((IData)(1U) 
+                                              << (0x1fU 
+                                                  & (IData)(
+                                                            (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                                             >> 3U)))));
+                    vlSelf->SimTop__DOT__u_dcache__DOT__dirty_0[(3U 
+                                                                 & ((IData)(
+                                                                            (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                                                             >> 3U)) 
+                                                                    >> 5U))] 
+                        = ((~ ((IData)(1U) << (0x1fU 
+                                               & (IData)(
+                                                         (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                                          >> 3U))))) 
+                           & vlSelf->SimTop__DOT__u_dcache__DOT__dirty_0[
+                           (3U & ((IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                           >> 3U)) 
+                                  >> 5U))]);
+                }
                 vlSelf->SimTop__DOT__dcache_valid = 0U;
                 __Vdly__SimTop__DOT__u_dcache__DOT__dcache_state = 0U;
-                vlSelf->SimTop__DOT__u_dcache__DOT__valid[(3U 
-                                                           & ((IData)(
-                                                                      (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
-                                                                       >> 3U)) 
-                                                              >> 5U))] 
-                    = (vlSelf->SimTop__DOT__u_dcache__DOT__valid[
-                       (3U & ((IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
-                                       >> 3U)) >> 5U))] 
-                       | ((IData)(1U) << (0x1fU & (IData)(
-                                                          (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
-                                                           >> 3U)))));
-                vlSelf->SimTop__DOT__u_dcache__DOT__dirty[(3U 
-                                                           & ((IData)(
-                                                                      (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
-                                                                       >> 3U)) 
-                                                              >> 5U))] 
-                    = ((~ ((IData)(1U) << (0x1fU & (IData)(
-                                                           (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
-                                                            >> 3U))))) 
-                       & vlSelf->SimTop__DOT__u_dcache__DOT__dirty[
-                       (3U & ((IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
-                                       >> 3U)) >> 5U))]);
+                if ((1U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__sel_dram))) {
+                    __Vdlyvval__SimTop__DOT__u_dcache__DOT__tag_1__v1 
+                        = (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                           >> 0xaU);
+                    __Vdlyvset__SimTop__DOT__u_dcache__DOT__tag_1__v1 = 1U;
+                    __Vdlyvdim0__SimTop__DOT__u_dcache__DOT__tag_1__v1 
+                        = (0x7fU & (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                            >> 3U)));
+                    vlSelf->SimTop__DOT__u_dcache__DOT__valid_1[(3U 
+                                                                 & ((IData)(
+                                                                            (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                                                             >> 3U)) 
+                                                                    >> 5U))] 
+                        = (vlSelf->SimTop__DOT__u_dcache__DOT__valid_1[
+                           (3U & ((IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                           >> 3U)) 
+                                  >> 5U))] | ((IData)(1U) 
+                                              << (0x1fU 
+                                                  & (IData)(
+                                                            (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                                             >> 3U)))));
+                    vlSelf->SimTop__DOT__u_dcache__DOT__dirty_1[(3U 
+                                                                 & ((IData)(
+                                                                            (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                                                             >> 3U)) 
+                                                                    >> 5U))] 
+                        = ((~ ((IData)(1U) << (0x1fU 
+                                               & (IData)(
+                                                         (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                                          >> 3U))))) 
+                           & vlSelf->SimTop__DOT__u_dcache__DOT__dirty_1[
+                           (3U & ((IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                           >> 3U)) 
+                                  >> 5U))]);
+                }
+                if ((2U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__sel_dram))) {
+                    __Vdlyvval__SimTop__DOT__u_dcache__DOT__tag_2__v1 
+                        = (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                           >> 0xaU);
+                    __Vdlyvset__SimTop__DOT__u_dcache__DOT__tag_2__v1 = 1U;
+                    __Vdlyvdim0__SimTop__DOT__u_dcache__DOT__tag_2__v1 
+                        = (0x7fU & (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                            >> 3U)));
+                    vlSelf->SimTop__DOT__u_dcache__DOT__valid_2[(3U 
+                                                                 & ((IData)(
+                                                                            (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                                                             >> 3U)) 
+                                                                    >> 5U))] 
+                        = (vlSelf->SimTop__DOT__u_dcache__DOT__valid_2[
+                           (3U & ((IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                           >> 3U)) 
+                                  >> 5U))] | ((IData)(1U) 
+                                              << (0x1fU 
+                                                  & (IData)(
+                                                            (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                                             >> 3U)))));
+                    vlSelf->SimTop__DOT__u_dcache__DOT__dirty_2[(3U 
+                                                                 & ((IData)(
+                                                                            (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                                                             >> 3U)) 
+                                                                    >> 5U))] 
+                        = ((~ ((IData)(1U) << (0x1fU 
+                                               & (IData)(
+                                                         (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                                          >> 3U))))) 
+                           & vlSelf->SimTop__DOT__u_dcache__DOT__dirty_2[
+                           (3U & ((IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                           >> 3U)) 
+                                  >> 5U))]);
+                }
+                if ((3U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__sel_dram))) {
+                    __Vdlyvval__SimTop__DOT__u_dcache__DOT__tag_3__v1 
+                        = (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                           >> 0xaU);
+                    __Vdlyvset__SimTop__DOT__u_dcache__DOT__tag_3__v1 = 1U;
+                    __Vdlyvdim0__SimTop__DOT__u_dcache__DOT__tag_3__v1 
+                        = (0x7fU & (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                            >> 3U)));
+                    vlSelf->SimTop__DOT__u_dcache__DOT__valid_3[(3U 
+                                                                 & ((IData)(
+                                                                            (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                                                             >> 3U)) 
+                                                                    >> 5U))] 
+                        = (vlSelf->SimTop__DOT__u_dcache__DOT__valid_3[
+                           (3U & ((IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                           >> 3U)) 
+                                  >> 5U))] | ((IData)(1U) 
+                                              << (0x1fU 
+                                                  & (IData)(
+                                                            (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                                             >> 3U)))));
+                    vlSelf->SimTop__DOT__u_dcache__DOT__dirty_3[(3U 
+                                                                 & ((IData)(
+                                                                            (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                                                             >> 3U)) 
+                                                                    >> 5U))] 
+                        = ((~ ((IData)(1U) << (0x1fU 
+                                               & (IData)(
+                                                         (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                                          >> 3U))))) 
+                           & vlSelf->SimTop__DOT__u_dcache__DOT__dirty_3[
+                           (3U & ((IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                           >> 3U)) 
+                                  >> 5U))]);
+                }
             } else if (vlSelf->SimTop__DOT__arb_mem_r_hs) {
                 __Vdly__SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
                     = (8ULL + vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr);
-                __Vdlyvval__SimTop__DOT__u_dcache__DOT__tag__v2 
-                    = (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
-                       >> 0xaU);
-                __Vdlyvset__SimTop__DOT__u_dcache__DOT__tag__v2 = 1U;
-                __Vdlyvdim0__SimTop__DOT__u_dcache__DOT__tag__v2 
-                    = (0x7fU & (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
-                                        >> 3U)));
-                vlSelf->SimTop__DOT__u_dcache__DOT__valid[(3U 
-                                                           & ((IData)(
-                                                                      (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
-                                                                       >> 3U)) 
-                                                              >> 5U))] 
-                    = (vlSelf->SimTop__DOT__u_dcache__DOT__valid[
-                       (3U & ((IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
-                                       >> 3U)) >> 5U))] 
-                       | ((IData)(1U) << (0x1fU & (IData)(
-                                                          (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
-                                                           >> 3U)))));
-                vlSelf->SimTop__DOT__u_dcache__DOT__dirty[(3U 
-                                                           & ((IData)(
-                                                                      (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
-                                                                       >> 3U)) 
-                                                              >> 5U))] 
-                    = ((~ ((IData)(1U) << (0x1fU & (IData)(
-                                                           (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
-                                                            >> 3U))))) 
-                       & vlSelf->SimTop__DOT__u_dcache__DOT__dirty[
-                       (3U & ((IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
-                                       >> 3U)) >> 5U))]);
+                if ((0U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__sel_dram))) {
+                    __Vdlyvval__SimTop__DOT__u_dcache__DOT__tag_0__v2 
+                        = (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                           >> 0xaU);
+                    __Vdlyvset__SimTop__DOT__u_dcache__DOT__tag_0__v2 = 1U;
+                    __Vdlyvdim0__SimTop__DOT__u_dcache__DOT__tag_0__v2 
+                        = (0x7fU & (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                            >> 3U)));
+                    vlSelf->SimTop__DOT__u_dcache__DOT__valid_0[(3U 
+                                                                 & ((IData)(
+                                                                            (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                                                             >> 3U)) 
+                                                                    >> 5U))] 
+                        = (vlSelf->SimTop__DOT__u_dcache__DOT__valid_0[
+                           (3U & ((IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                           >> 3U)) 
+                                  >> 5U))] | ((IData)(1U) 
+                                              << (0x1fU 
+                                                  & (IData)(
+                                                            (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                                             >> 3U)))));
+                    vlSelf->SimTop__DOT__u_dcache__DOT__dirty_0[(3U 
+                                                                 & ((IData)(
+                                                                            (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                                                             >> 3U)) 
+                                                                    >> 5U))] 
+                        = ((~ ((IData)(1U) << (0x1fU 
+                                               & (IData)(
+                                                         (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                                          >> 3U))))) 
+                           & vlSelf->SimTop__DOT__u_dcache__DOT__dirty_0[
+                           (3U & ((IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                           >> 3U)) 
+                                  >> 5U))]);
+                }
+                if ((1U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__sel_dram))) {
+                    __Vdlyvval__SimTop__DOT__u_dcache__DOT__tag_1__v2 
+                        = (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                           >> 0xaU);
+                    __Vdlyvset__SimTop__DOT__u_dcache__DOT__tag_1__v2 = 1U;
+                    __Vdlyvdim0__SimTop__DOT__u_dcache__DOT__tag_1__v2 
+                        = (0x7fU & (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                            >> 3U)));
+                    vlSelf->SimTop__DOT__u_dcache__DOT__valid_1[(3U 
+                                                                 & ((IData)(
+                                                                            (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                                                             >> 3U)) 
+                                                                    >> 5U))] 
+                        = (vlSelf->SimTop__DOT__u_dcache__DOT__valid_1[
+                           (3U & ((IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                           >> 3U)) 
+                                  >> 5U))] | ((IData)(1U) 
+                                              << (0x1fU 
+                                                  & (IData)(
+                                                            (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                                             >> 3U)))));
+                    vlSelf->SimTop__DOT__u_dcache__DOT__dirty_1[(3U 
+                                                                 & ((IData)(
+                                                                            (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                                                             >> 3U)) 
+                                                                    >> 5U))] 
+                        = ((~ ((IData)(1U) << (0x1fU 
+                                               & (IData)(
+                                                         (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                                          >> 3U))))) 
+                           & vlSelf->SimTop__DOT__u_dcache__DOT__dirty_1[
+                           (3U & ((IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                           >> 3U)) 
+                                  >> 5U))]);
+                }
+                if ((2U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__sel_dram))) {
+                    __Vdlyvval__SimTop__DOT__u_dcache__DOT__tag_2__v2 
+                        = (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                           >> 0xaU);
+                    __Vdlyvset__SimTop__DOT__u_dcache__DOT__tag_2__v2 = 1U;
+                    __Vdlyvdim0__SimTop__DOT__u_dcache__DOT__tag_2__v2 
+                        = (0x7fU & (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                            >> 3U)));
+                    vlSelf->SimTop__DOT__u_dcache__DOT__valid_2[(3U 
+                                                                 & ((IData)(
+                                                                            (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                                                             >> 3U)) 
+                                                                    >> 5U))] 
+                        = (vlSelf->SimTop__DOT__u_dcache__DOT__valid_2[
+                           (3U & ((IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                           >> 3U)) 
+                                  >> 5U))] | ((IData)(1U) 
+                                              << (0x1fU 
+                                                  & (IData)(
+                                                            (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                                             >> 3U)))));
+                    vlSelf->SimTop__DOT__u_dcache__DOT__dirty_2[(3U 
+                                                                 & ((IData)(
+                                                                            (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                                                             >> 3U)) 
+                                                                    >> 5U))] 
+                        = ((~ ((IData)(1U) << (0x1fU 
+                                               & (IData)(
+                                                         (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                                          >> 3U))))) 
+                           & vlSelf->SimTop__DOT__u_dcache__DOT__dirty_2[
+                           (3U & ((IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                           >> 3U)) 
+                                  >> 5U))]);
+                }
+                if ((3U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__sel_dram))) {
+                    __Vdlyvval__SimTop__DOT__u_dcache__DOT__tag_3__v2 
+                        = (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                           >> 0xaU);
+                    __Vdlyvset__SimTop__DOT__u_dcache__DOT__tag_3__v2 = 1U;
+                    __Vdlyvdim0__SimTop__DOT__u_dcache__DOT__tag_3__v2 
+                        = (0x7fU & (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                            >> 3U)));
+                    vlSelf->SimTop__DOT__u_dcache__DOT__valid_3[(3U 
+                                                                 & ((IData)(
+                                                                            (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                                                             >> 3U)) 
+                                                                    >> 5U))] 
+                        = (vlSelf->SimTop__DOT__u_dcache__DOT__valid_3[
+                           (3U & ((IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                           >> 3U)) 
+                                  >> 5U))] | ((IData)(1U) 
+                                              << (0x1fU 
+                                                  & (IData)(
+                                                            (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                                             >> 3U)))));
+                    vlSelf->SimTop__DOT__u_dcache__DOT__dirty_3[(3U 
+                                                                 & ((IData)(
+                                                                            (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                                                             >> 3U)) 
+                                                                    >> 5U))] 
+                        = ((~ ((IData)(1U) << (0x1fU 
+                                               & (IData)(
+                                                         (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                                          >> 3U))))) 
+                           & vlSelf->SimTop__DOT__u_dcache__DOT__dirty_3[
+                           (3U & ((IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                           >> 3U)) 
+                                  >> 5U))]);
+                }
             }
         } else if ((0U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__tmp_counter))) {
             __Vdly__SimTop__DOT__u_dcache__DOT__dcache_state = 2U;
@@ -2522,15 +2981,42 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
             vlSelf->SimTop__DOT__dcache_mask = 0xffU;
             vlSelf->SimTop__DOT__dcache_len = 0U;
             vlSelf->SimTop__DOT__dcache_data_write 
-                = ((1U & (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
-                                  >> 3U))) ? (((QData)((IData)(
-                                                               vlSelf->SimTop__DOT__u_dcache__DOT__dram_data_read_128[3U])) 
-                                               << 0x20U) 
-                                              | (QData)((IData)(
-                                                                vlSelf->SimTop__DOT__u_dcache__DOT__dram_data_read_128[2U])))
-                    : (((QData)((IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dram_data_read_128[1U])) 
-                        << 0x20U) | (QData)((IData)(
-                                                    vlSelf->SimTop__DOT__u_dcache__DOT__dram_data_read_128[0U]))));
+                = (((((- (QData)((IData)((0U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__sel_dram))))) 
+                      & ((1U & (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                        >> 3U))) ? 
+                         (((QData)((IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dram_0_data_read_128[3U])) 
+                           << 0x20U) | (QData)((IData)(
+                                                       vlSelf->SimTop__DOT__u_dcache__DOT__dram_0_data_read_128[2U])))
+                          : (((QData)((IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dram_0_data_read_128[1U])) 
+                              << 0x20U) | (QData)((IData)(
+                                                          vlSelf->SimTop__DOT__u_dcache__DOT__dram_0_data_read_128[0U]))))) 
+                     | ((- (QData)((IData)((1U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__sel_dram))))) 
+                        & ((1U & (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                          >> 3U))) ? 
+                           (((QData)((IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dram_1_data_read_128[3U])) 
+                             << 0x20U) | (QData)((IData)(
+                                                         vlSelf->SimTop__DOT__u_dcache__DOT__dram_1_data_read_128[2U])))
+                            : (((QData)((IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dram_1_data_read_128[1U])) 
+                                << 0x20U) | (QData)((IData)(
+                                                            vlSelf->SimTop__DOT__u_dcache__DOT__dram_1_data_read_128[0U])))))) 
+                    | ((- (QData)((IData)((2U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__sel_dram))))) 
+                       & ((1U & (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                         >> 3U))) ? 
+                          (((QData)((IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dram_2_data_read_128[3U])) 
+                            << 0x20U) | (QData)((IData)(
+                                                        vlSelf->SimTop__DOT__u_dcache__DOT__dram_2_data_read_128[2U])))
+                           : (((QData)((IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dram_2_data_read_128[1U])) 
+                               << 0x20U) | (QData)((IData)(
+                                                           vlSelf->SimTop__DOT__u_dcache__DOT__dram_2_data_read_128[0U])))))) 
+                   | ((- (QData)((IData)((3U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__sel_dram))))) 
+                      & ((1U & (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                                        >> 3U))) ? 
+                         (((QData)((IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dram_3_data_read_128[3U])) 
+                           << 0x20U) | (QData)((IData)(
+                                                       vlSelf->SimTop__DOT__u_dcache__DOT__dram_3_data_read_128[2U])))
+                          : (((QData)((IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dram_3_data_read_128[1U])) 
+                              << 0x20U) | (QData)((IData)(
+                                                          vlSelf->SimTop__DOT__u_dcache__DOT__dram_3_data_read_128[0U]))))));
             __Vdly__SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
                 = (8ULL + vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr);
         }
@@ -2545,34 +3031,107 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
     } else if (((((IData)(vlSelf->SimTop__DOT__mem_valid) 
                   & (~ (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__write_mem_en_mem))) 
                  & (~ (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__hit))) 
-                & (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__is_dirty))) {
+                & vlSelf->SimTop__DOT__u_dcache__DOT__is_dirty
+                [vlSelf->SimTop__DOT__u_dcache__DOT__sel_dram])) {
         __Vdly__SimTop__DOT__u_dcache__DOT__dcache_state = 2U;
         __Vdly__SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
-            = ((vlSelf->SimTop__DOT__u_dcache__DOT__tag
-                [(0x7fU & (IData)((vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
-                                   >> 3U)))] << 0xaU) 
-               | (QData)((IData)((0x3f8U & ((IData)(
-                                                    (vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
-                                                     >> 3U)) 
-                                            << 3U)))));
-    } else if (((((IData)(vlSelf->SimTop__DOT__mem_valid) 
-                  & (~ (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__write_mem_en_mem))) 
-                 & (~ (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__hit))) 
-                & (~ (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__is_dirty)))) {
-        __Vdly__SimTop__DOT__u_dcache__DOT__dcache_state = 3U;
-        __Vdly__SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
-            = (0xfffffffffffffff8ULL & vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem);
-        vlSelf->SimTop__DOT__u_dcache__DOT__valid[(3U 
+            = (((((- (QData)((IData)((0U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__sel_dram))))) 
+                  & ((vlSelf->SimTop__DOT__u_dcache__DOT__tag_0
+                      [(0x7fU & (IData)((vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                         >> 3U)))] 
+                      << 0xaU) | (QData)((IData)((0x3f8U 
+                                                  & ((IData)(
+                                                             (vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                                              >> 3U)) 
+                                                     << 3U)))))) 
+                 | ((- (QData)((IData)((1U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__sel_dram))))) 
+                    & ((vlSelf->SimTop__DOT__u_dcache__DOT__tag_1
+                        [(0x7fU & (IData)((vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                           >> 3U)))] 
+                        << 0xaU) | (QData)((IData)(
+                                                   (0x3f8U 
+                                                    & ((IData)(
+                                                               (vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                                                >> 3U)) 
+                                                       << 3U))))))) 
+                | ((- (QData)((IData)((2U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__sel_dram))))) 
+                   & ((vlSelf->SimTop__DOT__u_dcache__DOT__tag_2
+                       [(0x7fU & (IData)((vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                          >> 3U)))] 
+                       << 0xaU) | (QData)((IData)((0x3f8U 
                                                    & ((IData)(
                                                               (vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
                                                                >> 3U)) 
-                                                      >> 5U))] 
-            = ((~ ((IData)(1U) << (0x1fU & (IData)(
-                                                   (vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
-                                                    >> 3U))))) 
-               & vlSelf->SimTop__DOT__u_dcache__DOT__valid[
-               (3U & ((IData)((vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
-                               >> 3U)) >> 5U))]);
+                                                      << 3U))))))) 
+               | ((- (QData)((IData)((3U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__sel_dram))))) 
+                  & ((vlSelf->SimTop__DOT__u_dcache__DOT__tag_3
+                      [(0x7fU & (IData)((vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                         >> 3U)))] 
+                      << 0xaU) | (QData)((IData)((0x3f8U 
+                                                  & ((IData)(
+                                                             (vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                                              >> 3U)) 
+                                                     << 3U)))))));
+    } else if (((((IData)(vlSelf->SimTop__DOT__mem_valid) 
+                  & (~ (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__write_mem_en_mem))) 
+                 & (~ (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__hit))) 
+                & (~ vlSelf->SimTop__DOT__u_dcache__DOT__is_dirty
+                   [vlSelf->SimTop__DOT__u_dcache__DOT__sel_dram]))) {
+        __Vdly__SimTop__DOT__u_dcache__DOT__dcache_state = 3U;
+        __Vdly__SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+            = (0xfffffffffffffff8ULL & vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem);
+        if ((0U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__sel_dram))) {
+            vlSelf->SimTop__DOT__u_dcache__DOT__valid_0[(3U 
+                                                         & ((IData)(
+                                                                    (vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                                                     >> 3U)) 
+                                                            >> 5U))] 
+                = ((~ ((IData)(1U) << (0x1fU & (IData)(
+                                                       (vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                                        >> 3U))))) 
+                   & vlSelf->SimTop__DOT__u_dcache__DOT__valid_0[
+                   (3U & ((IData)((vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                   >> 3U)) >> 5U))]);
+        }
+        if ((1U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__sel_dram))) {
+            vlSelf->SimTop__DOT__u_dcache__DOT__valid_1[(3U 
+                                                         & ((IData)(
+                                                                    (vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                                                     >> 3U)) 
+                                                            >> 5U))] 
+                = ((~ ((IData)(1U) << (0x1fU & (IData)(
+                                                       (vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                                        >> 3U))))) 
+                   & vlSelf->SimTop__DOT__u_dcache__DOT__valid_1[
+                   (3U & ((IData)((vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                   >> 3U)) >> 5U))]);
+        }
+        if ((2U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__sel_dram))) {
+            vlSelf->SimTop__DOT__u_dcache__DOT__valid_2[(3U 
+                                                         & ((IData)(
+                                                                    (vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                                                     >> 3U)) 
+                                                            >> 5U))] 
+                = ((~ ((IData)(1U) << (0x1fU & (IData)(
+                                                       (vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                                        >> 3U))))) 
+                   & vlSelf->SimTop__DOT__u_dcache__DOT__valid_2[
+                   (3U & ((IData)((vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                   >> 3U)) >> 5U))]);
+        }
+        if ((3U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__sel_dram))) {
+            vlSelf->SimTop__DOT__u_dcache__DOT__valid_3[(3U 
+                                                         & ((IData)(
+                                                                    (vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                                                     >> 3U)) 
+                                                            >> 5U))] 
+                = ((~ ((IData)(1U) << (0x1fU & (IData)(
+                                                       (vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                                        >> 3U))))) 
+                   & vlSelf->SimTop__DOT__u_dcache__DOT__valid_3[
+                   (3U & ((IData)((vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                   >> 3U)) >> 5U))]);
+        }
         vlSelf->SimTop__DOT__dcache_valid = 1U;
         vlSelf->SimTop__DOT__dcache_req = 0U;
         __Vdly__SimTop__DOT__dcache_addr = (0xfffffffffffffff8ULL 
@@ -2581,34 +3140,107 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
     } else if (((((IData)(vlSelf->SimTop__DOT__mem_valid) 
                   & (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__write_mem_en_mem)) 
                  & (~ (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__hit))) 
-                & (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__is_dirty))) {
+                & vlSelf->SimTop__DOT__u_dcache__DOT__is_dirty
+                [vlSelf->SimTop__DOT__u_dcache__DOT__sel_dram])) {
         __Vdly__SimTop__DOT__u_dcache__DOT__dcache_state = 2U;
         __Vdly__SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
-            = ((vlSelf->SimTop__DOT__u_dcache__DOT__tag
-                [(0x7fU & (IData)((vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
-                                   >> 3U)))] << 0xaU) 
-               | (QData)((IData)((0x3f8U & ((IData)(
-                                                    (vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
-                                                     >> 3U)) 
-                                            << 3U)))));
-    } else if (((((IData)(vlSelf->SimTop__DOT__mem_valid) 
-                  & (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__write_mem_en_mem)) 
-                 & (~ (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__hit))) 
-                & (~ (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__is_dirty)))) {
-        __Vdly__SimTop__DOT__u_dcache__DOT__dcache_state = 3U;
-        __Vdly__SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
-            = (0xfffffffffffffff8ULL & vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem);
-        vlSelf->SimTop__DOT__u_dcache__DOT__valid[(3U 
+            = (((((- (QData)((IData)((0U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__sel_dram))))) 
+                  & ((vlSelf->SimTop__DOT__u_dcache__DOT__tag_0
+                      [(0x7fU & (IData)((vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                         >> 3U)))] 
+                      << 0xaU) | (QData)((IData)((0x3f8U 
+                                                  & ((IData)(
+                                                             (vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                                              >> 3U)) 
+                                                     << 3U)))))) 
+                 | ((- (QData)((IData)((1U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__sel_dram))))) 
+                    & ((vlSelf->SimTop__DOT__u_dcache__DOT__tag_1
+                        [(0x7fU & (IData)((vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                           >> 3U)))] 
+                        << 0xaU) | (QData)((IData)(
+                                                   (0x3f8U 
+                                                    & ((IData)(
+                                                               (vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                                                >> 3U)) 
+                                                       << 3U))))))) 
+                | ((- (QData)((IData)((2U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__sel_dram))))) 
+                   & ((vlSelf->SimTop__DOT__u_dcache__DOT__tag_2
+                       [(0x7fU & (IData)((vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                          >> 3U)))] 
+                       << 0xaU) | (QData)((IData)((0x3f8U 
                                                    & ((IData)(
                                                               (vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
                                                                >> 3U)) 
-                                                      >> 5U))] 
-            = ((~ ((IData)(1U) << (0x1fU & (IData)(
-                                                   (vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
-                                                    >> 3U))))) 
-               & vlSelf->SimTop__DOT__u_dcache__DOT__valid[
-               (3U & ((IData)((vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
-                               >> 3U)) >> 5U))]);
+                                                      << 3U))))))) 
+               | ((- (QData)((IData)((3U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__sel_dram))))) 
+                  & ((vlSelf->SimTop__DOT__u_dcache__DOT__tag_3
+                      [(0x7fU & (IData)((vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                         >> 3U)))] 
+                      << 0xaU) | (QData)((IData)((0x3f8U 
+                                                  & ((IData)(
+                                                             (vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                                              >> 3U)) 
+                                                     << 3U)))))));
+    } else if (((((IData)(vlSelf->SimTop__DOT__mem_valid) 
+                  & (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__write_mem_en_mem)) 
+                 & (~ (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__hit))) 
+                & (~ vlSelf->SimTop__DOT__u_dcache__DOT__is_dirty
+                   [vlSelf->SimTop__DOT__u_dcache__DOT__sel_dram]))) {
+        __Vdly__SimTop__DOT__u_dcache__DOT__dcache_state = 3U;
+        __Vdly__SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+            = (0xfffffffffffffff8ULL & vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem);
+        if ((0U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__sel_dram))) {
+            vlSelf->SimTop__DOT__u_dcache__DOT__valid_0[(3U 
+                                                         & ((IData)(
+                                                                    (vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                                                     >> 3U)) 
+                                                            >> 5U))] 
+                = ((~ ((IData)(1U) << (0x1fU & (IData)(
+                                                       (vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                                        >> 3U))))) 
+                   & vlSelf->SimTop__DOT__u_dcache__DOT__valid_0[
+                   (3U & ((IData)((vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                   >> 3U)) >> 5U))]);
+        }
+        if ((1U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__sel_dram))) {
+            vlSelf->SimTop__DOT__u_dcache__DOT__valid_1[(3U 
+                                                         & ((IData)(
+                                                                    (vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                                                     >> 3U)) 
+                                                            >> 5U))] 
+                = ((~ ((IData)(1U) << (0x1fU & (IData)(
+                                                       (vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                                        >> 3U))))) 
+                   & vlSelf->SimTop__DOT__u_dcache__DOT__valid_1[
+                   (3U & ((IData)((vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                   >> 3U)) >> 5U))]);
+        }
+        if ((2U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__sel_dram))) {
+            vlSelf->SimTop__DOT__u_dcache__DOT__valid_2[(3U 
+                                                         & ((IData)(
+                                                                    (vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                                                     >> 3U)) 
+                                                            >> 5U))] 
+                = ((~ ((IData)(1U) << (0x1fU & (IData)(
+                                                       (vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                                        >> 3U))))) 
+                   & vlSelf->SimTop__DOT__u_dcache__DOT__valid_2[
+                   (3U & ((IData)((vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                   >> 3U)) >> 5U))]);
+        }
+        if ((3U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__sel_dram))) {
+            vlSelf->SimTop__DOT__u_dcache__DOT__valid_3[(3U 
+                                                         & ((IData)(
+                                                                    (vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                                                     >> 3U)) 
+                                                            >> 5U))] 
+                = ((~ ((IData)(1U) << (0x1fU & (IData)(
+                                                       (vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                                        >> 3U))))) 
+                   & vlSelf->SimTop__DOT__u_dcache__DOT__valid_3[
+                   (3U & ((IData)((vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                   >> 3U)) >> 5U))]);
+        }
         vlSelf->SimTop__DOT__dcache_valid = 1U;
         vlSelf->SimTop__DOT__dcache_req = 0U;
         __Vdly__SimTop__DOT__dcache_addr = (0xfffffffffffffff8ULL 
@@ -2643,19 +3275,57 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
         = __Vdly__SimTop__DOT__u_icache__DOT__icache_state;
     vlSelf->SimTop__DOT__u_dcache__DOT__tmp_counter 
         = __Vdly__SimTop__DOT__u_dcache__DOT__tmp_counter;
-    if (__Vdlyvset__SimTop__DOT__u_dcache__DOT__tag__v0) {
-        vlSelf->SimTop__DOT__u_dcache__DOT__tag[__Vdlyvdim0__SimTop__DOT__u_dcache__DOT__tag__v0] 
-            = __Vdlyvval__SimTop__DOT__u_dcache__DOT__tag__v0;
-    }
-    if (__Vdlyvset__SimTop__DOT__u_dcache__DOT__tag__v1) {
-        vlSelf->SimTop__DOT__u_dcache__DOT__tag[__Vdlyvdim0__SimTop__DOT__u_dcache__DOT__tag__v1] 
-            = __Vdlyvval__SimTop__DOT__u_dcache__DOT__tag__v1;
-    }
-    if (__Vdlyvset__SimTop__DOT__u_dcache__DOT__tag__v2) {
-        vlSelf->SimTop__DOT__u_dcache__DOT__tag[__Vdlyvdim0__SimTop__DOT__u_dcache__DOT__tag__v2] 
-            = __Vdlyvval__SimTop__DOT__u_dcache__DOT__tag__v2;
-    }
+    vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+        = __Vdly__SimTop__DOT__u_dcache__DOT__dcache_ram_addr;
     vlSelf->SimTop__DOT__dcache_addr = __Vdly__SimTop__DOT__dcache_addr;
+    if (__Vdlyvset__SimTop__DOT__u_dcache__DOT__tag_0__v0) {
+        vlSelf->SimTop__DOT__u_dcache__DOT__tag_0[__Vdlyvdim0__SimTop__DOT__u_dcache__DOT__tag_0__v0] 
+            = __Vdlyvval__SimTop__DOT__u_dcache__DOT__tag_0__v0;
+    }
+    if (__Vdlyvset__SimTop__DOT__u_dcache__DOT__tag_0__v1) {
+        vlSelf->SimTop__DOT__u_dcache__DOT__tag_0[__Vdlyvdim0__SimTop__DOT__u_dcache__DOT__tag_0__v1] 
+            = __Vdlyvval__SimTop__DOT__u_dcache__DOT__tag_0__v1;
+    }
+    if (__Vdlyvset__SimTop__DOT__u_dcache__DOT__tag_0__v2) {
+        vlSelf->SimTop__DOT__u_dcache__DOT__tag_0[__Vdlyvdim0__SimTop__DOT__u_dcache__DOT__tag_0__v2] 
+            = __Vdlyvval__SimTop__DOT__u_dcache__DOT__tag_0__v2;
+    }
+    if (__Vdlyvset__SimTop__DOT__u_dcache__DOT__tag_1__v0) {
+        vlSelf->SimTop__DOT__u_dcache__DOT__tag_1[__Vdlyvdim0__SimTop__DOT__u_dcache__DOT__tag_1__v0] 
+            = __Vdlyvval__SimTop__DOT__u_dcache__DOT__tag_1__v0;
+    }
+    if (__Vdlyvset__SimTop__DOT__u_dcache__DOT__tag_1__v1) {
+        vlSelf->SimTop__DOT__u_dcache__DOT__tag_1[__Vdlyvdim0__SimTop__DOT__u_dcache__DOT__tag_1__v1] 
+            = __Vdlyvval__SimTop__DOT__u_dcache__DOT__tag_1__v1;
+    }
+    if (__Vdlyvset__SimTop__DOT__u_dcache__DOT__tag_1__v2) {
+        vlSelf->SimTop__DOT__u_dcache__DOT__tag_1[__Vdlyvdim0__SimTop__DOT__u_dcache__DOT__tag_1__v2] 
+            = __Vdlyvval__SimTop__DOT__u_dcache__DOT__tag_1__v2;
+    }
+    if (__Vdlyvset__SimTop__DOT__u_dcache__DOT__tag_2__v0) {
+        vlSelf->SimTop__DOT__u_dcache__DOT__tag_2[__Vdlyvdim0__SimTop__DOT__u_dcache__DOT__tag_2__v0] 
+            = __Vdlyvval__SimTop__DOT__u_dcache__DOT__tag_2__v0;
+    }
+    if (__Vdlyvset__SimTop__DOT__u_dcache__DOT__tag_2__v1) {
+        vlSelf->SimTop__DOT__u_dcache__DOT__tag_2[__Vdlyvdim0__SimTop__DOT__u_dcache__DOT__tag_2__v1] 
+            = __Vdlyvval__SimTop__DOT__u_dcache__DOT__tag_2__v1;
+    }
+    if (__Vdlyvset__SimTop__DOT__u_dcache__DOT__tag_2__v2) {
+        vlSelf->SimTop__DOT__u_dcache__DOT__tag_2[__Vdlyvdim0__SimTop__DOT__u_dcache__DOT__tag_2__v2] 
+            = __Vdlyvval__SimTop__DOT__u_dcache__DOT__tag_2__v2;
+    }
+    if (__Vdlyvset__SimTop__DOT__u_dcache__DOT__tag_3__v0) {
+        vlSelf->SimTop__DOT__u_dcache__DOT__tag_3[__Vdlyvdim0__SimTop__DOT__u_dcache__DOT__tag_3__v0] 
+            = __Vdlyvval__SimTop__DOT__u_dcache__DOT__tag_3__v0;
+    }
+    if (__Vdlyvset__SimTop__DOT__u_dcache__DOT__tag_3__v1) {
+        vlSelf->SimTop__DOT__u_dcache__DOT__tag_3[__Vdlyvdim0__SimTop__DOT__u_dcache__DOT__tag_3__v1] 
+            = __Vdlyvval__SimTop__DOT__u_dcache__DOT__tag_3__v1;
+    }
+    if (__Vdlyvset__SimTop__DOT__u_dcache__DOT__tag_3__v2) {
+        vlSelf->SimTop__DOT__u_dcache__DOT__tag_3[__Vdlyvdim0__SimTop__DOT__u_dcache__DOT__tag_3__v2] 
+            = __Vdlyvval__SimTop__DOT__u_dcache__DOT__tag_3__v2;
+    }
     if (vlSelf->reset) {
         vlSelf->SimTop__DOT__u_cpu__DOT__ebreak_ex = 0U;
     } else if ((1U & (~ (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__axi_stall_i)))) {
@@ -2811,175 +3481,236 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
     }
     vlSelf->io_memAXI_0_w_bits_strb = vlSelf->SimTop__DOT__dcache_mask;
     vlSelf->io_memAXI_0_w_bits_data[0U] = vlSelf->SimTop__DOT__dcache_data_write;
-    if ((((3U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dcache_state)) 
-          & ((IData)(vlSelf->SimTop__DOT__arb_mem_r_hs) 
-             | (IData)(vlSelf->SimTop__DOT__arb_mem_trans_done))) 
-         | (5U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dcache_state)))) {
-        VL_EXTEND_WQ(128,64, __Vtemp565, vlSelf->SimTop__DOT__u_cpu__DOT__reg2_to_mem_forward);
-        VL_EXTEND_WQ(128,64, __Vtemp569, vlSelf->SimTop__DOT__dcache_data_read);
-        __Vtemp598[0U] = ((((5U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dcache_state))
-                             ? ((1U & (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
-                                               >> 3U)))
-                                 ? 0U : __Vtemp565[0U])
-                             : ((1U & (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
-                                               >> 3U)))
-                                 ? 0U : __Vtemp569[0U])) 
-                           & (~ ((5U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dcache_state))
-                                  ? ((1U & (IData)(
-                                                   (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
-                                                    >> 3U)))
-                                      ? 0xffffffffU
-                                      : (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dram_mem_write_mask_i))
-                                  : ((1U & (IData)(
-                                                   (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
-                                                    >> 3U)))
-                                      ? 0xffffffffU
-                                      : 0U)))) | (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram__DOT__ram
-                                                  [vlSelf->SimTop__DOT__u_dcache__DOT__dram_addr][0U] 
-                                                  & ((5U 
-                                                      == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dcache_state))
-                                                      ? 
-                                                     ((1U 
-                                                       & (IData)(
-                                                                 (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
-                                                                  >> 3U)))
-                                                       ? 0xffffffffU
-                                                       : (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dram_mem_write_mask_i))
-                                                      : 
-                                                     ((1U 
-                                                       & (IData)(
-                                                                 (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
-                                                                  >> 3U)))
-                                                       ? 0xffffffffU
-                                                       : 0U))));
-        __Vtemp598[1U] = ((((5U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dcache_state))
-                             ? ((1U & (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
-                                               >> 3U)))
-                                 ? 0U : __Vtemp565[1U])
-                             : ((1U & (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
-                                               >> 3U)))
-                                 ? 0U : __Vtemp569[1U])) 
-                           & (~ ((5U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dcache_state))
-                                  ? ((1U & (IData)(
-                                                   (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
-                                                    >> 3U)))
-                                      ? 0xffffffffU
-                                      : (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dram_mem_write_mask_i 
-                                                 >> 0x20U)))
-                                  : ((1U & (IData)(
-                                                   (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
-                                                    >> 3U)))
-                                      ? 0xffffffffU
-                                      : 0U)))) | (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram__DOT__ram
-                                                  [vlSelf->SimTop__DOT__u_dcache__DOT__dram_addr][1U] 
-                                                  & ((5U 
-                                                      == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dcache_state))
-                                                      ? 
-                                                     ((1U 
-                                                       & (IData)(
-                                                                 (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
-                                                                  >> 3U)))
-                                                       ? 0xffffffffU
-                                                       : (IData)(
-                                                                 (vlSelf->SimTop__DOT__u_dcache__DOT__dram_mem_write_mask_i 
-                                                                  >> 0x20U)))
-                                                      : 
-                                                     ((1U 
-                                                       & (IData)(
-                                                                 (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
-                                                                  >> 3U)))
-                                                       ? 0xffffffffU
-                                                       : 0U))));
-        __Vtemp598[2U] = ((((5U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dcache_state))
-                             ? ((1U & (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
-                                               >> 3U)))
-                                 ? (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__reg2_to_mem_forward)
-                                 : __Vtemp565[2U]) : 
-                            ((1U & (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
-                                            >> 3U)))
-                              ? (IData)(vlSelf->SimTop__DOT__dcache_data_read)
-                              : __Vtemp569[2U])) & 
-                           (~ ((5U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dcache_state))
-                                ? ((1U & (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
-                                                  >> 3U)))
-                                    ? (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dram_mem_write_mask_i)
-                                    : 0xffffffffU) : 
-                               ((1U & (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
-                                               >> 3U)))
-                                 ? 0U : 0xffffffffU)))) 
-                          | (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram__DOT__ram
-                             [vlSelf->SimTop__DOT__u_dcache__DOT__dram_addr][2U] 
-                             & ((5U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dcache_state))
-                                 ? ((1U & (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
-                                                   >> 3U)))
-                                     ? (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dram_mem_write_mask_i)
-                                     : 0xffffffffU)
-                                 : ((1U & (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
-                                                   >> 3U)))
-                                     ? 0U : 0xffffffffU))));
-        __Vtemp598[3U] = ((((5U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dcache_state))
-                             ? ((1U & (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
-                                               >> 3U)))
-                                 ? (IData)((vlSelf->SimTop__DOT__u_cpu__DOT__reg2_to_mem_forward 
-                                            >> 0x20U))
-                                 : __Vtemp565[3U]) : 
-                            ((1U & (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
-                                            >> 3U)))
-                              ? (IData)((vlSelf->SimTop__DOT__dcache_data_read 
-                                         >> 0x20U))
-                              : __Vtemp569[3U])) & 
-                           (~ ((5U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dcache_state))
-                                ? ((1U & (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
-                                                  >> 3U)))
-                                    ? (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dram_mem_write_mask_i 
-                                               >> 0x20U))
-                                    : 0xffffffffU) : 
-                               ((1U & (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
-                                               >> 3U)))
-                                 ? 0U : 0xffffffffU)))) 
-                          | (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram__DOT__ram
-                             [vlSelf->SimTop__DOT__u_dcache__DOT__dram_addr][3U] 
-                             & ((5U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dcache_state))
-                                 ? ((1U & (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
-                                                   >> 3U)))
-                                     ? (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dram_mem_write_mask_i 
-                                                >> 0x20U))
-                                     : 0xffffffffU)
-                                 : ((1U & (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
-                                                   >> 3U)))
-                                     ? 0U : 0xffffffffU))));
-        __Vdlyvval__SimTop__DOT__u_dcache__DOT__dcache_ram__DOT__ram__v0[0U] 
-            = __Vtemp598[0U];
-        __Vdlyvval__SimTop__DOT__u_dcache__DOT__dcache_ram__DOT__ram__v0[1U] 
-            = __Vtemp598[1U];
-        __Vdlyvval__SimTop__DOT__u_dcache__DOT__dcache_ram__DOT__ram__v0[2U] 
-            = __Vtemp598[2U];
-        __Vdlyvval__SimTop__DOT__u_dcache__DOT__dcache_ram__DOT__ram__v0[3U] 
-            = __Vtemp598[3U];
-        __Vdlyvset__SimTop__DOT__u_dcache__DOT__dcache_ram__DOT__ram__v0 = 1U;
-        __Vdlyvdim0__SimTop__DOT__u_dcache__DOT__dcache_ram__DOT__ram__v0 
+    if ((((0U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__sel_dram)) 
+          & ((3U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dcache_state)) 
+             & ((IData)(vlSelf->SimTop__DOT__arb_mem_r_hs) 
+                | (IData)(vlSelf->SimTop__DOT__arb_mem_trans_done)))) 
+         | ((IData)(vlSelf->SimTop__DOT__u_dcache__DOT__hit_0) 
+            & (5U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dcache_state))))) {
+        __Vdlyvval__SimTop__DOT__u_dcache__DOT__dcache_ram_0__DOT__ram__v0[0U] 
+            = ((vlSelf->SimTop__DOT__u_dcache__DOT__dram_data_write[0U] 
+                & (~ vlSelf->SimTop__DOT__u_dcache__DOT__dram_bwen[0U])) 
+               | (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_0__DOT__ram
+                  [vlSelf->SimTop__DOT__u_dcache__DOT__dram_addr][0U] 
+                  & vlSelf->SimTop__DOT__u_dcache__DOT__dram_bwen[0U]));
+        __Vdlyvval__SimTop__DOT__u_dcache__DOT__dcache_ram_0__DOT__ram__v0[1U] 
+            = ((vlSelf->SimTop__DOT__u_dcache__DOT__dram_data_write[1U] 
+                & (~ vlSelf->SimTop__DOT__u_dcache__DOT__dram_bwen[1U])) 
+               | (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_0__DOT__ram
+                  [vlSelf->SimTop__DOT__u_dcache__DOT__dram_addr][1U] 
+                  & vlSelf->SimTop__DOT__u_dcache__DOT__dram_bwen[1U]));
+        __Vdlyvval__SimTop__DOT__u_dcache__DOT__dcache_ram_0__DOT__ram__v0[2U] 
+            = ((vlSelf->SimTop__DOT__u_dcache__DOT__dram_data_write[2U] 
+                & (~ vlSelf->SimTop__DOT__u_dcache__DOT__dram_bwen[2U])) 
+               | (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_0__DOT__ram
+                  [vlSelf->SimTop__DOT__u_dcache__DOT__dram_addr][2U] 
+                  & vlSelf->SimTop__DOT__u_dcache__DOT__dram_bwen[2U]));
+        __Vdlyvval__SimTop__DOT__u_dcache__DOT__dcache_ram_0__DOT__ram__v0[3U] 
+            = ((vlSelf->SimTop__DOT__u_dcache__DOT__dram_data_write[3U] 
+                & (~ vlSelf->SimTop__DOT__u_dcache__DOT__dram_bwen[3U])) 
+               | (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_0__DOT__ram
+                  [vlSelf->SimTop__DOT__u_dcache__DOT__dram_addr][3U] 
+                  & vlSelf->SimTop__DOT__u_dcache__DOT__dram_bwen[3U]));
+        __Vdlyvset__SimTop__DOT__u_dcache__DOT__dcache_ram_0__DOT__ram__v0 = 1U;
+        __Vdlyvdim0__SimTop__DOT__u_dcache__DOT__dcache_ram_0__DOT__ram__v0 
             = vlSelf->SimTop__DOT__u_dcache__DOT__dram_addr;
     }
-    if ((((3U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dcache_state)) 
-          & ((IData)(vlSelf->SimTop__DOT__arb_mem_r_hs) 
-             | (IData)(vlSelf->SimTop__DOT__arb_mem_trans_done))) 
-         | (5U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dcache_state)))) {
-        vlSelf->SimTop__DOT__u_dcache__DOT__dram_data_read_128[0U] = 9U;
-        vlSelf->SimTop__DOT__u_dcache__DOT__dram_data_read_128[1U] = 0U;
-        vlSelf->SimTop__DOT__u_dcache__DOT__dram_data_read_128[2U] = 0U;
-        vlSelf->SimTop__DOT__u_dcache__DOT__dram_data_read_128[3U] = 0U;
+    if ((((0U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__sel_dram)) 
+          & ((3U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dcache_state)) 
+             & ((IData)(vlSelf->SimTop__DOT__arb_mem_r_hs) 
+                | (IData)(vlSelf->SimTop__DOT__arb_mem_trans_done)))) 
+         | ((IData)(vlSelf->SimTop__DOT__u_dcache__DOT__hit_0) 
+            & (5U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dcache_state))))) {
+        vlSelf->SimTop__DOT__u_dcache__DOT__dram_0_data_read_128[0U] = 9U;
+        vlSelf->SimTop__DOT__u_dcache__DOT__dram_0_data_read_128[1U] = 0U;
+        vlSelf->SimTop__DOT__u_dcache__DOT__dram_0_data_read_128[2U] = 0U;
+        vlSelf->SimTop__DOT__u_dcache__DOT__dram_0_data_read_128[3U] = 0U;
     } else {
-        vlSelf->SimTop__DOT__u_dcache__DOT__dram_data_read_128[0U] 
-            = vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram__DOT__ram
+        vlSelf->SimTop__DOT__u_dcache__DOT__dram_0_data_read_128[0U] 
+            = vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_0__DOT__ram
             [vlSelf->SimTop__DOT__u_dcache__DOT__dram_addr][0U];
-        vlSelf->SimTop__DOT__u_dcache__DOT__dram_data_read_128[1U] 
-            = vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram__DOT__ram
+        vlSelf->SimTop__DOT__u_dcache__DOT__dram_0_data_read_128[1U] 
+            = vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_0__DOT__ram
             [vlSelf->SimTop__DOT__u_dcache__DOT__dram_addr][1U];
-        vlSelf->SimTop__DOT__u_dcache__DOT__dram_data_read_128[2U] 
-            = vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram__DOT__ram
+        vlSelf->SimTop__DOT__u_dcache__DOT__dram_0_data_read_128[2U] 
+            = vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_0__DOT__ram
             [vlSelf->SimTop__DOT__u_dcache__DOT__dram_addr][2U];
-        vlSelf->SimTop__DOT__u_dcache__DOT__dram_data_read_128[3U] 
-            = vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram__DOT__ram
+        vlSelf->SimTop__DOT__u_dcache__DOT__dram_0_data_read_128[3U] 
+            = vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_0__DOT__ram
+            [vlSelf->SimTop__DOT__u_dcache__DOT__dram_addr][3U];
+    }
+    if ((((1U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__sel_dram)) 
+          & ((3U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dcache_state)) 
+             & ((IData)(vlSelf->SimTop__DOT__arb_mem_r_hs) 
+                | (IData)(vlSelf->SimTop__DOT__arb_mem_trans_done)))) 
+         | ((IData)(vlSelf->SimTop__DOT__u_dcache__DOT__hit_1) 
+            & (5U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dcache_state))))) {
+        __Vdlyvval__SimTop__DOT__u_dcache__DOT__dcache_ram_1__DOT__ram__v0[0U] 
+            = ((vlSelf->SimTop__DOT__u_dcache__DOT__dram_data_write[0U] 
+                & (~ vlSelf->SimTop__DOT__u_dcache__DOT__dram_bwen[0U])) 
+               | (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_1__DOT__ram
+                  [vlSelf->SimTop__DOT__u_dcache__DOT__dram_addr][0U] 
+                  & vlSelf->SimTop__DOT__u_dcache__DOT__dram_bwen[0U]));
+        __Vdlyvval__SimTop__DOT__u_dcache__DOT__dcache_ram_1__DOT__ram__v0[1U] 
+            = ((vlSelf->SimTop__DOT__u_dcache__DOT__dram_data_write[1U] 
+                & (~ vlSelf->SimTop__DOT__u_dcache__DOT__dram_bwen[1U])) 
+               | (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_1__DOT__ram
+                  [vlSelf->SimTop__DOT__u_dcache__DOT__dram_addr][1U] 
+                  & vlSelf->SimTop__DOT__u_dcache__DOT__dram_bwen[1U]));
+        __Vdlyvval__SimTop__DOT__u_dcache__DOT__dcache_ram_1__DOT__ram__v0[2U] 
+            = ((vlSelf->SimTop__DOT__u_dcache__DOT__dram_data_write[2U] 
+                & (~ vlSelf->SimTop__DOT__u_dcache__DOT__dram_bwen[2U])) 
+               | (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_1__DOT__ram
+                  [vlSelf->SimTop__DOT__u_dcache__DOT__dram_addr][2U] 
+                  & vlSelf->SimTop__DOT__u_dcache__DOT__dram_bwen[2U]));
+        __Vdlyvval__SimTop__DOT__u_dcache__DOT__dcache_ram_1__DOT__ram__v0[3U] 
+            = ((vlSelf->SimTop__DOT__u_dcache__DOT__dram_data_write[3U] 
+                & (~ vlSelf->SimTop__DOT__u_dcache__DOT__dram_bwen[3U])) 
+               | (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_1__DOT__ram
+                  [vlSelf->SimTop__DOT__u_dcache__DOT__dram_addr][3U] 
+                  & vlSelf->SimTop__DOT__u_dcache__DOT__dram_bwen[3U]));
+        __Vdlyvset__SimTop__DOT__u_dcache__DOT__dcache_ram_1__DOT__ram__v0 = 1U;
+        __Vdlyvdim0__SimTop__DOT__u_dcache__DOT__dcache_ram_1__DOT__ram__v0 
+            = vlSelf->SimTop__DOT__u_dcache__DOT__dram_addr;
+    }
+    if ((((1U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__sel_dram)) 
+          & ((3U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dcache_state)) 
+             & ((IData)(vlSelf->SimTop__DOT__arb_mem_r_hs) 
+                | (IData)(vlSelf->SimTop__DOT__arb_mem_trans_done)))) 
+         | ((IData)(vlSelf->SimTop__DOT__u_dcache__DOT__hit_1) 
+            & (5U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dcache_state))))) {
+        vlSelf->SimTop__DOT__u_dcache__DOT__dram_1_data_read_128[0U] = 9U;
+        vlSelf->SimTop__DOT__u_dcache__DOT__dram_1_data_read_128[1U] = 0U;
+        vlSelf->SimTop__DOT__u_dcache__DOT__dram_1_data_read_128[2U] = 0U;
+        vlSelf->SimTop__DOT__u_dcache__DOT__dram_1_data_read_128[3U] = 0U;
+    } else {
+        vlSelf->SimTop__DOT__u_dcache__DOT__dram_1_data_read_128[0U] 
+            = vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_1__DOT__ram
+            [vlSelf->SimTop__DOT__u_dcache__DOT__dram_addr][0U];
+        vlSelf->SimTop__DOT__u_dcache__DOT__dram_1_data_read_128[1U] 
+            = vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_1__DOT__ram
+            [vlSelf->SimTop__DOT__u_dcache__DOT__dram_addr][1U];
+        vlSelf->SimTop__DOT__u_dcache__DOT__dram_1_data_read_128[2U] 
+            = vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_1__DOT__ram
+            [vlSelf->SimTop__DOT__u_dcache__DOT__dram_addr][2U];
+        vlSelf->SimTop__DOT__u_dcache__DOT__dram_1_data_read_128[3U] 
+            = vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_1__DOT__ram
+            [vlSelf->SimTop__DOT__u_dcache__DOT__dram_addr][3U];
+    }
+    if ((((2U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__sel_dram)) 
+          & ((3U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dcache_state)) 
+             & ((IData)(vlSelf->SimTop__DOT__arb_mem_r_hs) 
+                | (IData)(vlSelf->SimTop__DOT__arb_mem_trans_done)))) 
+         | ((IData)(vlSelf->SimTop__DOT__u_dcache__DOT__hit_2) 
+            & (5U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dcache_state))))) {
+        __Vdlyvval__SimTop__DOT__u_dcache__DOT__dcache_ram_2__DOT__ram__v0[0U] 
+            = ((vlSelf->SimTop__DOT__u_dcache__DOT__dram_data_write[0U] 
+                & (~ vlSelf->SimTop__DOT__u_dcache__DOT__dram_bwen[0U])) 
+               | (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_2__DOT__ram
+                  [vlSelf->SimTop__DOT__u_dcache__DOT__dram_addr][0U] 
+                  & vlSelf->SimTop__DOT__u_dcache__DOT__dram_bwen[0U]));
+        __Vdlyvval__SimTop__DOT__u_dcache__DOT__dcache_ram_2__DOT__ram__v0[1U] 
+            = ((vlSelf->SimTop__DOT__u_dcache__DOT__dram_data_write[1U] 
+                & (~ vlSelf->SimTop__DOT__u_dcache__DOT__dram_bwen[1U])) 
+               | (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_2__DOT__ram
+                  [vlSelf->SimTop__DOT__u_dcache__DOT__dram_addr][1U] 
+                  & vlSelf->SimTop__DOT__u_dcache__DOT__dram_bwen[1U]));
+        __Vdlyvval__SimTop__DOT__u_dcache__DOT__dcache_ram_2__DOT__ram__v0[2U] 
+            = ((vlSelf->SimTop__DOT__u_dcache__DOT__dram_data_write[2U] 
+                & (~ vlSelf->SimTop__DOT__u_dcache__DOT__dram_bwen[2U])) 
+               | (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_2__DOT__ram
+                  [vlSelf->SimTop__DOT__u_dcache__DOT__dram_addr][2U] 
+                  & vlSelf->SimTop__DOT__u_dcache__DOT__dram_bwen[2U]));
+        __Vdlyvval__SimTop__DOT__u_dcache__DOT__dcache_ram_2__DOT__ram__v0[3U] 
+            = ((vlSelf->SimTop__DOT__u_dcache__DOT__dram_data_write[3U] 
+                & (~ vlSelf->SimTop__DOT__u_dcache__DOT__dram_bwen[3U])) 
+               | (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_2__DOT__ram
+                  [vlSelf->SimTop__DOT__u_dcache__DOT__dram_addr][3U] 
+                  & vlSelf->SimTop__DOT__u_dcache__DOT__dram_bwen[3U]));
+        __Vdlyvset__SimTop__DOT__u_dcache__DOT__dcache_ram_2__DOT__ram__v0 = 1U;
+        __Vdlyvdim0__SimTop__DOT__u_dcache__DOT__dcache_ram_2__DOT__ram__v0 
+            = vlSelf->SimTop__DOT__u_dcache__DOT__dram_addr;
+    }
+    if ((((2U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__sel_dram)) 
+          & ((3U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dcache_state)) 
+             & ((IData)(vlSelf->SimTop__DOT__arb_mem_r_hs) 
+                | (IData)(vlSelf->SimTop__DOT__arb_mem_trans_done)))) 
+         | ((IData)(vlSelf->SimTop__DOT__u_dcache__DOT__hit_2) 
+            & (5U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dcache_state))))) {
+        vlSelf->SimTop__DOT__u_dcache__DOT__dram_2_data_read_128[0U] = 9U;
+        vlSelf->SimTop__DOT__u_dcache__DOT__dram_2_data_read_128[1U] = 0U;
+        vlSelf->SimTop__DOT__u_dcache__DOT__dram_2_data_read_128[2U] = 0U;
+        vlSelf->SimTop__DOT__u_dcache__DOT__dram_2_data_read_128[3U] = 0U;
+    } else {
+        vlSelf->SimTop__DOT__u_dcache__DOT__dram_2_data_read_128[0U] 
+            = vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_2__DOT__ram
+            [vlSelf->SimTop__DOT__u_dcache__DOT__dram_addr][0U];
+        vlSelf->SimTop__DOT__u_dcache__DOT__dram_2_data_read_128[1U] 
+            = vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_2__DOT__ram
+            [vlSelf->SimTop__DOT__u_dcache__DOT__dram_addr][1U];
+        vlSelf->SimTop__DOT__u_dcache__DOT__dram_2_data_read_128[2U] 
+            = vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_2__DOT__ram
+            [vlSelf->SimTop__DOT__u_dcache__DOT__dram_addr][2U];
+        vlSelf->SimTop__DOT__u_dcache__DOT__dram_2_data_read_128[3U] 
+            = vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_2__DOT__ram
+            [vlSelf->SimTop__DOT__u_dcache__DOT__dram_addr][3U];
+    }
+    if ((((3U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__sel_dram)) 
+          & ((3U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dcache_state)) 
+             & ((IData)(vlSelf->SimTop__DOT__arb_mem_r_hs) 
+                | (IData)(vlSelf->SimTop__DOT__arb_mem_trans_done)))) 
+         | ((IData)(vlSelf->SimTop__DOT__u_dcache__DOT__hit_3) 
+            & (5U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dcache_state))))) {
+        __Vdlyvval__SimTop__DOT__u_dcache__DOT__dcache_ram_3__DOT__ram__v0[0U] 
+            = ((vlSelf->SimTop__DOT__u_dcache__DOT__dram_data_write[0U] 
+                & (~ vlSelf->SimTop__DOT__u_dcache__DOT__dram_bwen[0U])) 
+               | (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_3__DOT__ram
+                  [vlSelf->SimTop__DOT__u_dcache__DOT__dram_addr][0U] 
+                  & vlSelf->SimTop__DOT__u_dcache__DOT__dram_bwen[0U]));
+        __Vdlyvval__SimTop__DOT__u_dcache__DOT__dcache_ram_3__DOT__ram__v0[1U] 
+            = ((vlSelf->SimTop__DOT__u_dcache__DOT__dram_data_write[1U] 
+                & (~ vlSelf->SimTop__DOT__u_dcache__DOT__dram_bwen[1U])) 
+               | (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_3__DOT__ram
+                  [vlSelf->SimTop__DOT__u_dcache__DOT__dram_addr][1U] 
+                  & vlSelf->SimTop__DOT__u_dcache__DOT__dram_bwen[1U]));
+        __Vdlyvval__SimTop__DOT__u_dcache__DOT__dcache_ram_3__DOT__ram__v0[2U] 
+            = ((vlSelf->SimTop__DOT__u_dcache__DOT__dram_data_write[2U] 
+                & (~ vlSelf->SimTop__DOT__u_dcache__DOT__dram_bwen[2U])) 
+               | (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_3__DOT__ram
+                  [vlSelf->SimTop__DOT__u_dcache__DOT__dram_addr][2U] 
+                  & vlSelf->SimTop__DOT__u_dcache__DOT__dram_bwen[2U]));
+        __Vdlyvval__SimTop__DOT__u_dcache__DOT__dcache_ram_3__DOT__ram__v0[3U] 
+            = ((vlSelf->SimTop__DOT__u_dcache__DOT__dram_data_write[3U] 
+                & (~ vlSelf->SimTop__DOT__u_dcache__DOT__dram_bwen[3U])) 
+               | (vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_3__DOT__ram
+                  [vlSelf->SimTop__DOT__u_dcache__DOT__dram_addr][3U] 
+                  & vlSelf->SimTop__DOT__u_dcache__DOT__dram_bwen[3U]));
+        __Vdlyvset__SimTop__DOT__u_dcache__DOT__dcache_ram_3__DOT__ram__v0 = 1U;
+        __Vdlyvdim0__SimTop__DOT__u_dcache__DOT__dcache_ram_3__DOT__ram__v0 
+            = vlSelf->SimTop__DOT__u_dcache__DOT__dram_addr;
+    }
+    if ((((3U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__sel_dram)) 
+          & ((3U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dcache_state)) 
+             & ((IData)(vlSelf->SimTop__DOT__arb_mem_r_hs) 
+                | (IData)(vlSelf->SimTop__DOT__arb_mem_trans_done)))) 
+         | ((IData)(vlSelf->SimTop__DOT__u_dcache__DOT__hit_3) 
+            & (5U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dcache_state))))) {
+        vlSelf->SimTop__DOT__u_dcache__DOT__dram_3_data_read_128[0U] = 9U;
+        vlSelf->SimTop__DOT__u_dcache__DOT__dram_3_data_read_128[1U] = 0U;
+        vlSelf->SimTop__DOT__u_dcache__DOT__dram_3_data_read_128[2U] = 0U;
+        vlSelf->SimTop__DOT__u_dcache__DOT__dram_3_data_read_128[3U] = 0U;
+    } else {
+        vlSelf->SimTop__DOT__u_dcache__DOT__dram_3_data_read_128[0U] 
+            = vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_3__DOT__ram
+            [vlSelf->SimTop__DOT__u_dcache__DOT__dram_addr][0U];
+        vlSelf->SimTop__DOT__u_dcache__DOT__dram_3_data_read_128[1U] 
+            = vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_3__DOT__ram
+            [vlSelf->SimTop__DOT__u_dcache__DOT__dram_addr][1U];
+        vlSelf->SimTop__DOT__u_dcache__DOT__dram_3_data_read_128[2U] 
+            = vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_3__DOT__ram
+            [vlSelf->SimTop__DOT__u_dcache__DOT__dram_addr][2U];
+        vlSelf->SimTop__DOT__u_dcache__DOT__dram_3_data_read_128[3U] 
+            = vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_3__DOT__ram
             [vlSelf->SimTop__DOT__u_dcache__DOT__dram_addr][3U];
     }
     if (vlSelf->reset) {
@@ -2998,18 +3729,46 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
     vlSelf->SimTop__DOT__u_cpu__DOT__peripheral_stall 
         = ((IData)(vlSelf->SimTop__DOT__axi_stall) 
            | (IData)(vlSelf->SimTop__DOT__icache_stall));
-    if (__Vdlyvset__SimTop__DOT__u_dcache__DOT__dcache_ram__DOT__ram__v0) {
-        vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram__DOT__ram[__Vdlyvdim0__SimTop__DOT__u_dcache__DOT__dcache_ram__DOT__ram__v0][0U] 
-            = __Vdlyvval__SimTop__DOT__u_dcache__DOT__dcache_ram__DOT__ram__v0[0U];
-        vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram__DOT__ram[__Vdlyvdim0__SimTop__DOT__u_dcache__DOT__dcache_ram__DOT__ram__v0][1U] 
-            = __Vdlyvval__SimTop__DOT__u_dcache__DOT__dcache_ram__DOT__ram__v0[1U];
-        vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram__DOT__ram[__Vdlyvdim0__SimTop__DOT__u_dcache__DOT__dcache_ram__DOT__ram__v0][2U] 
-            = __Vdlyvval__SimTop__DOT__u_dcache__DOT__dcache_ram__DOT__ram__v0[2U];
-        vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram__DOT__ram[__Vdlyvdim0__SimTop__DOT__u_dcache__DOT__dcache_ram__DOT__ram__v0][3U] 
-            = __Vdlyvval__SimTop__DOT__u_dcache__DOT__dcache_ram__DOT__ram__v0[3U];
+    if (__Vdlyvset__SimTop__DOT__u_dcache__DOT__dcache_ram_0__DOT__ram__v0) {
+        vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_0__DOT__ram[__Vdlyvdim0__SimTop__DOT__u_dcache__DOT__dcache_ram_0__DOT__ram__v0][0U] 
+            = __Vdlyvval__SimTop__DOT__u_dcache__DOT__dcache_ram_0__DOT__ram__v0[0U];
+        vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_0__DOT__ram[__Vdlyvdim0__SimTop__DOT__u_dcache__DOT__dcache_ram_0__DOT__ram__v0][1U] 
+            = __Vdlyvval__SimTop__DOT__u_dcache__DOT__dcache_ram_0__DOT__ram__v0[1U];
+        vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_0__DOT__ram[__Vdlyvdim0__SimTop__DOT__u_dcache__DOT__dcache_ram_0__DOT__ram__v0][2U] 
+            = __Vdlyvval__SimTop__DOT__u_dcache__DOT__dcache_ram_0__DOT__ram__v0[2U];
+        vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_0__DOT__ram[__Vdlyvdim0__SimTop__DOT__u_dcache__DOT__dcache_ram_0__DOT__ram__v0][3U] 
+            = __Vdlyvval__SimTop__DOT__u_dcache__DOT__dcache_ram_0__DOT__ram__v0[3U];
     }
-    vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
-        = __Vdly__SimTop__DOT__u_dcache__DOT__dcache_ram_addr;
+    if (__Vdlyvset__SimTop__DOT__u_dcache__DOT__dcache_ram_1__DOT__ram__v0) {
+        vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_1__DOT__ram[__Vdlyvdim0__SimTop__DOT__u_dcache__DOT__dcache_ram_1__DOT__ram__v0][0U] 
+            = __Vdlyvval__SimTop__DOT__u_dcache__DOT__dcache_ram_1__DOT__ram__v0[0U];
+        vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_1__DOT__ram[__Vdlyvdim0__SimTop__DOT__u_dcache__DOT__dcache_ram_1__DOT__ram__v0][1U] 
+            = __Vdlyvval__SimTop__DOT__u_dcache__DOT__dcache_ram_1__DOT__ram__v0[1U];
+        vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_1__DOT__ram[__Vdlyvdim0__SimTop__DOT__u_dcache__DOT__dcache_ram_1__DOT__ram__v0][2U] 
+            = __Vdlyvval__SimTop__DOT__u_dcache__DOT__dcache_ram_1__DOT__ram__v0[2U];
+        vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_1__DOT__ram[__Vdlyvdim0__SimTop__DOT__u_dcache__DOT__dcache_ram_1__DOT__ram__v0][3U] 
+            = __Vdlyvval__SimTop__DOT__u_dcache__DOT__dcache_ram_1__DOT__ram__v0[3U];
+    }
+    if (__Vdlyvset__SimTop__DOT__u_dcache__DOT__dcache_ram_2__DOT__ram__v0) {
+        vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_2__DOT__ram[__Vdlyvdim0__SimTop__DOT__u_dcache__DOT__dcache_ram_2__DOT__ram__v0][0U] 
+            = __Vdlyvval__SimTop__DOT__u_dcache__DOT__dcache_ram_2__DOT__ram__v0[0U];
+        vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_2__DOT__ram[__Vdlyvdim0__SimTop__DOT__u_dcache__DOT__dcache_ram_2__DOT__ram__v0][1U] 
+            = __Vdlyvval__SimTop__DOT__u_dcache__DOT__dcache_ram_2__DOT__ram__v0[1U];
+        vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_2__DOT__ram[__Vdlyvdim0__SimTop__DOT__u_dcache__DOT__dcache_ram_2__DOT__ram__v0][2U] 
+            = __Vdlyvval__SimTop__DOT__u_dcache__DOT__dcache_ram_2__DOT__ram__v0[2U];
+        vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_2__DOT__ram[__Vdlyvdim0__SimTop__DOT__u_dcache__DOT__dcache_ram_2__DOT__ram__v0][3U] 
+            = __Vdlyvval__SimTop__DOT__u_dcache__DOT__dcache_ram_2__DOT__ram__v0[3U];
+    }
+    if (__Vdlyvset__SimTop__DOT__u_dcache__DOT__dcache_ram_3__DOT__ram__v0) {
+        vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_3__DOT__ram[__Vdlyvdim0__SimTop__DOT__u_dcache__DOT__dcache_ram_3__DOT__ram__v0][0U] 
+            = __Vdlyvval__SimTop__DOT__u_dcache__DOT__dcache_ram_3__DOT__ram__v0[0U];
+        vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_3__DOT__ram[__Vdlyvdim0__SimTop__DOT__u_dcache__DOT__dcache_ram_3__DOT__ram__v0][1U] 
+            = __Vdlyvval__SimTop__DOT__u_dcache__DOT__dcache_ram_3__DOT__ram__v0[1U];
+        vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_3__DOT__ram[__Vdlyvdim0__SimTop__DOT__u_dcache__DOT__dcache_ram_3__DOT__ram__v0][2U] 
+            = __Vdlyvval__SimTop__DOT__u_dcache__DOT__dcache_ram_3__DOT__ram__v0[2U];
+        vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_3__DOT__ram[__Vdlyvdim0__SimTop__DOT__u_dcache__DOT__dcache_ram_3__DOT__ram__v0][3U] 
+            = __Vdlyvval__SimTop__DOT__u_dcache__DOT__dcache_ram_3__DOT__ram__v0[3U];
+    }
     vlSelf->SimTop__DOT__u_dcache__DOT__dcache_state 
         = __Vdly__SimTop__DOT__u_dcache__DOT__dcache_state;
     if (vlSelf->reset) {
@@ -3056,13 +3815,6 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
         vlSelf->SimTop__DOT__u_cpu__DOT__pc_ex = vlSelf->SimTop__DOT__u_cpu__DOT__pc_id;
     }
     if (vlSelf->reset) {
-        vlSelf->SimTop__DOT__dcache_data_read = 0ULL;
-    } else if (((1U == (IData)(vlSelf->SimTop__DOT__arbitrating__DOT__arb_state)) 
-                & (IData)(vlSelf->SimTop__DOT__axi_rw__DOT__trans_done))) {
-        vlSelf->SimTop__DOT__dcache_data_read = vlSelf->io_memAXI_0_r_bits_data
-            [0U];
-    }
-    if (vlSelf->reset) {
         vlSelf->SimTop__DOT__arb_mem_r_hs = 0U;
     } else if ((1U & (~ ((1U == (IData)(vlSelf->SimTop__DOT__arbitrating__DOT__arb_state)) 
                          & (IData)(vlSelf->SimTop__DOT__axi_rw__DOT__trans_done))))) {
@@ -3079,6 +3831,12 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
         vlSelf->SimTop__DOT__arb_mem_trans_done = 0U;
     }
     if (vlSelf->reset) {
+        vlSelf->SimTop__DOT__u_dcache__DOT__sel_dram = 0U;
+    } else if ((1U & (~ (IData)(vlSelf->SimTop__DOT__mem_valid)))) {
+        vlSelf->SimTop__DOT__u_dcache__DOT__sel_dram 
+            = (3U & VL_RANDOM_I(2));
+    }
+    if (vlSelf->reset) {
         vlSelf->SimTop__DOT__u_cpu__DOT__write_mem_en_ex = 0U;
     } else if ((1U & (~ (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__axi_stall_i)))) {
         vlSelf->SimTop__DOT__u_cpu__DOT__write_mem_en_ex 
@@ -3089,12 +3847,6 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
                    | (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__IDU0__DOT__inst_sw)) 
                   | (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__IDU0__DOT__inst_sh)));
     }
-    vlSelf->SimTop__DOT__u_dcache__DOT__is_dirty = 
-        (1U & (vlSelf->SimTop__DOT__u_dcache__DOT__dirty[
-               (3U & ((IData)((vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
-                               >> 3U)) >> 5U))] >> 
-               (0x1fU & (IData)((vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
-                                 >> 3U)))));
     vlSelf->SimTop__DOT__u_cpu__DOT__clint_wen = ((0x200U 
                                                    == 
                                                    (0xffffU 
@@ -3102,31 +3854,35 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
                                                               (vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
                                                                >> 0x10U)))) 
                                                   & (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__write_mem_en_mem));
-    vlSelf->SimTop__DOT__u_dcache__DOT__hit = ((vlSelf->SimTop__DOT__u_dcache__DOT__valid[
-                                                (3U 
-                                                 & ((IData)(
-                                                            (vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
-                                                             >> 3U)) 
-                                                    >> 5U))] 
-                                                >> 
-                                                (0x1fU 
-                                                 & (IData)(
-                                                           (vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
-                                                            >> 3U)))) 
-                                               & (vlSelf->SimTop__DOT__u_dcache__DOT__tag
-                                                  [
-                                                  (0x7fU 
-                                                   & (IData)(
-                                                             (vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
-                                                              >> 3U)))] 
-                                                  == 
-                                                  (vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
-                                                   >> 0xaU)));
     vlSelf->SimTop__DOT__u_dcache__DOT__dram_addr = 
         (0x3fU & ((0U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dcache_state))
                    ? (IData)((vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
                               >> 4U)) : (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
                                                  >> 4U))));
+    vlSelf->SimTop__DOT__u_dcache__DOT__is_dirty[0U] 
+        = (1U & (vlSelf->SimTop__DOT__u_dcache__DOT__dirty_0[
+                 (3U & ((IData)((vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                 >> 3U)) >> 5U))] >> 
+                 (0x1fU & (IData)((vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                   >> 3U)))));
+    vlSelf->SimTop__DOT__u_dcache__DOT__is_dirty[1U] 
+        = (1U & (vlSelf->SimTop__DOT__u_dcache__DOT__dirty_1[
+                 (3U & ((IData)((vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                 >> 3U)) >> 5U))] >> 
+                 (0x1fU & (IData)((vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                   >> 3U)))));
+    vlSelf->SimTop__DOT__u_dcache__DOT__is_dirty[2U] 
+        = (1U & (vlSelf->SimTop__DOT__u_dcache__DOT__dirty_2[
+                 (3U & ((IData)((vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                 >> 3U)) >> 5U))] >> 
+                 (0x1fU & (IData)((vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                   >> 3U)))));
+    vlSelf->SimTop__DOT__u_dcache__DOT__is_dirty[3U] 
+        = (1U & (vlSelf->SimTop__DOT__u_dcache__DOT__dirty_3[
+                 (3U & ((IData)((vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                 >> 3U)) >> 5U))] >> 
+                 (0x1fU & (IData)((vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                   >> 3U)))));
     vlSelf->SimTop__DOT__u_cpu__DOT__if_uart_mem = 
         ((0xa10003f8U == (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem)) 
          & (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__write_mem_en_mem));
@@ -3135,7 +3891,87 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
                                         >> 0x10U)))) 
          & ((IData)(vlSelf->SimTop__DOT__u_cpu__DOT__read_mem_en_mem) 
             | (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__write_mem_en_mem)));
-    VL_EXTEND_WQ(66,64, __Vtemp603, vlSelf->SimTop__DOT__u_cpu__DOT__reg2_value_ex);
+    vlSelf->SimTop__DOT__u_dcache__DOT__hit_0 = ((vlSelf->SimTop__DOT__u_dcache__DOT__valid_0[
+                                                  (3U 
+                                                   & ((IData)(
+                                                              (vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                                               >> 3U)) 
+                                                      >> 5U))] 
+                                                  >> 
+                                                  (0x1fU 
+                                                   & (IData)(
+                                                             (vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                                              >> 3U)))) 
+                                                 & (vlSelf->SimTop__DOT__u_dcache__DOT__tag_0
+                                                    [
+                                                    (0x7fU 
+                                                     & (IData)(
+                                                               (vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                                                >> 3U)))] 
+                                                    == 
+                                                    (vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                                     >> 0xaU)));
+    vlSelf->SimTop__DOT__u_dcache__DOT__hit_1 = ((vlSelf->SimTop__DOT__u_dcache__DOT__valid_1[
+                                                  (3U 
+                                                   & ((IData)(
+                                                              (vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                                               >> 3U)) 
+                                                      >> 5U))] 
+                                                  >> 
+                                                  (0x1fU 
+                                                   & (IData)(
+                                                             (vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                                              >> 3U)))) 
+                                                 & (vlSelf->SimTop__DOT__u_dcache__DOT__tag_1
+                                                    [
+                                                    (0x7fU 
+                                                     & (IData)(
+                                                               (vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                                                >> 3U)))] 
+                                                    == 
+                                                    (vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                                     >> 0xaU)));
+    vlSelf->SimTop__DOT__u_dcache__DOT__hit_2 = ((vlSelf->SimTop__DOT__u_dcache__DOT__valid_2[
+                                                  (3U 
+                                                   & ((IData)(
+                                                              (vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                                               >> 3U)) 
+                                                      >> 5U))] 
+                                                  >> 
+                                                  (0x1fU 
+                                                   & (IData)(
+                                                             (vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                                              >> 3U)))) 
+                                                 & (vlSelf->SimTop__DOT__u_dcache__DOT__tag_2
+                                                    [
+                                                    (0x7fU 
+                                                     & (IData)(
+                                                               (vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                                                >> 3U)))] 
+                                                    == 
+                                                    (vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                                     >> 0xaU)));
+    vlSelf->SimTop__DOT__u_dcache__DOT__hit_3 = ((vlSelf->SimTop__DOT__u_dcache__DOT__valid_3[
+                                                  (3U 
+                                                   & ((IData)(
+                                                              (vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                                               >> 3U)) 
+                                                      >> 5U))] 
+                                                  >> 
+                                                  (0x1fU 
+                                                   & (IData)(
+                                                             (vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                                              >> 3U)))) 
+                                                 & (vlSelf->SimTop__DOT__u_dcache__DOT__tag_3
+                                                    [
+                                                    (0x7fU 
+                                                     & (IData)(
+                                                               (vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                                                >> 3U)))] 
+                                                    == 
+                                                    (vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                                     >> 0xaU)));
+    VL_EXTEND_WQ(66,64, __Vtemp620, vlSelf->SimTop__DOT__u_cpu__DOT__reg2_value_ex);
     vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT____Vcellinp__forward_b_mux____pinNumber4[0U] 
         = (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__reg_write_value_wb);
     vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT____Vcellinp__forward_b_mux____pinNumber4[1U] 
@@ -3149,17 +3985,17 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
             >> 0x1eU) | ((IData)((vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
                                   >> 0x20U)) << 2U));
     vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT____Vcellinp__forward_b_mux____pinNumber4[4U] 
-        = (8U | ((__Vtemp603[0U] << 4U) | ((IData)(
+        = (8U | ((__Vtemp620[0U] << 4U) | ((IData)(
                                                    (vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
                                                     >> 0x20U)) 
                                            >> 0x1eU)));
     vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT____Vcellinp__forward_b_mux____pinNumber4[5U] 
-        = ((__Vtemp603[0U] >> 0x1cU) | (__Vtemp603[1U] 
+        = ((__Vtemp620[0U] >> 0x1cU) | (__Vtemp620[1U] 
                                         << 4U));
     vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT____Vcellinp__forward_b_mux____pinNumber4[6U] 
-        = ((__Vtemp603[1U] >> 0x1cU) | (__Vtemp603[2U] 
+        = ((__Vtemp620[1U] >> 0x1cU) | (__Vtemp620[2U] 
                                         << 4U));
-    VL_EXTEND_WQ(66,64, __Vtemp608, vlSelf->SimTop__DOT__u_cpu__DOT__reg1_value_ex);
+    VL_EXTEND_WQ(66,64, __Vtemp625, vlSelf->SimTop__DOT__u_cpu__DOT__reg1_value_ex);
     vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT____Vcellinp__forward_a_mux____pinNumber4[0U] 
         = (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__reg_write_value_wb);
     vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT____Vcellinp__forward_a_mux____pinNumber4[1U] 
@@ -3173,15 +4009,15 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
             >> 0x1eU) | ((IData)((vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
                                   >> 0x20U)) << 2U));
     vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT____Vcellinp__forward_a_mux____pinNumber4[4U] 
-        = (8U | ((__Vtemp608[0U] << 4U) | ((IData)(
+        = (8U | ((__Vtemp625[0U] << 4U) | ((IData)(
                                                    (vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
                                                     >> 0x20U)) 
                                            >> 0x1eU)));
     vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT____Vcellinp__forward_a_mux____pinNumber4[5U] 
-        = ((__Vtemp608[0U] >> 0x1cU) | (__Vtemp608[1U] 
+        = ((__Vtemp625[0U] >> 0x1cU) | (__Vtemp625[1U] 
                                         << 4U));
     vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT____Vcellinp__forward_a_mux____pinNumber4[6U] 
-        = ((__Vtemp608[1U] >> 0x1cU) | (__Vtemp608[2U] 
+        = ((__Vtemp625[1U] >> 0x1cU) | (__Vtemp625[2U] 
                                         << 4U));
     vlSelf->SimTop__DOT__arbitrating__DOT__arb_state 
         = __Vdly__SimTop__DOT__arbitrating__DOT__arb_state;
@@ -3192,16 +4028,53 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
                                        & (~ (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__if_uart_mem))) 
                                       & ((IData)(vlSelf->SimTop__DOT__u_cpu__DOT__read_mem_en_mem) 
                                          | (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__write_mem_en_mem)));
+    vlSelf->SimTop__DOT__u_dcache__DOT__hit = ((((IData)(vlSelf->SimTop__DOT__u_dcache__DOT__hit_3) 
+                                                 | (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__hit_2)) 
+                                                | (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__hit_1)) 
+                                               | (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__hit_0));
     vlSelf->SimTop__DOT__u_cpu__DOT__read_mem_value 
         = ((IData)(vlSelf->SimTop__DOT__u_cpu__DOT__if_clint_mem)
             ? vlSelf->SimTop__DOT__clint_data_read : 
-           ((1U & (IData)((vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
-                           >> 3U))) ? (((QData)((IData)(
-                                                        vlSelf->SimTop__DOT__u_dcache__DOT__dram_data_read_128[3U])) 
-                                        << 0x20U) | (QData)((IData)(
-                                                                    vlSelf->SimTop__DOT__u_dcache__DOT__dram_data_read_128[2U])))
-             : (((QData)((IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dram_data_read_128[1U])) 
-                 << 0x20U) | (QData)((IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dram_data_read_128[0U])))));
+           (((((- (QData)((IData)(vlSelf->SimTop__DOT__u_dcache__DOT__hit_0))) 
+               & ((1U & (IData)((vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                 >> 3U))) ? (((QData)((IData)(
+                                                              vlSelf->SimTop__DOT__u_dcache__DOT__dram_0_data_read_128[3U])) 
+                                              << 0x20U) 
+                                             | (QData)((IData)(
+                                                               vlSelf->SimTop__DOT__u_dcache__DOT__dram_0_data_read_128[2U])))
+                   : (((QData)((IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dram_0_data_read_128[1U])) 
+                       << 0x20U) | (QData)((IData)(
+                                                   vlSelf->SimTop__DOT__u_dcache__DOT__dram_0_data_read_128[0U]))))) 
+              | ((- (QData)((IData)(vlSelf->SimTop__DOT__u_dcache__DOT__hit_1))) 
+                 & ((1U & (IData)((vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                   >> 3U))) ? (((QData)((IData)(
+                                                                vlSelf->SimTop__DOT__u_dcache__DOT__dram_1_data_read_128[3U])) 
+                                                << 0x20U) 
+                                               | (QData)((IData)(
+                                                                 vlSelf->SimTop__DOT__u_dcache__DOT__dram_1_data_read_128[2U])))
+                     : (((QData)((IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dram_1_data_read_128[1U])) 
+                         << 0x20U) | (QData)((IData)(
+                                                     vlSelf->SimTop__DOT__u_dcache__DOT__dram_1_data_read_128[0U])))))) 
+             | ((- (QData)((IData)(vlSelf->SimTop__DOT__u_dcache__DOT__hit_2))) 
+                & ((1U & (IData)((vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                  >> 3U))) ? (((QData)((IData)(
+                                                               vlSelf->SimTop__DOT__u_dcache__DOT__dram_2_data_read_128[3U])) 
+                                               << 0x20U) 
+                                              | (QData)((IData)(
+                                                                vlSelf->SimTop__DOT__u_dcache__DOT__dram_2_data_read_128[2U])))
+                    : (((QData)((IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dram_2_data_read_128[1U])) 
+                        << 0x20U) | (QData)((IData)(
+                                                    vlSelf->SimTop__DOT__u_dcache__DOT__dram_2_data_read_128[0U])))))) 
+            | ((- (QData)((IData)(vlSelf->SimTop__DOT__u_dcache__DOT__hit_3))) 
+               & ((1U & (IData)((vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+                                 >> 3U))) ? (((QData)((IData)(
+                                                              vlSelf->SimTop__DOT__u_dcache__DOT__dram_3_data_read_128[3U])) 
+                                              << 0x20U) 
+                                             | (QData)((IData)(
+                                                               vlSelf->SimTop__DOT__u_dcache__DOT__dram_3_data_read_128[2U])))
+                   : (((QData)((IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dram_3_data_read_128[1U])) 
+                       << 0x20U) | (QData)((IData)(
+                                                   vlSelf->SimTop__DOT__u_dcache__DOT__dram_3_data_read_128[0U])))))));
     vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__forward_b_mux__DOT__i0__DOT__pair_list[0U][0U] 
         = vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT____Vcellinp__forward_b_mux____pinNumber4[0U];
     vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__forward_b_mux__DOT__i0__DOT__pair_list[0U][1U] 
@@ -3310,7 +4183,7 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
                                                   ? (IData)(vlSelf->SimTop__DOT__icache_req)
                                                   : 0U)));
     }
-    __Vtemp631[0U] = (IData)(((0U == (7U & (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem)))
+    __Vtemp648[0U] = (IData)(((0U == (7U & (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem)))
                                ? (QData)((IData)((0xffffU 
                                                   & (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__read_mem_value))))
                                : ((2U == (7U & (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem)))
@@ -3335,7 +4208,7 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
                                            : (QData)((IData)(
                                                              (0xffffU 
                                                               & (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__read_mem_value)))))))));
-    __Vtemp631[1U] = (IData)((((0U == (7U & (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem)))
+    __Vtemp648[1U] = (IData)((((0U == (7U & (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem)))
                                 ? (QData)((IData)((0xffffU 
                                                    & (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__read_mem_value))))
                                 : ((2U == (7U & (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem)))
@@ -3361,7 +4234,7 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
                                                               (0xffffU 
                                                                & (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__read_mem_value)))))))) 
                               >> 0x20U));
-    __Vtemp634[4U] = (0x90U | (((IData)(((0U == (7U 
+    __Vtemp651[4U] = (0x90U | (((IData)(((0U == (7U 
                                                  & (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem)))
                                           ? (QData)((IData)(
                                                             (0xffU 
@@ -3446,7 +4319,7 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
                                                      : (QData)((IData)(vlSelf->SimTop__DOT__u_cpu__DOT__read_mem_value))) 
                                                    >> 0x20U)) 
                                           >> 0x1cU)));
-    __Vtemp634[5U] = (((IData)(((0U == (7U & (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem)))
+    __Vtemp651[5U] = (((IData)(((0U == (7U & (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem)))
                                  ? (QData)((IData)(
                                                    (0xffU 
                                                     & (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__read_mem_value))))
@@ -3592,7 +4465,7 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
                                                                             & (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__read_mem_value)))))))))))) 
                                              >> 0x20U)) 
                                     << 8U));
-    __Vtemp634[6U] = ((IData)((((0U == (7U & (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem)))
+    __Vtemp651[6U] = ((IData)((((0U == (7U & (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem)))
                                  ? (QData)((IData)(
                                                    (0xffU 
                                                     & (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__read_mem_value))))
@@ -3659,7 +4532,7 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
                                                                       (0xffU 
                                                                        & (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__read_mem_value)))))))))))) 
                                >> 0x20U)) >> 0x18U);
-    __Vtemp636[6U] = (0x500U | (((IData)(((0U == (7U 
+    __Vtemp653[6U] = (0x500U | (((IData)(((0U == (7U 
                                                   & (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem)))
                                            ? (((- (QData)((IData)(
                                                                   (1U 
@@ -3796,8 +4669,8 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
                                                         | (QData)((IData)(
                                                                           (0xffU 
                                                                            & (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__read_mem_value)))))))))))))) 
-                                 << 0xcU) | __Vtemp634[6U]));
-    __Vtemp636[7U] = (((IData)(((0U == (7U & (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem)))
+                                 << 0xcU) | __Vtemp651[6U]));
+    __Vtemp653[7U] = (((IData)(((0U == (7U & (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem)))
                                  ? (((- (QData)((IData)(
                                                         (1U 
                                                          & (IData)(
@@ -4063,7 +4936,7 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
                                                                             & (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__read_mem_value))))))))))))) 
                                              >> 0x20U)) 
                                     << 0xcU));
-    __Vtemp636[8U] = ((IData)((((0U == (7U & (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem)))
+    __Vtemp653[8U] = ((IData)((((0U == (7U & (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem)))
                                  ? (((- (QData)((IData)(
                                                         (1U 
                                                          & (IData)(
@@ -4187,7 +5060,7 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
                                                                       (0xffU 
                                                                        & (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__read_mem_value))))))))))))) 
                                >> 0x20U)) >> 0x14U);
-    __Vtemp640[0xbU] = (((IData)(((1U & (IData)((vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
+    __Vtemp657[0xbU] = (((IData)(((1U & (IData)((vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
                                                  >> 2U)))
                                    ? (((QData)((IData)(
                                                        (- (IData)(
@@ -4231,7 +5104,7 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
                                                    | (QData)((IData)(vlSelf->SimTop__DOT__u_cpu__DOT__read_mem_value)))) 
                                               >> 0x20U)) 
                                      << 0x14U));
-    __Vtemp642[0xcU] = (0x400000U | (((IData)(((0U 
+    __Vtemp659[0xcU] = (0x400000U | (((IData)(((0U 
                                                 == 
                                                 (7U 
                                                  & (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem)))
@@ -4333,7 +5206,7 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
                                                               | (QData)((IData)(vlSelf->SimTop__DOT__u_cpu__DOT__read_mem_value)))) 
                                                             >> 0x20U)) 
                                                    >> 0xcU)));
-    __Vtemp642[0xdU] = (((IData)(((0U == (7U & (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem)))
+    __Vtemp659[0xdU] = (((IData)(((0U == (7U & (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem)))
                                    ? (((- (QData)((IData)(
                                                           (1U 
                                                            & (IData)(
@@ -4465,7 +5338,7 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
                                                                        & (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__read_mem_value))))))))) 
                                             >> 0x20U)) 
                                    << 0x18U));
-    __Vtemp642[0xeU] = ((IData)((((0U == (7U & (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem)))
+    __Vtemp659[0xeU] = ((IData)((((0U == (7U & (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem)))
                                    ? (((- (QData)((IData)(
                                                           (1U 
                                                            & (IData)(
@@ -4526,9 +5399,9 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
                                                                      & (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__read_mem_value))))))))) 
                                  >> 0x20U)) >> 8U);
     vlSelf->SimTop__DOT__u_cpu__DOT__sext__DOT____Vcellinp__sext_mem_read_value____pinNumber4[0U] 
-        = __Vtemp631[0U];
+        = __Vtemp648[0U];
     vlSelf->SimTop__DOT__u_cpu__DOT__sext__DOT____Vcellinp__sext_mem_read_value____pinNumber4[1U] 
-        = __Vtemp631[1U];
+        = __Vtemp648[1U];
     vlSelf->SimTop__DOT__u_cpu__DOT__sext__DOT____Vcellinp__sext_mem_read_value____pinNumber4[2U] 
         = (7U | ((IData)(((1U & (IData)((vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_mem 
                                          >> 2U))) ? (QData)((IData)(
@@ -4550,16 +5423,16 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
                                     : (QData)((IData)(vlSelf->SimTop__DOT__u_cpu__DOT__read_mem_value))) 
                                   >> 0x20U)) << 4U));
     vlSelf->SimTop__DOT__u_cpu__DOT__sext__DOT____Vcellinp__sext_mem_read_value____pinNumber4[4U] 
-        = __Vtemp634[4U];
+        = __Vtemp651[4U];
     vlSelf->SimTop__DOT__u_cpu__DOT__sext__DOT____Vcellinp__sext_mem_read_value____pinNumber4[5U] 
-        = __Vtemp634[5U];
+        = __Vtemp651[5U];
     vlSelf->SimTop__DOT__u_cpu__DOT__sext__DOT____Vcellinp__sext_mem_read_value____pinNumber4[6U] 
-        = __Vtemp636[6U];
+        = __Vtemp653[6U];
     vlSelf->SimTop__DOT__u_cpu__DOT__sext__DOT____Vcellinp__sext_mem_read_value____pinNumber4[7U] 
-        = __Vtemp636[7U];
+        = __Vtemp653[7U];
     vlSelf->SimTop__DOT__u_cpu__DOT__sext__DOT____Vcellinp__sext_mem_read_value____pinNumber4[8U] 
         = (0x1000U | (((IData)(vlSelf->SimTop__DOT__u_cpu__DOT__read_mem_value) 
-                       << 0x10U) | __Vtemp636[8U]));
+                       << 0x10U) | __Vtemp653[8U]));
     vlSelf->SimTop__DOT__u_cpu__DOT__sext__DOT____Vcellinp__sext_mem_read_value____pinNumber4[9U] 
         = (((IData)(vlSelf->SimTop__DOT__u_cpu__DOT__read_mem_value) 
             >> 0x10U) | ((IData)((vlSelf->SimTop__DOT__u_cpu__DOT__read_mem_value 
@@ -4587,13 +5460,13 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
                                               >> 0x20U)) 
                                      >> 0x10U)));
     vlSelf->SimTop__DOT__u_cpu__DOT__sext__DOT____Vcellinp__sext_mem_read_value____pinNumber4[0xbU] 
-        = __Vtemp640[0xbU];
+        = __Vtemp657[0xbU];
     vlSelf->SimTop__DOT__u_cpu__DOT__sext__DOT____Vcellinp__sext_mem_read_value____pinNumber4[0xcU] 
-        = __Vtemp642[0xcU];
+        = __Vtemp659[0xcU];
     vlSelf->SimTop__DOT__u_cpu__DOT__sext__DOT____Vcellinp__sext_mem_read_value____pinNumber4[0xdU] 
-        = __Vtemp642[0xdU];
+        = __Vtemp659[0xdU];
     vlSelf->SimTop__DOT__u_cpu__DOT__sext__DOT____Vcellinp__sext_mem_read_value____pinNumber4[0xeU] 
-        = (0x2000000U | __Vtemp642[0xeU]);
+        = (0x2000000U | __Vtemp659[0xeU]);
     vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__forward_b_mux__DOT__i0__DOT__data_list[0U] 
         = (((QData)((IData)(vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__forward_b_mux__DOT__i0__DOT__pair_list
                             [0U][1U])) << 0x20U) | (QData)((IData)(
@@ -4642,12 +5515,12 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
     vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__forward_a_mux__DOT__i0__DOT__key_list[2U] 
         = (3U & vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__forward_a_mux__DOT__i0__DOT__pair_list
            [2U][2U]);
-    VL_EXTEND_WQ(65,64, __Vtemp656, vlSelf->SimTop__DOT__rw_addr);
+    VL_EXTEND_WQ(65,64, __Vtemp673, vlSelf->SimTop__DOT__rw_addr);
     vlSelf->io_memAXI_0_ar_bits_addr = (0xfffffff8U 
-                                        & __Vtemp656[0U]);
-    VL_EXTEND_WQ(65,64, __Vtemp657, vlSelf->SimTop__DOT__rw_addr);
+                                        & __Vtemp673[0U]);
+    VL_EXTEND_WQ(65,64, __Vtemp674, vlSelf->SimTop__DOT__rw_addr);
     vlSelf->io_memAXI_0_aw_bits_addr = (0xfffffff8U 
-                                        & __Vtemp657[0U]);
+                                        & __Vtemp674[0U]);
     vlSelf->SimTop__DOT__u_cpu__DOT__sext__DOT__sext_mem_read_value__DOT__i0__DOT__pair_list[0U][0U] 
         = vlSelf->SimTop__DOT__u_cpu__DOT__sext__DOT____Vcellinp__sext_mem_read_value____pinNumber4[0U];
     vlSelf->SimTop__DOT__u_cpu__DOT__sext__DOT__sext_mem_read_value__DOT__i0__DOT__pair_list[0U][1U] 
@@ -5223,7 +6096,7 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
         = (IData)((0x73U == (0x707fU & vlSelf->SimTop__DOT__u_cpu__DOT__inst_id)));
     vlSelf->SimTop__DOT__u_cpu__DOT__IDU0__DOT__inst_jal 
         = (IData)((0x6fU == (0x7fU & vlSelf->SimTop__DOT__u_cpu__DOT__inst_id)));
-    __Vtemp708[4U] = (0x40U | ((7U & ((IData)(((((- (QData)((IData)(
+    __Vtemp725[4U] = (0x40U | ((7U & ((IData)(((((- (QData)((IData)(
                                                                     (vlSelf->SimTop__DOT__u_cpu__DOT__inst_id 
                                                                      >> 0x1fU)))) 
                                                  << 0xcU) 
@@ -5242,7 +6115,7 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
                                                                       >> 0x14U)))) 
                                                   >> 0x20U)) 
                                          >> 0x1aU))));
-    __Vtemp709[2U] = (((IData)((((- (QData)((IData)(
+    __Vtemp726[2U] = (((IData)((((- (QData)((IData)(
                                                     (vlSelf->SimTop__DOT__u_cpu__DOT__inst_id 
                                                      >> 0x1fU)))) 
                                  << 0x14U) | (QData)((IData)(
@@ -5275,7 +6148,7 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
                                                                           >> 0x14U)))))))) 
                                           >> 0x20U)) 
                                  << 0x17U));
-    __Vtemp710[4U] = ((0x7fffffU & ((IData)((((QData)((IData)(
+    __Vtemp727[4U] = ((0x7fffffU & ((IData)((((QData)((IData)(
                                                               (- (IData)(
                                                                          (vlSelf->SimTop__DOT__u_cpu__DOT__inst_id 
                                                                           >> 0x1fU))))) 
@@ -5305,7 +6178,7 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
                                                                                & vlSelf->SimTop__DOT__u_cpu__DOT__inst_id)))) 
                                                            >> 0x20U)) 
                                                   << 0x1aU)));
-    __Vtemp710[5U] = (0x10000000U | ((0x7fffffU & ((IData)(
+    __Vtemp727[5U] = (0x10000000U | ((0x7fffffU & ((IData)(
                                                            ((((QData)((IData)(
                                                                               (- (IData)(
                                                                                 (vlSelf->SimTop__DOT__u_cpu__DOT__inst_id 
@@ -5337,7 +6210,7 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
                                                                            & vlSelf->SimTop__DOT__u_cpu__DOT__inst_id)))) 
                                                        >> 0x20U)) 
                                               >> 6U)))));
-    __Vtemp710[6U] = ((0x7fffffU & ((IData)((((- (QData)((IData)(
+    __Vtemp727[6U] = ((0x7fffffU & ((IData)((((- (QData)((IData)(
                                                                  (vlSelf->SimTop__DOT__u_cpu__DOT__inst_id 
                                                                   >> 0x1fU)))) 
                                               << 0xcU) 
@@ -5374,7 +6247,7 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
                                                                                 >> 0x14U)))) 
                                                               >> 0x20U)) 
                                                      << 0x1dU))));
-    __Vtemp710[7U] = ((0x7fffffU & ((IData)(((((- (QData)((IData)(
+    __Vtemp727[7U] = ((0x7fffffU & ((IData)(((((- (QData)((IData)(
                                                                   (vlSelf->SimTop__DOT__u_cpu__DOT__inst_id 
                                                                    >> 0x1fU)))) 
                                                << 0xcU) 
@@ -5382,9 +6255,9 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
                                                                 (vlSelf->SimTop__DOT__u_cpu__DOT__inst_id 
                                                                  >> 0x14U)))) 
                                              >> 0x20U)) 
-                                    >> 3U)) | (__Vtemp708[4U] 
+                                    >> 3U)) | (__Vtemp725[4U] 
                                                << 0x17U));
-    __Vtemp711[1U] = (((IData)((0x30000000000000ULL 
+    __Vtemp728[1U] = (((IData)((0x30000000000000ULL 
                                 | (0xfffffffffffffULL 
                                    & (- (QData)((IData)(
                                                         (vlSelf->SimTop__DOT__u_cpu__DOT__inst_id 
@@ -5396,7 +6269,7 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
                                                                        >> 0x1fU)))))) 
                                              >> 0x20U)) 
                                     << 0xfU));
-    __Vtemp711[3U] = ((__Vtemp709[2U] >> 0x11U) | (0xffff8000U 
+    __Vtemp728[3U] = ((__Vtemp726[2U] >> 0x11U) | (0xffff8000U 
                                                    & ((IData)(
                                                               ((((- (QData)((IData)(
                                                                                 (vlSelf->SimTop__DOT__u_cpu__DOT__inst_id 
@@ -5416,7 +6289,7 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
                                                                                 >> 0x14U)))))))) 
                                                                >> 0x20U)) 
                                                       << 6U)));
-    __Vtemp711[4U] = (0x140U | (((0x7e00U & ((IData)(
+    __Vtemp728[4U] = (0x140U | (((0x7e00U & ((IData)(
                                                      (((QData)((IData)(
                                                                        (- (IData)(
                                                                                 (vlSelf->SimTop__DOT__u_cpu__DOT__inst_id 
@@ -5443,7 +6316,7 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
                                                                           & (vlSelf->SimTop__DOT__u_cpu__DOT__inst_id 
                                                                              >> 0x14U)))))))) 
                                              >> 0x20U)) 
-                                    >> 0x1aU)) | (__Vtemp710[4U] 
+                                    >> 0x1aU)) | (__Vtemp727[4U] 
                                                   << 0xfU)));
     vlSelf->SimTop__DOT__u_cpu__DOT__sext__DOT____Vcellinp__sext_imm____pinNumber4[0U] 
         = (IData)((((- (QData)((IData)((vlSelf->SimTop__DOT__u_cpu__DOT__inst_id 
@@ -5476,7 +6349,7 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
                                | (0xf0U & (vlSelf->SimTop__DOT__u_cpu__DOT__inst_id 
                                            >> 4U))))));
     vlSelf->SimTop__DOT__u_cpu__DOT__sext__DOT____Vcellinp__sext_imm____pinNumber4[3U] 
-        = __Vtemp711[1U];
+        = __Vtemp728[1U];
     vlSelf->SimTop__DOT__u_cpu__DOT__sext__DOT____Vcellinp__sext_imm____pinNumber4[4U] 
         = (((0x7fc0U & ((IData)((((- (QData)((IData)(
                                                      (vlSelf->SimTop__DOT__u_cpu__DOT__inst_id 
@@ -5499,23 +6372,23 @@ VL_INLINE_OPT void VSimTop___024root___sequent__TOP__3(VSimTop___024root* vlSelf
                                                                      (vlSelf->SimTop__DOT__u_cpu__DOT__inst_id 
                                                                       >> 0x1fU)))))) 
                                             >> 0x20U)) 
-                                   >> 0x11U)) | (__Vtemp709[2U] 
+                                   >> 0x11U)) | (__Vtemp726[2U] 
                                                  << 0xfU));
     vlSelf->SimTop__DOT__u_cpu__DOT__sext__DOT____Vcellinp__sext_imm____pinNumber4[5U] 
-        = __Vtemp711[3U];
+        = __Vtemp728[3U];
     vlSelf->SimTop__DOT__u_cpu__DOT__sext__DOT____Vcellinp__sext_imm____pinNumber4[6U] 
-        = __Vtemp711[4U];
+        = __Vtemp728[4U];
     vlSelf->SimTop__DOT__u_cpu__DOT__sext__DOT____Vcellinp__sext_imm____pinNumber4[7U] 
-        = ((__Vtemp710[4U] >> 0x11U) | (__Vtemp710[5U] 
+        = ((__Vtemp727[4U] >> 0x11U) | (__Vtemp727[5U] 
                                         << 0xfU));
     vlSelf->SimTop__DOT__u_cpu__DOT__sext__DOT____Vcellinp__sext_imm____pinNumber4[8U] 
-        = ((__Vtemp710[5U] >> 0x11U) | (__Vtemp710[6U] 
+        = ((__Vtemp727[5U] >> 0x11U) | (__Vtemp727[6U] 
                                         << 0xfU));
     vlSelf->SimTop__DOT__u_cpu__DOT__sext__DOT____Vcellinp__sext_imm____pinNumber4[9U] 
-        = ((__Vtemp710[6U] >> 0x11U) | (__Vtemp710[7U] 
+        = ((__Vtemp727[6U] >> 0x11U) | (__Vtemp727[7U] 
                                         << 0xfU));
     vlSelf->SimTop__DOT__u_cpu__DOT__sext__DOT____Vcellinp__sext_imm____pinNumber4[0xaU] 
-        = (__Vtemp710[7U] >> 0x11U);
+        = (__Vtemp727[7U] >> 0x11U);
     vlSelf->SimTop__DOT__u_cpu__DOT__IDU0__DOT__inst_addi 
         = (IData)((0x13U == (0x707fU & vlSelf->SimTop__DOT__u_cpu__DOT__inst_id)));
     vlSelf->SimTop__DOT__u_cpu__DOT__IDU0__DOT__inst_lh 
@@ -6823,6 +7696,8 @@ VL_INLINE_OPT void VSimTop___024root___combo__TOP__5(VSimTop___024root* vlSelf) 
     CData/*7:0*/ __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xtN__281__Vfuncout;
     CData/*7:0*/ __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xtN__281__a;
     CData/*7:0*/ __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xtN__282__Vfuncout;
+    CData/*7:0*/ __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xtN__282__a;
+    CData/*7:0*/ __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xtN__283__Vfuncout;
     CData/*7:0*/ __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xtN__283__a;
     CData/*7:0*/ __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__286__Vfuncout;
     CData/*7:0*/ __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__286__a;
@@ -6836,6 +7711,7 @@ VL_INLINE_OPT void VSimTop___024root___combo__TOP__5(VSimTop___024root* vlSelf) 
     CData/*7:0*/ __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__292__Vfuncout;
     CData/*7:0*/ __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__292__a;
     CData/*7:0*/ __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__293__Vfuncout;
+    CData/*7:0*/ __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__293__a;
     CData/*7:0*/ __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__294__Vfuncout;
     CData/*7:0*/ __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__294__a;
     CData/*7:0*/ __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__295__Vfuncout;
@@ -6862,12 +7738,8 @@ VL_INLINE_OPT void VSimTop___024root___combo__TOP__5(VSimTop___024root* vlSelf) 
     CData/*7:0*/ __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__307__Vfuncout;
     CData/*7:0*/ __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__307__a;
     CData/*7:0*/ __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xtN__308__Vfuncout;
-    CData/*7:0*/ __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xtN__308__a;
-    CData/*7:0*/ __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xtN__309__Vfuncout;
     CData/*7:0*/ __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xtN__309__a;
-    CData/*7:0*/ __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xtN__310__Vfuncout;
     CData/*7:0*/ __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xtN__310__a;
-    CData/*7:0*/ __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xtN__311__Vfuncout;
     CData/*7:0*/ __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xtN__311__a;
     CData/*7:0*/ __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xt2__314__Vfuncout;
     CData/*7:0*/ __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xt2__314__a;
@@ -6907,11 +7779,13 @@ VL_INLINE_OPT void VSimTop___024root___combo__TOP__5(VSimTop___024root* vlSelf) 
     CData/*7:0*/ __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xt2__334__a;
     CData/*7:0*/ __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xt2__335__Vfuncout;
     CData/*7:0*/ __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xt2__335__a;
-    VlWide<3>/*95:0*/ __Vtemp778;
-    VlWide<3>/*95:0*/ __Vtemp779;
-    VlWide<3>/*95:0*/ __Vtemp955;
-    VlWide<3>/*95:0*/ __Vtemp970;
-    VlWide<3>/*95:0*/ __Vtemp977;
+    VlWide<4>/*127:0*/ __Vtemp772;
+    VlWide<4>/*127:0*/ __Vtemp776;
+    VlWide<3>/*95:0*/ __Vtemp815;
+    VlWide<3>/*95:0*/ __Vtemp816;
+    VlWide<3>/*95:0*/ __Vtemp992;
+    VlWide<3>/*95:0*/ __Vtemp1007;
+    VlWide<3>/*95:0*/ __Vtemp1014;
     // Body
     vlSelf->SimTop__DOT__axi_rw__DOT__aw_hs = ((IData)(vlSelf->io_memAXI_0_aw_ready) 
                                                & (1U 
@@ -8110,6 +8984,73 @@ VL_INLINE_OPT void VSimTop___024root___combo__TOP__5(VSimTop___024root* vlSelf) 
             ? 0ULL : ((IData)(vlSelf->SimTop__DOT__u_cpu__DOT__alu_pc_reg1_ex)
                        ? vlSelf->SimTop__DOT__u_cpu__DOT__pc_ex
                        : vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__reg1_forwarda));
+    VL_EXTEND_WQ(128,64, __Vtemp772, vlSelf->SimTop__DOT__u_cpu__DOT__reg2_to_mem_forward);
+    VL_EXTEND_WQ(128,64, __Vtemp776, vlSelf->SimTop__DOT__dcache_data_read);
+    if ((5U == (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dcache_state))) {
+        vlSelf->SimTop__DOT__u_dcache__DOT__dram_data_write[0U] 
+            = ((1U & (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                              >> 3U))) ? 0U : __Vtemp772[0U]);
+        vlSelf->SimTop__DOT__u_dcache__DOT__dram_data_write[1U] 
+            = ((1U & (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                              >> 3U))) ? 0U : __Vtemp772[1U]);
+        vlSelf->SimTop__DOT__u_dcache__DOT__dram_data_write[2U] 
+            = ((1U & (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                              >> 3U))) ? (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__reg2_to_mem_forward)
+                : __Vtemp772[2U]);
+        vlSelf->SimTop__DOT__u_dcache__DOT__dram_data_write[3U] 
+            = ((1U & (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                              >> 3U))) ? (IData)((vlSelf->SimTop__DOT__u_cpu__DOT__reg2_to_mem_forward 
+                                                  >> 0x20U))
+                : __Vtemp772[3U]);
+        vlSelf->SimTop__DOT__u_dcache__DOT__dram_bwen[0U] 
+            = ((1U & (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                              >> 3U))) ? 0xffffffffU
+                : (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dram_mem_write_mask_i));
+        vlSelf->SimTop__DOT__u_dcache__DOT__dram_bwen[1U] 
+            = ((1U & (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                              >> 3U))) ? 0xffffffffU
+                : (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dram_mem_write_mask_i 
+                           >> 0x20U)));
+        vlSelf->SimTop__DOT__u_dcache__DOT__dram_bwen[2U] 
+            = ((1U & (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                              >> 3U))) ? (IData)(vlSelf->SimTop__DOT__u_dcache__DOT__dram_mem_write_mask_i)
+                : 0xffffffffU);
+        vlSelf->SimTop__DOT__u_dcache__DOT__dram_bwen[3U] 
+            = ((1U & (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                              >> 3U))) ? (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dram_mem_write_mask_i 
+                                                  >> 0x20U))
+                : 0xffffffffU);
+    } else {
+        vlSelf->SimTop__DOT__u_dcache__DOT__dram_data_write[0U] 
+            = ((1U & (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                              >> 3U))) ? 0U : __Vtemp776[0U]);
+        vlSelf->SimTop__DOT__u_dcache__DOT__dram_data_write[1U] 
+            = ((1U & (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                              >> 3U))) ? 0U : __Vtemp776[1U]);
+        vlSelf->SimTop__DOT__u_dcache__DOT__dram_data_write[2U] 
+            = ((1U & (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                              >> 3U))) ? (IData)(vlSelf->SimTop__DOT__dcache_data_read)
+                : __Vtemp776[2U]);
+        vlSelf->SimTop__DOT__u_dcache__DOT__dram_data_write[3U] 
+            = ((1U & (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                              >> 3U))) ? (IData)((vlSelf->SimTop__DOT__dcache_data_read 
+                                                  >> 0x20U))
+                : __Vtemp776[3U]);
+        vlSelf->SimTop__DOT__u_dcache__DOT__dram_bwen[0U] 
+            = ((1U & (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                              >> 3U))) ? 0xffffffffU
+                : 0U);
+        vlSelf->SimTop__DOT__u_dcache__DOT__dram_bwen[1U] 
+            = ((1U & (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                              >> 3U))) ? 0xffffffffU
+                : 0U);
+        vlSelf->SimTop__DOT__u_dcache__DOT__dram_bwen[2U] 
+            = ((1U & (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                              >> 3U))) ? 0U : 0xffffffffU);
+        vlSelf->SimTop__DOT__u_dcache__DOT__dram_bwen[3U] 
+            = ((1U & (IData)((vlSelf->SimTop__DOT__u_dcache__DOT__dcache_ram_addr 
+                              >> 3U))) ? 0U : 0xffffffffU);
+    }
     vlSelf->SimTop__DOT__axi_rw__DOT__trans_done = 
         ((IData)(vlSelf->SimTop__DOT__rw_req) ? (IData)(vlSelf->SimTop__DOT__axi_rw__DOT__b_hs)
           : (IData)(vlSelf->SimTop__DOT__axi_rw__DOT__r_done));
@@ -15677,7 +16618,7 @@ VL_INLINE_OPT void VSimTop___024root___combo__TOP__5(VSimTop___024root* vlSelf) 
                                 ? 0x1bU : 0U)));
     __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xt2__317__a 
         = __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xtN__311__a;
-    __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xtN__311__Vfuncout 
+    vlSelf->__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xtN__311__Vfuncout 
         = ((IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xtN__311__a) 
            ^ (IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xt2__314__Vfuncout));
     __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xtN__310__a 
@@ -15713,7 +16654,7 @@ VL_INLINE_OPT void VSimTop___024root___combo__TOP__5(VSimTop___024root* vlSelf) 
         = (0xffU & (((IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xt2__319__a) 
                      << 1U) ^ ((0x80U & (IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xt2__319__a))
                                 ? 0x1bU : 0U)));
-    __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xtN__310__Vfuncout 
+    vlSelf->__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xtN__310__Vfuncout 
         = (((IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xtN__310__a) 
             ^ (IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xt2__319__Vfuncout)) 
            ^ (IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xt2__320__Vfuncout));
@@ -15746,15 +16687,15 @@ VL_INLINE_OPT void VSimTop___024root___combo__TOP__5(VSimTop___024root* vlSelf) 
         = (0xffU & (((IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xt2__324__a) 
                      << 1U) ^ ((0x80U & (IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xt2__324__a))
                                 ? 0x1bU : 0U)));
-    __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xtN__309__Vfuncout 
+    vlSelf->__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xtN__309__Vfuncout 
         = (((IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xtN__309__a) 
             ^ (IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xt2__324__Vfuncout)) 
            ^ (IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xt2__326__Vfuncout));
-    __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xtN__308__a 
+    vlSelf->__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xtN__308__a 
         = (vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__mix_in_3 
            >> 0x18U);
     __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xt2__334__a 
-        = __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xtN__308__a;
+        = vlSelf->__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xtN__308__a;
     __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xt2__334__Vfuncout 
         = (0xffU & (((IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xt2__334__a) 
                      << 1U) ^ ((0x80U & (IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xt2__334__a))
@@ -15772,7 +16713,7 @@ VL_INLINE_OPT void VSimTop___024root___combo__TOP__5(VSimTop___024root* vlSelf) 
                      << 1U) ^ ((0x80U & (IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xt2__332__a))
                                 ? 0x1bU : 0U)));
     __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xt2__335__a 
-        = __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xtN__308__a;
+        = vlSelf->__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xtN__308__a;
     __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xt2__335__Vfuncout 
         = (0xffU & (((IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xt2__335__a) 
                      << 1U) ^ ((0x80U & (IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xt2__335__a))
@@ -15784,7 +16725,7 @@ VL_INLINE_OPT void VSimTop___024root___combo__TOP__5(VSimTop___024root* vlSelf) 
                      << 1U) ^ ((0x80U & (IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xt2__331__a))
                                 ? 0x1bU : 0U)));
     __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xt2__330__a 
-        = __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xtN__308__a;
+        = vlSelf->__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xtN__308__a;
     __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xt2__330__Vfuncout 
         = (0xffU & (((IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xt2__330__a) 
                      << 1U) ^ ((0x80U & (IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xt2__330__a))
@@ -15795,9 +16736,9 @@ VL_INLINE_OPT void VSimTop___024root___combo__TOP__5(VSimTop___024root* vlSelf) 
            ^ (IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xt2__332__Vfuncout));
     vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__mix_out_3 
         = ((((IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xtN__308__Vfuncout) 
-             ^ (IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xtN__309__Vfuncout)) 
-            ^ (IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xtN__310__Vfuncout)) 
-           ^ (IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xtN__311__Vfuncout));
+             ^ (IData)(vlSelf->__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xtN__309__Vfuncout)) 
+            ^ (IData)(vlSelf->__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xtN__310__Vfuncout)) 
+           ^ (IData)(vlSelf->__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_3__DOT__xtN__311__Vfuncout));
     __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xtN__283__a 
         = (0xffU & vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__mix_in_2);
     __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__288__a 
@@ -15820,23 +16761,23 @@ VL_INLINE_OPT void VSimTop___024root___combo__TOP__5(VSimTop___024root* vlSelf) 
                                 ? 0x1bU : 0U)));
     __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__289__a 
         = __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xtN__283__a;
-    vlSelf->__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xtN__283__Vfuncout 
+    __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xtN__283__Vfuncout 
         = ((IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xtN__283__a) 
            ^ (IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__286__Vfuncout));
-    vlSelf->__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xtN__282__a 
+    __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xtN__282__a 
         = (0xffU & (vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__mix_in_2 
                     >> 8U));
     __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__294__a 
-        = vlSelf->__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xtN__282__a;
+        = __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xtN__282__a;
     __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__294__Vfuncout 
         = (0xffU & (((IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__294__a) 
                      << 1U) ^ ((0x80U & (IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__294__a))
                                 ? 0x1bU : 0U)));
-    vlSelf->__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__293__a 
+    __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__293__a 
         = __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__294__Vfuncout;
     __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__293__Vfuncout 
-        = (0xffU & (((IData)(vlSelf->__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__293__a) 
-                     << 1U) ^ ((0x80U & (IData)(vlSelf->__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__293__a))
+        = (0xffU & (((IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__293__a) 
+                     << 1U) ^ ((0x80U & (IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__293__a))
                                 ? 0x1bU : 0U)));
     __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__292__a 
         = __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__293__Vfuncout;
@@ -15845,7 +16786,7 @@ VL_INLINE_OPT void VSimTop___024root___combo__TOP__5(VSimTop___024root* vlSelf) 
                      << 1U) ^ ((0x80U & (IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__292__a))
                                 ? 0x1bU : 0U)));
     __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__295__a 
-        = vlSelf->__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xtN__282__a;
+        = __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xtN__282__a;
     __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__295__Vfuncout 
         = (0xffU & (((IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__295__a) 
                      << 1U) ^ ((0x80U & (IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__295__a))
@@ -15857,7 +16798,7 @@ VL_INLINE_OPT void VSimTop___024root___combo__TOP__5(VSimTop___024root* vlSelf) 
                      << 1U) ^ ((0x80U & (IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__291__a))
                                 ? 0x1bU : 0U)));
     __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xtN__282__Vfuncout 
-        = (((IData)(vlSelf->__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xtN__282__a) 
+        = (((IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xtN__282__a) 
             ^ (IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__291__Vfuncout)) 
            ^ (IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xt2__292__Vfuncout));
     __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xtN__281__a 
@@ -15940,7 +16881,7 @@ VL_INLINE_OPT void VSimTop___024root___combo__TOP__5(VSimTop___024root* vlSelf) 
         = ((((IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xtN__280__Vfuncout) 
              ^ (IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xtN__281__Vfuncout)) 
             ^ (IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xtN__282__Vfuncout)) 
-           ^ (IData)(vlSelf->__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xtN__283__Vfuncout));
+           ^ (IData)(__Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_2__DOT__xtN__283__Vfuncout));
     __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_1__DOT__xtN__255__a 
         = (0xffU & vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__mix_in_1);
     __Vfunc_SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__i_mc_dec_1__DOT__xt2__260__a 
@@ -16237,9 +17178,9 @@ VL_INLINE_OPT void VSimTop___024root___combo__TOP__5(VSimTop___024root* vlSelf) 
             << 0x18U) | (((IData)(vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__mix_out_2) 
                           << 0x10U) | (((IData)(vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__mix_out_1) 
                                         << 8U) | (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__saes64_dec_mix_columns_implemented__DOT__i_mix_d1__DOT__mix_out_0))));
-    VL_EXTEND_WQ(69,64, __Vtemp778, (vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__a 
+    VL_EXTEND_WQ(69,64, __Vtemp815, (vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__a 
                                      + vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__b));
-    __Vtemp779[0U] = (IData)(((((((- (QData)((IData)(vlSelf->SimTop__DOT__u_cpu__DOT__if_inst_aes64ks1i_ex))) 
+    __Vtemp816[0U] = (IData)(((((((- (QData)((IData)(vlSelf->SimTop__DOT__u_cpu__DOT__if_inst_aes64ks1i_ex))) 
                                   & (((QData)((IData)(
                                                       ((IData)(vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__e_sbout) 
                                                        ^ 
@@ -16305,7 +17246,7 @@ VL_INLINE_OPT void VSimTop___024root___combo__TOP__5(VSimTop___024root* vlSelf) 
                               | ((- (QData)((IData)(vlSelf->SimTop__DOT__u_cpu__DOT__if_inst_aes64im_ex))) 
                                  & (((QData)((IData)(vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__mix_dec_o1)) 
                                      << 0x20U) | (QData)((IData)(vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__mix_dec_o0))))));
-    __Vtemp779[1U] = (IData)((((((((- (QData)((IData)(vlSelf->SimTop__DOT__u_cpu__DOT__if_inst_aes64ks1i_ex))) 
+    __Vtemp816[1U] = (IData)((((((((- (QData)((IData)(vlSelf->SimTop__DOT__u_cpu__DOT__if_inst_aes64ks1i_ex))) 
                                    & (((QData)((IData)(
                                                        ((IData)(vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__e_sbout) 
                                                         ^ 
@@ -16374,9 +17315,9 @@ VL_INLINE_OPT void VSimTop___024root___combo__TOP__5(VSimTop___024root* vlSelf) 
                                       << 0x20U) | (QData)((IData)(vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__aes_fu__DOT__mix_dec_o0))))) 
                               >> 0x20U));
     vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT____Vcellinp__adder____pinNumber4[0U] 
-        = __Vtemp779[0U];
+        = __Vtemp816[0U];
     vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT____Vcellinp__adder____pinNumber4[1U] 
-        = __Vtemp779[1U];
+        = __Vtemp816[1U];
     vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT____Vcellinp__adder____pinNumber4[2U] 
         = (0x13U | ((IData)(vlSelf->SimTop__DOT__u_cpu__DOT__csr_value_ex) 
                     << 5U));
@@ -16658,18 +17599,18 @@ VL_INLINE_OPT void VSimTop___024root___combo__TOP__5(VSimTop___024root* vlSelf) 
                                         + (~ vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__b))) 
                                >> 0x20U)) << 0x1aU));
     vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT____Vcellinp__adder____pinNumber4[0x28U] 
-        = (0x4000000U | ((__Vtemp778[0U] << 0x1fU) 
+        = (0x4000000U | ((__Vtemp815[0U] << 0x1fU) 
                          | ((IData)(((1ULL + (vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__a 
                                               + (~ vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__b))) 
                                      >> 0x20U)) >> 6U)));
     vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT____Vcellinp__adder____pinNumber4[0x29U] 
-        = ((__Vtemp778[0U] >> 1U) | (__Vtemp778[1U] 
+        = ((__Vtemp815[0U] >> 1U) | (__Vtemp815[1U] 
                                      << 0x1fU));
     vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT____Vcellinp__adder____pinNumber4[0x2aU] 
-        = ((__Vtemp778[1U] >> 1U) | (__Vtemp778[2U] 
+        = ((__Vtemp815[1U] >> 1U) | (__Vtemp815[2U] 
                                      << 0x1fU));
     vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT____Vcellinp__adder____pinNumber4[0x2bU] 
-        = (__Vtemp778[2U] >> 1U);
+        = (__Vtemp815[2U] >> 1U);
     vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__adder__DOT__i0__DOT__pair_list[0U][0U] 
         = vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT____Vcellinp__adder____pinNumber4[0U];
     vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__adder__DOT__i0__DOT__pair_list[0U][1U] 
@@ -17269,7 +18210,7 @@ VL_INLINE_OPT void VSimTop___024root___combo__TOP__5(VSimTop___024root* vlSelf) 
     vlSelf->SimTop__DOT__u_cpu__DOT__value = ((IData)(vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__adder__DOT__i0__DOT__hit)
                                                ? vlSelf->SimTop__DOT__u_cpu__DOT__alu_module__DOT__adder__DOT__i0__DOT__lut_out
                                                : 0xfedcba9876543210ULL);
-    VL_EXTEND_WQ(68,64, __Vtemp955, vlSelf->SimTop__DOT__u_cpu__DOT__value);
+    VL_EXTEND_WQ(68,64, __Vtemp992, vlSelf->SimTop__DOT__u_cpu__DOT__value);
     vlSelf->SimTop__DOT__u_cpu__DOT__sext__DOT____Vcellinp__sext_value0____pinNumber4[0U] 
         = (IData)((((QData)((IData)((- (IData)((1U 
                                                 & (IData)(
@@ -17284,12 +18225,12 @@ VL_INLINE_OPT void VSimTop___024root___combo__TOP__5(VSimTop___024root* vlSelf) 
                      << 0x20U) | (QData)((IData)(vlSelf->SimTop__DOT__u_cpu__DOT__value))) 
                    >> 0x20U));
     vlSelf->SimTop__DOT__u_cpu__DOT__sext__DOT____Vcellinp__sext_value0____pinNumber4[2U] 
-        = (4U | (__Vtemp955[0U] << 4U));
+        = (4U | (__Vtemp992[0U] << 4U));
     vlSelf->SimTop__DOT__u_cpu__DOT__sext__DOT____Vcellinp__sext_value0____pinNumber4[3U] 
-        = ((__Vtemp955[0U] >> 0x1cU) | (__Vtemp955[1U] 
+        = ((__Vtemp992[0U] >> 0x1cU) | (__Vtemp992[1U] 
                                         << 4U));
     vlSelf->SimTop__DOT__u_cpu__DOT__sext__DOT____Vcellinp__sext_value0____pinNumber4[4U] 
-        = ((__Vtemp955[1U] >> 0x1cU) | (__Vtemp955[2U] 
+        = ((__Vtemp992[1U] >> 0x1cU) | (__Vtemp992[2U] 
                                         << 4U));
     vlSelf->SimTop__DOT__u_cpu__DOT__sext__DOT__sext_value0__DOT__i0__DOT__pair_list[0U][0U] 
         = vlSelf->SimTop__DOT__u_cpu__DOT__sext__DOT____Vcellinp__sext_value0____pinNumber4[0U];
@@ -17348,7 +18289,7 @@ VL_INLINE_OPT void VSimTop___024root___combo__TOP__5(VSimTop___024root* vlSelf) 
         = ((IData)(vlSelf->SimTop__DOT__u_cpu__DOT__sext__DOT__sext_value0__DOT__i0__DOT__hit)
             ? vlSelf->SimTop__DOT__u_cpu__DOT__sext__DOT__sext_value0__DOT__i0__DOT__lut_out
             : vlSelf->SimTop__DOT__u_cpu__DOT__value);
-    VL_EXTEND_WQ(66,64, __Vtemp970, vlSelf->SimTop__DOT__u_cpu__DOT__reg2_value_id);
+    VL_EXTEND_WQ(66,64, __Vtemp1007, vlSelf->SimTop__DOT__u_cpu__DOT__reg2_value_id);
     vlSelf->SimTop__DOT__u_cpu__DOT__npc_processing__DOT____Vcellinp__forward_d_mux____pinNumber4[0U] 
         = (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_ex);
     vlSelf->SimTop__DOT__u_cpu__DOT__npc_processing__DOT____Vcellinp__forward_d_mux____pinNumber4[1U] 
@@ -17370,17 +18311,17 @@ VL_INLINE_OPT void VSimTop___024root___combo__TOP__5(VSimTop___024root* vlSelf) 
             >> 0x1cU) | ((IData)((vlSelf->SimTop__DOT__u_cpu__DOT__reg_write_value_mem 
                                   >> 0x20U)) << 4U));
     vlSelf->SimTop__DOT__u_cpu__DOT__npc_processing__DOT____Vcellinp__forward_d_mux____pinNumber4[6U] 
-        = (0x20U | ((__Vtemp970[0U] << 6U) | ((IData)(
-                                                      (vlSelf->SimTop__DOT__u_cpu__DOT__reg_write_value_mem 
-                                                       >> 0x20U)) 
-                                              >> 0x1cU)));
+        = (0x20U | ((__Vtemp1007[0U] << 6U) | ((IData)(
+                                                       (vlSelf->SimTop__DOT__u_cpu__DOT__reg_write_value_mem 
+                                                        >> 0x20U)) 
+                                               >> 0x1cU)));
     vlSelf->SimTop__DOT__u_cpu__DOT__npc_processing__DOT____Vcellinp__forward_d_mux____pinNumber4[7U] 
-        = ((__Vtemp970[0U] >> 0x1aU) | (__Vtemp970[1U] 
-                                        << 6U));
+        = ((__Vtemp1007[0U] >> 0x1aU) | (__Vtemp1007[1U] 
+                                         << 6U));
     vlSelf->SimTop__DOT__u_cpu__DOT__npc_processing__DOT____Vcellinp__forward_d_mux____pinNumber4[8U] 
-        = ((__Vtemp970[1U] >> 0x1aU) | (__Vtemp970[2U] 
-                                        << 6U));
-    VL_EXTEND_WQ(66,64, __Vtemp977, vlSelf->SimTop__DOT__u_cpu__DOT__reg1_value_id);
+        = ((__Vtemp1007[1U] >> 0x1aU) | (__Vtemp1007[2U] 
+                                         << 6U));
+    VL_EXTEND_WQ(66,64, __Vtemp1014, vlSelf->SimTop__DOT__u_cpu__DOT__reg1_value_id);
     vlSelf->SimTop__DOT__u_cpu__DOT__npc_processing__DOT____Vcellinp__forward_c_mux____pinNumber4[0U] 
         = (IData)(vlSelf->SimTop__DOT__u_cpu__DOT__sext_value_ex);
     vlSelf->SimTop__DOT__u_cpu__DOT__npc_processing__DOT____Vcellinp__forward_c_mux____pinNumber4[1U] 
@@ -17402,16 +18343,16 @@ VL_INLINE_OPT void VSimTop___024root___combo__TOP__5(VSimTop___024root* vlSelf) 
             >> 0x1cU) | ((IData)((vlSelf->SimTop__DOT__u_cpu__DOT__reg_write_value_mem 
                                   >> 0x20U)) << 4U));
     vlSelf->SimTop__DOT__u_cpu__DOT__npc_processing__DOT____Vcellinp__forward_c_mux____pinNumber4[6U] 
-        = (0x20U | ((__Vtemp977[0U] << 6U) | ((IData)(
-                                                      (vlSelf->SimTop__DOT__u_cpu__DOT__reg_write_value_mem 
-                                                       >> 0x20U)) 
-                                              >> 0x1cU)));
+        = (0x20U | ((__Vtemp1014[0U] << 6U) | ((IData)(
+                                                       (vlSelf->SimTop__DOT__u_cpu__DOT__reg_write_value_mem 
+                                                        >> 0x20U)) 
+                                               >> 0x1cU)));
     vlSelf->SimTop__DOT__u_cpu__DOT__npc_processing__DOT____Vcellinp__forward_c_mux____pinNumber4[7U] 
-        = ((__Vtemp977[0U] >> 0x1aU) | (__Vtemp977[1U] 
-                                        << 6U));
+        = ((__Vtemp1014[0U] >> 0x1aU) | (__Vtemp1014[1U] 
+                                         << 6U));
     vlSelf->SimTop__DOT__u_cpu__DOT__npc_processing__DOT____Vcellinp__forward_c_mux____pinNumber4[8U] 
-        = ((__Vtemp977[1U] >> 0x1aU) | (__Vtemp977[2U] 
-                                        << 6U));
+        = ((__Vtemp1014[1U] >> 0x1aU) | (__Vtemp1014[2U] 
+                                         << 6U));
     vlSelf->SimTop__DOT__u_cpu__DOT__npc_processing__DOT__forward_d_mux__DOT__i0__DOT__pair_list[0U][0U] 
         = vlSelf->SimTop__DOT__u_cpu__DOT__npc_processing__DOT____Vcellinp__forward_d_mux____pinNumber4[0U];
     vlSelf->SimTop__DOT__u_cpu__DOT__npc_processing__DOT__forward_d_mux__DOT__i0__DOT__pair_list[0U][1U] 
