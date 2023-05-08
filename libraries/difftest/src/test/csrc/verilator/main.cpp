@@ -18,12 +18,23 @@
 #include <locale.h>
 #include <csignal>
 #include "emu.h"
+#include <sys/time.h>
 
 static char mybuf[BUFSIZ];
 
 // junk, link for verilator
 std::function<double()> get_sc_time_stamp = []() -> double { return 0; };
 double sc_time_stamp() { return get_sc_time_stamp(); }
+
+extern "C" void rtc_time_read(long long addr , long long *rtc_time){
+	if(addr == 0x00000000a1000048){
+      struct timeval now;
+      gettimeofday(&now, NULL);
+      long seconds = now.tv_sec;
+      long useconds = now.tv_usec;
+      *rtc_time = (seconds * 1000 + (useconds + 500) / 1000);
+	}
+}
 
 int main(int argc, const char** argv) {
   printf("Emu compiled at %s, %s\n", __DATE__, __TIME__);

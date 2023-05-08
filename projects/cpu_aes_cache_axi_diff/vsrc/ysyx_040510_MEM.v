@@ -1,4 +1,8 @@
 `include "ysyx_040510_para.v"
+
+import "DPI-C" function void rtc_time_read(
+	input longint addr, output longint rdata);
+
 module ysyx_040510_MEM(
 	input clk,
 	input rst,
@@ -22,6 +26,7 @@ module ysyx_040510_MEM(
 	output			if_clint,
 	
 	output			if_uart_o,
+	output			if_rtc_o,
 
 	output			mem_valid_o,
 	output			mem_req_o,
@@ -109,7 +114,15 @@ assign	if_clint		= if_clint_addr && (read_mem_en | write_mem_en);
 wire	if_uart_addr	= (addr[31:0] == 32'ha10003f8);
 assign	if_uart_o		= if_uart_addr && write_mem_en;
 
-assign mem_valid_o		= !if_clint_addr && !if_uart_o && (read_mem_en | write_mem_en);
+//************ RTC TIME 
+wire	if_rtc		= (addr[31:0] == 32'ha1000048) & read_mem_en;
+wire [63:0] rtc_time; 
+always @(*)begin
+	rtc_time_read(addr, rtc_time);
+end
+assign	if_rtc_o = if_rtc;
+
+assign mem_valid_o		= (!if_clint_addr) && (!if_uart_o) && (!if_rtc) && (read_mem_en | write_mem_en);
 assign mem_req_o		= write_mem_en ? `REQ_WRITE : `REQ_READ;
 assign mem_addr_o		= {addr[63:3],3'b0};	//assign mem_addr_o		= (addr >> 3) << 3;
 assign mem_data_write_o = reg2_to_mem_forward;
@@ -119,6 +132,13 @@ assign clint_ren_o	= if_clint_addr && read_mem_en;
 assign clint_addr_o = addr;
 assign clint_data_o = value_writen_to_mem;
 
-assign read_mem_value	= if_clint ? clint_data_read_i : mem_data_read_i;
+assign read_mem_value	=	if_clint ? clint_data_read_i : 
+							if_rtc   ? rtc_time	: mem_data_read_i;
+
+//always@(posedge clk)begin
+//	if((addr[31:0]==32'ha1000048) & read_mem_en)begin
+//		$display("RTC,mask = %h",mem_write_mask);
+//	end
+//end
 
 endmodule

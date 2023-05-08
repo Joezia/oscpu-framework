@@ -22,6 +22,7 @@ module ysyx_040510_PIPE_MEM_WB(
 	input			m_mode_return_mem,
 	input			if_clint_mem,
 	input			if_uart_mem,
+	input			if_rtc_mem,
 	input [11:0]	csr_mem,
 	input			csr_wen_mem,
 	input [63:0]	csr_value_writeback_mem,
@@ -45,6 +46,7 @@ module ysyx_040510_PIPE_MEM_WB(
 	output reg m_mode_return_wb,
 	output reg if_clint_wb,
 	output reg if_uart_wb,
+	output reg if_rtc_wb,
 	output reg [11:0]csr_wb,
 	output reg csr_wen_wb,
 	output reg [63:0]csr_value_writeback_wb
@@ -69,6 +71,7 @@ always @(posedge clk)begin
 		m_mode_return_wb		<= 0; 
 		if_clint_wb				<= 0; 
 		if_uart_wb				<= 0; 
+		if_rtc_wb				<= 0; 
 		csr_wb					<= 0; 
 		csr_wen_wb				<= 0; 
 		csr_value_writeback_wb	<= 0; 
@@ -91,6 +94,7 @@ always @(posedge clk)begin
 		m_mode_return_wb <= m_mode_return_mem;
 		if_clint_wb	<= if_clint_mem;
 		if_uart_wb	<= if_uart_mem;
+		if_rtc_wb	<= if_rtc_mem;
 		csr_wb <= csr_mem;
 		csr_wen_wb <= csr_wen_mem;
 		csr_value_writeback_wb <= csr_value_writeback_mem;

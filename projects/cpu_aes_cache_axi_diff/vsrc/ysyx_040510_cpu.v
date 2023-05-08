@@ -160,6 +160,8 @@ wire if_clint_mem;
 wire if_clint_wb;
 wire if_uart_mem;
 wire if_uart_wb;
+wire if_rtc_mem;
+wire if_rtc_wb;
 
 wire		clint_wen;
 wire		clint_ren;
@@ -514,6 +516,7 @@ ysyx_040510_MEM memory(
 
 	.if_clint	(if_clint_mem),
 	.if_uart_o	(if_uart_mem),
+	.if_rtc_o	(if_rtc_mem),
 
 	.mem_valid_o(mem_valid),
 	.mem_req_o(mem_req),
@@ -552,6 +555,7 @@ ysyx_040510_PIPE_MEM_WB pipe_mem_wb(
 	.m_mode_return_mem(m_mode_return_mem),
 	.if_clint_mem(if_clint_mem),
 	.if_uart_mem(if_uart_mem),
+	.if_rtc_mem(if_rtc_mem),
 	.csr_mem(csr_mem),
 	.csr_wen_mem(csr_wen_mem),
 	.csr_value_writeback_mem(csr_value_writeback_mem),
@@ -575,6 +579,7 @@ ysyx_040510_PIPE_MEM_WB pipe_mem_wb(
 	.m_mode_return_wb(m_mode_return_wb),
 	.if_clint_wb(if_clint_wb),
 	.if_uart_wb(if_uart_wb),
+	.if_rtc_wb(if_rtc_wb),
 	.csr_wb(csr_wb),
 	.csr_wen_wb(csr_wen_wb),
 	.csr_value_writeback_wb(csr_value_writeback_wb)
@@ -715,7 +720,7 @@ wire [63:0]	rd_data_3	= reg_write_value_wb;
 wire [4:0]	rd_w_addr_3	= rd_wb;
 wire		rd_w_ena_3	= wen_wb;
 wire		inst_valid_3= (!axi_stall_i) && (!m_time_interrupt) && (!m_time_interrupt_trigger)&& ((branch_type_wb != 3'b000)||write_mem_en_wb||wen_wb||(inst_wb == 32'h7b)||environment_call_wb||m_mode_return_wb) && (!pipeline_stall_wb) && (!(inst_wb  == 32'b0));
-wire		inst_skip_3	= (inst_wb == 32'h7b) | m_time_interrupt | if_clint_wb | if_uart_wb | (csr_wb == 12'hb00) ; 
+wire		inst_skip_3	= (inst_wb == 32'h7b) | m_time_interrupt | if_clint_wb | if_uart_wb | if_rtc_wb | (csr_wb == 12'hb00) ; 
 
 wire [63:0]mstatus_3;
 wire [63:0]mepc_3;

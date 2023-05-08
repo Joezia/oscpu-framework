@@ -594,3 +594,15 @@ VL_INLINE_OPT void VSimTop___024unit____Vdpiimwrap_amo_helper_TOP____024unit(CDa
     amo_helper__Vfuncrtn__Vcvt = amo_helper(cmd__Vcvt, addr__Vcvt, wdata__Vcvt, mask__Vcvt);
     amo_helper__Vfuncrtn = amo_helper__Vfuncrtn__Vcvt;
 }
+
+extern "C" void rtc_time_read(long long addr, long long* rdata);
+
+VL_INLINE_OPT void VSimTop___024unit____Vdpiimwrap_rtc_time_read_TOP____024unit(QData/*63:0*/ addr, QData/*63:0*/ &rdata) {
+    VL_DEBUG_IF(VL_DBG_MSGF("+        VSimTop___024unit____Vdpiimwrap_rtc_time_read_TOP____024unit\n"); );
+    // Body
+    long long addr__Vcvt;
+    for (size_t addr__Vidx = 0; addr__Vidx < 1; ++addr__Vidx) addr__Vcvt = addr;
+    long long rdata__Vcvt;
+    rtc_time_read(addr__Vcvt, &rdata__Vcvt);
+    rdata = rdata__Vcvt;
+}

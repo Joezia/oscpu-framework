@@ -23,6 +23,8 @@ extern "C" {
     extern long long ram_read_helper(svBit en, long long rIdx);
     // DPI import at src/test/vsrc/common/ram.v:17:30
     extern void ram_write_helper(long long wIdx, long long wdata, long long wmask, svBit wen);
+    // DPI import at /home/zza/riscv_workbench/oscpu-new/projects/cpu_aes_cache_axi_diff/build/ysyx_040510_MEM.v:3:30
+    extern void rtc_time_read(long long addr, long long* rdata);
     // DPI import at src/test/vsrc/common/difftest.v:50:3
     extern void v_difftest_ArchEvent(char coreid, int intrNo, int cause, long long exceptionPC, long long exceptionInst);
     // DPI import at src/test/vsrc/common/difftest.v:260:3
