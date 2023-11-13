@@ -1,0 +1,20 @@
+
+[verilator] Generating C++ files...
+Mon, 13 Nov 2023 10:49:05 +0800
+0.24user 0.04system 0:00.29elapsed 99%CPU (0avgtext+0avgdata 47104maxresident)k
+0inputs+2992outputs (0major+12370minor)pagefaults 0swaps
+
+[g++] Compiling C++ files...
+Mon, 13 Nov 2023 10:49:06 +0800
+0.82user 0.50system 0:01.46elapsed 90%CPU (0avgtext+0avgdata 105280maxresident)k
+7808inputs+6368outputs (0major+51673minor)pagefaults 0swaps
+
+[verilator] Generating C++ files...
+Mon, 13 Nov 2023 10:55:35 +0800
+0.22user 0.07system 0:00.29elapsed 100%CPU (0avgtext+0avgdata 46976maxresident)k
+0inputs+3000outputs (0major+12354minor)pagefaults 0swaps
+
+[g++] Compiling C++ files...
+Mon, 13 Nov 2023 10:55:35 +0800
+2.21user 1.20system 0:03.47elapsed 98%CPU (0avgtext+0avgdata 105084maxresident)k
+280inputs+6200outputs (0major+114490minor)pagefaults 0swaps

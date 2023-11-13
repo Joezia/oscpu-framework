@@ -96,7 +96,9 @@ module ysyx_040510_ALU(
 	);
 
 /********************** aes module ***************************/
-	wire		inst_aes_valid = if_inst_aes64es|if_inst_aes64esm|if_inst_aes64ds|if_inst_aes64dsm|if_inst_aes64im|if_inst_aes64ks1i|if_inst_aes64ks2;
+	wire		inst_aes_valid =	if_inst_aes64es|if_inst_aes64esm
+									|if_inst_aes64ds|if_inst_aes64dsm
+									|if_inst_aes64im|if_inst_aes64ks1i|if_inst_aes64ks2;
 	wire		aes_ready;
 	wire [63:0]	aes_value;
 	riscv_crypto_fu_saes64 aes_fu (

@@ -67,7 +67,7 @@ static void _eval_initial_loop(VSimTop__Syms* __restrict vlSymsp) {
             Verilated::debug(1);
             __Vchange = VSimTop___024root___change_request(&(vlSymsp->TOP));
             Verilated::debug(__Vsaved_debug);
-            VL_FATAL_MT("/home/zza/zza_temp_craft/basic-configuration/oscpu-new/projects/cpu_diff/build/SimTop.v", 6, "",
+            VL_FATAL_MT("/home/zza/riscv_workbench/oscpu-new/projects/cpu_diff/build/SimTop.v", 6, "",
                 "Verilated model didn't DC converge\n"
                 "- See https://verilator.org/warn/DIDNOTCONVERGE");
         } else {
@@ -97,7 +97,7 @@ void VSimTop::eval_step() {
             Verilated::debug(1);
             __Vchange = VSimTop___024root___change_request(&(vlSymsp->TOP));
             Verilated::debug(__Vsaved_debug);
-            VL_FATAL_MT("/home/zza/zza_temp_craft/basic-configuration/oscpu-new/projects/cpu_diff/build/SimTop.v", 6, "",
+            VL_FATAL_MT("/home/zza/riscv_workbench/oscpu-new/projects/cpu_diff/build/SimTop.v", 6, "",
                 "Verilated model didn't converge\n"
                 "- See https://verilator.org/warn/DIDNOTCONVERGE");
         } else {

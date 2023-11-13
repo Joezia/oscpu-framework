@@ -35,11 +35,11 @@ VM_PREFIX = VSimTop
 VM_MODPREFIX = VSimTop
 # User CFLAGS (from -CFLAGS on Verilator command line)
 VM_USER_CFLAGS = \
-	-std=c++11 -static -Wall -I/home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc -I/home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/common -I/home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/difftest -DVERILATOR -Wno-maybe-uninitialized  -DNUM_CORES=1 -I/home/zza/riscv_workbench/oscpu-new/libraries/DRAMsim3/src -DWITH_DRAMSIM3 -DDRAMSIM3_CONFIG=\"/home/zza/riscv_workbench/oscpu-new/libraries/DRAMsim3/configs/XiangShan.ini\" -DDRAMSIM3_OUTDIR=\"/home/zza/riscv_workbench/oscpu-new/projects/cpu_cache_axi_diff/build\" \
+	-std=c++11 -static -Wall -I/home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc -I/home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/common -I/home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/difftest -DVERILATOR -Wno-maybe-uninitialized  -DNUM_CORES=1 \
 
 # User LDLIBS (from -LDFLAGS on Verilator command line)
 VM_USER_LDLIBS = \
-	-lpthread -lSDL2 -ldl -lz /home/zza/riscv_workbench/oscpu-new/libraries/DRAMsim3/build/libdramsim3.a \
+	-lpthread -lSDL2 -ldl -lz \
 
 # User .cpp files (from .cpp's on Verilator command line)
 VM_USER_CLASSES = \

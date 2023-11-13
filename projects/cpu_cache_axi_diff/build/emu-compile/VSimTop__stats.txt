@@ -2,7 +2,7 @@ Verilator Statistics Report
 
 Information:
   Verilator 4.210 2021-07-07 rev v4.210
-  Arguments: --cc --exe --top-module SimTop +define+VERILATOR=1 +define+PRINTF_COND=1 +define+RANDOMIZE_REG_INIT +define+RANDOMIZE_MEM_INIT +define+RANDOMIZE_GARBAGE_ASSIGN +define+RANDOMIZE_DELAY=0 -Wno-STMTDLY -Wno-WIDTH -I/home/zza/riscv_workbench/oscpu-new/projects/cpu_cache_axi_diff/build --x-assign unique -O3 -CFLAGS -std=c++11 -static -Wall -I/home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc -I/home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/common -I/home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/difftest -DVERILATOR -Wno-maybe-uninitialized  -DNUM_CORES=1 -I/home/zza/riscv_workbench/oscpu-new/libraries/DRAMsim3/src -DWITH_DRAMSIM3 -DDRAMSIM3_CONFIG=\"/home/zza/riscv_workbench/oscpu-new/libraries/DRAMsim3/configs/XiangShan.ini\" -DDRAMSIM3_OUTDIR=\"/home/zza/riscv_workbench/oscpu-new/projects/cpu_cache_axi_diff/build\" -LDFLAGS -lpthread -lSDL2 -ldl -lz /home/zza/riscv_workbench/oscpu-new/libraries/DRAMsim3/build/libdramsim3.a --assert --stats-vars --output-split 30000 --output-split-cfuncs 30000 -o /home/zza/riscv_workbench/oscpu-new/projects/cpu_cache_axi_diff/build/emu -Mdir /home/zza/riscv_workbench/oscpu-new/projects/cpu_cache_axi_diff/build/emu-compile /home/zza/riscv_workbench/oscpu-new/projects/cpu_cache_axi_diff/build/SimTop.v ./src/test/vsrc/common/SimJTAG.v ./src/test/vsrc/common/difftest.v ./src/test/vsrc/common/EICG_wrapper.v ./src/test/vsrc/common/assert.v ./src/test/vsrc/common/ram.v ./src/test/vsrc/common/ref.v /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/vcs/main.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/difftest/ref.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/difftest/difftest.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/difftest/nemuproxy.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/difftest/spikedasm.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/difftest/interface.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/difftest/goldenmem.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/common/remote_bitbang.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/common/compress.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/common/common.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/common/device.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/common/SimJTAG.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/common/ram.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/common/vga.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/common/keyboard.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/common/flash.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/common/axi4.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/common/uart.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/common/sdcard.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/verilator/emu.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/verilator/main.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/verilator/snapshot.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/common/remote_bitbang.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/common/compress.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/common/common.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/common/device.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/common/SimJTAG.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/common/ram.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/common/vga.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/common/keyboard.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/common/flash.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/common/axi4.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/common/uart.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/common/sdcard.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/difftest/ref.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/difftest/difftest.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/difftest/nemuproxy.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/difftest/spikedasm.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/difftest/interface.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/difftest/goldenmem.cpp
+  Arguments: --cc --exe --top-module SimTop +define+VERILATOR=1 +define+PRINTF_COND=1 +define+RANDOMIZE_REG_INIT +define+RANDOMIZE_MEM_INIT +define+RANDOMIZE_GARBAGE_ASSIGN +define+RANDOMIZE_DELAY=0 -Wno-STMTDLY -Wno-WIDTH -I/home/zza/riscv_workbench/oscpu-new/projects/cpu_cache_axi_diff/build --x-assign unique -O3 -CFLAGS -std=c++11 -static -Wall -I/home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc -I/home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/common -I/home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/difftest -DVERILATOR -Wno-maybe-uninitialized  -DNUM_CORES=1 -LDFLAGS -lpthread -lSDL2 -ldl -lz --assert --stats-vars --output-split 30000 --output-split-cfuncs 30000 -o /home/zza/riscv_workbench/oscpu-new/projects/cpu_cache_axi_diff/build/emu -Mdir /home/zza/riscv_workbench/oscpu-new/projects/cpu_cache_axi_diff/build/emu-compile /home/zza/riscv_workbench/oscpu-new/projects/cpu_cache_axi_diff/build/SimTop.v ./src/test/vsrc/common/SimJTAG.v ./src/test/vsrc/common/difftest.v ./src/test/vsrc/common/EICG_wrapper.v ./src/test/vsrc/common/assert.v ./src/test/vsrc/common/ram.v ./src/test/vsrc/common/ref.v /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/vcs/main.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/difftest/ref.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/difftest/difftest.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/difftest/nemuproxy.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/difftest/spikedasm.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/difftest/interface.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/difftest/goldenmem.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/common/remote_bitbang.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/common/compress.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/common/common.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/common/device.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/common/SimJTAG.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/common/ram.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/common/vga.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/common/keyboard.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/common/flash.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/common/axi4.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/common/uart.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/common/sdcard.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/verilator/emu.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/verilator/main.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/verilator/snapshot.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/common/remote_bitbang.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/common/compress.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/common/common.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/common/device.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/common/SimJTAG.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/common/ram.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/common/vga.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/common/keyboard.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/common/flash.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/common/axi4.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/common/uart.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/common/sdcard.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/difftest/ref.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/difftest/difftest.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/difftest/nemuproxy.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/difftest/spikedasm.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/difftest/interface.cpp /home/zza/riscv_workbench/oscpu-new/libraries/difftest/src/test/csrc/difftest/goldenmem.cpp
 
 Global Statistics:
 
@@ -61,85 +61,85 @@ Global Statistics:
 Performance Statistics:
 
   Stage, Elapsed time (sec), 001_cells                 0.000000
-  Stage, Elapsed time (sec), 002_linkparse             0.002212
-  Stage, Elapsed time (sec), 003_linkdot               0.005912
-  Stage, Elapsed time (sec), 004_linkresolve           0.001116
-  Stage, Elapsed time (sec), 005_linklvalue            0.000580
-  Stage, Elapsed time (sec), 006_link                  0.000980
-  Stage, Elapsed time (sec), 007_linkInc               0.001034
-  Stage, Elapsed time (sec), 008_param                 0.003998
-  Stage, Elapsed time (sec), 009_paramlink             0.004035
-  Stage, Elapsed time (sec), 010_deadModules           0.001033
-  Stage, Elapsed time (sec), 011_width                 0.006865
-  Stage, Elapsed time (sec), 012_widthcommit           0.001934
-  Stage, Elapsed time (sec), 013_const                 0.001105
-  Stage, Elapsed time (sec), 014_assertpre             0.002765
-  Stage, Elapsed time (sec), 015_assert                0.000932
-  Stage, Elapsed time (sec), 016_wraptop               0.000099
-  Stage, Elapsed time (sec), 017_const                 0.002233
-  Stage, Elapsed time (sec), 018_split_var             0.001178
-  Stage, Elapsed time (sec), 019_split_var             0.000183
-  Stage, Elapsed time (sec), 020_dearray               0.000405
-  Stage, Elapsed time (sec), 021_linkdot               0.003956
-  Stage, Elapsed time (sec), 022_begin                 0.001761
-  Stage, Elapsed time (sec), 023_tristate              0.001984
-  Stage, Elapsed time (sec), 024_unknown               0.001759
-  Stage, Elapsed time (sec), 025_inline                0.020735
-  Stage, Elapsed time (sec), 026_linkdot               0.003260
-  Stage, Elapsed time (sec), 027_const                 0.000927
-  Stage, Elapsed time (sec), 028_deadDtypes            0.000858
-  Stage, Elapsed time (sec), 029_inst                  0.000164
-  Stage, Elapsed time (sec), 030_const                 0.000678
-  Stage, Elapsed time (sec), 031_scope                 0.007020
-  Stage, Elapsed time (sec), 032_linkdot               0.002530
-  Stage, Elapsed time (sec), 033_class                 0.000282
-  Stage, Elapsed time (sec), 034_const                 0.000855
-  Stage, Elapsed time (sec), 035_deadDtypesScoped      0.001084
-  Stage, Elapsed time (sec), 036_case                  0.001171
-  Stage, Elapsed time (sec), 037_task                  0.002499
-  Stage, Elapsed time (sec), 038_name                  0.001684
-  Stage, Elapsed time (sec), 039_unroll                0.002191
-  Stage, Elapsed time (sec), 040_slice                 0.001330
-  Stage, Elapsed time (sec), 041_const                 0.001361
-  Stage, Elapsed time (sec), 042_life                  0.000611
-  Stage, Elapsed time (sec), 043_table                 0.000954
-  Stage, Elapsed time (sec), 044_const                 0.001291
-  Stage, Elapsed time (sec), 045_deadDtypesScoped      0.001477
-  Stage, Elapsed time (sec), 046_active                0.000504
-  Stage, Elapsed time (sec), 047_split                 0.002852
-  Stage, Elapsed time (sec), 048_splitas               0.000745
-  Stage, Elapsed time (sec), 049_gate                  0.008192
-  Stage, Elapsed time (sec), 050_const                 0.001346
-  Stage, Elapsed time (sec), 051_deadAllScoped         0.001928
-  Stage, Elapsed time (sec), 052_reorder               0.001219
-  Stage, Elapsed time (sec), 053_delayed               0.001405
-  Stage, Elapsed time (sec), 054_activetop             0.003688
-  Stage, Elapsed time (sec), 055_order                 0.011301
-  Stage, Elapsed time (sec), 056_genclk                0.003008
-  Stage, Elapsed time (sec), 057_clock                 0.001297
-  Stage, Elapsed time (sec), 058_const                 0.001937
-  Stage, Elapsed time (sec), 059_life                  0.001552
-  Stage, Elapsed time (sec), 060_life_post             0.003550
-  Stage, Elapsed time (sec), 061_const                 0.002028
-  Stage, Elapsed time (sec), 062_deadAllScoped         0.001742
-  Stage, Elapsed time (sec), 063_changed               0.000321
-  Stage, Elapsed time (sec), 064_localize              0.004936
-  Stage, Elapsed time (sec), 065_descope               0.001728
-  Stage, Elapsed time (sec), 066_combine               0.002441
-  Stage, Elapsed time (sec), 067_const                 0.001848
-  Stage, Elapsed time (sec), 068_deadAll               0.001829
-  Stage, Elapsed time (sec), 069_clean                 0.002856
-  Stage, Elapsed time (sec), 070_premit                0.002987
-  Stage, Elapsed time (sec), 071_expand                0.012574
-  Stage, Elapsed time (sec), 072_const_cpp             0.018332
-  Stage, Elapsed time (sec), 073_subst                 0.019200
-  Stage, Elapsed time (sec), 074_const_cpp             0.004451
-  Stage, Elapsed time (sec), 075_deadAll               0.002353
-  Stage, Elapsed time (sec), 076_merge_cond            0.000654
-  Stage, Elapsed time (sec), 077_reloop                0.000476
-  Stage, Elapsed time (sec), 078_depth                 0.001743
-  Stage, Elapsed time (sec), 079_cast                  0.004459
-  Stage, Elapsed time (sec), 080_cuse                  0.002506
+  Stage, Elapsed time (sec), 002_linkparse             0.003118
+  Stage, Elapsed time (sec), 003_linkdot               0.004505
+  Stage, Elapsed time (sec), 004_linkresolve           0.000680
+  Stage, Elapsed time (sec), 005_linklvalue            0.000217
+  Stage, Elapsed time (sec), 006_link                  0.000182
+  Stage, Elapsed time (sec), 007_linkInc               0.000228
+  Stage, Elapsed time (sec), 008_param                 0.002886
+  Stage, Elapsed time (sec), 009_paramlink             0.003497
+  Stage, Elapsed time (sec), 010_deadModules           0.000495
+  Stage, Elapsed time (sec), 011_width                 0.003063
+  Stage, Elapsed time (sec), 012_widthcommit           0.000824
+  Stage, Elapsed time (sec), 013_const                 0.000274
+  Stage, Elapsed time (sec), 014_assertpre             0.000838
+  Stage, Elapsed time (sec), 015_assert                0.000220
+  Stage, Elapsed time (sec), 016_wraptop               0.000035
+  Stage, Elapsed time (sec), 017_const                 0.001052
+  Stage, Elapsed time (sec), 018_split_var             0.000558
+  Stage, Elapsed time (sec), 019_split_var             0.000053
+  Stage, Elapsed time (sec), 020_dearray               0.000144
+  Stage, Elapsed time (sec), 021_linkdot               0.001658
+  Stage, Elapsed time (sec), 022_begin                 0.000435
+  Stage, Elapsed time (sec), 023_tristate              0.000932
+  Stage, Elapsed time (sec), 024_unknown               0.000995
+  Stage, Elapsed time (sec), 025_inline                0.014062
+  Stage, Elapsed time (sec), 026_linkdot               0.001868
+  Stage, Elapsed time (sec), 027_const                 0.000358
+  Stage, Elapsed time (sec), 028_deadDtypes            0.000345
+  Stage, Elapsed time (sec), 029_inst                  0.000041
+  Stage, Elapsed time (sec), 030_const                 0.000228
+  Stage, Elapsed time (sec), 031_scope                 0.003386
+  Stage, Elapsed time (sec), 032_linkdot               0.000984
+  Stage, Elapsed time (sec), 033_class                 0.000059
+  Stage, Elapsed time (sec), 034_const                 0.000295
+  Stage, Elapsed time (sec), 035_deadDtypesScoped      0.000373
+  Stage, Elapsed time (sec), 036_case                  0.000212
+  Stage, Elapsed time (sec), 037_task                  0.000623
+  Stage, Elapsed time (sec), 038_name                  0.000493
+  Stage, Elapsed time (sec), 039_unroll                0.000631
+  Stage, Elapsed time (sec), 040_slice                 0.000213
+  Stage, Elapsed time (sec), 041_const                 0.000375
+  Stage, Elapsed time (sec), 042_life                  0.000179
+  Stage, Elapsed time (sec), 043_table                 0.000385
+  Stage, Elapsed time (sec), 044_const                 0.000279
+  Stage, Elapsed time (sec), 045_deadDtypesScoped      0.000417
+  Stage, Elapsed time (sec), 046_active                0.000154
+  Stage, Elapsed time (sec), 047_split                 0.001205
+  Stage, Elapsed time (sec), 048_splitas               0.000200
+  Stage, Elapsed time (sec), 049_gate                  0.003098
+  Stage, Elapsed time (sec), 050_const                 0.000375
+  Stage, Elapsed time (sec), 051_deadAllScoped         0.000765
+  Stage, Elapsed time (sec), 052_reorder               0.000481
+  Stage, Elapsed time (sec), 053_delayed               0.000413
+  Stage, Elapsed time (sec), 054_activetop             0.001255
+  Stage, Elapsed time (sec), 055_order                 0.004128
+  Stage, Elapsed time (sec), 056_genclk                0.000546
+  Stage, Elapsed time (sec), 057_clock                 0.000268
+  Stage, Elapsed time (sec), 058_const                 0.001569
+  Stage, Elapsed time (sec), 059_life                  0.000914
+  Stage, Elapsed time (sec), 060_life_post             0.000949
+  Stage, Elapsed time (sec), 061_const                 0.000470
+  Stage, Elapsed time (sec), 062_deadAllScoped         0.000683
+  Stage, Elapsed time (sec), 063_changed               0.000092
+  Stage, Elapsed time (sec), 064_localize              0.003067
+  Stage, Elapsed time (sec), 065_descope               0.000675
+  Stage, Elapsed time (sec), 066_combine               0.002372
+  Stage, Elapsed time (sec), 067_const                 0.000625
+  Stage, Elapsed time (sec), 068_deadAll               0.000521
+  Stage, Elapsed time (sec), 069_clean                 0.001750
+  Stage, Elapsed time (sec), 070_premit                0.001889
+  Stage, Elapsed time (sec), 071_expand                0.021663
+  Stage, Elapsed time (sec), 072_const_cpp             0.011673
+  Stage, Elapsed time (sec), 073_subst                 0.012315
+  Stage, Elapsed time (sec), 074_const_cpp             0.003045
+  Stage, Elapsed time (sec), 075_deadAll               0.002356
+  Stage, Elapsed time (sec), 076_merge_cond            0.000203
+  Stage, Elapsed time (sec), 077_reloop                0.000249
+  Stage, Elapsed time (sec), 078_depth                 0.000720
+  Stage, Elapsed time (sec), 079_cast                  0.002195
+  Stage, Elapsed time (sec), 080_cuse                  0.001335
   Stage, Memory (MB), 001_cells                       23.324219
   Stage, Memory (MB), 002_linkparse                   24.324219
   Stage, Memory (MB), 003_linkdot                     25.324219
@@ -147,79 +147,79 @@ Performance Statistics:
   Stage, Memory (MB), 005_linklvalue                  25.324219
   Stage, Memory (MB), 006_link                        25.324219
   Stage, Memory (MB), 007_linkInc                     25.324219
-  Stage, Memory (MB), 008_param                       27.972656
-  Stage, Memory (MB), 009_paramlink                   27.972656
-  Stage, Memory (MB), 010_deadModules                 27.972656
-  Stage, Memory (MB), 011_width                       27.972656
-  Stage, Memory (MB), 012_widthcommit                 27.972656
-  Stage, Memory (MB), 013_const                       27.972656
-  Stage, Memory (MB), 014_assertpre                   27.972656
-  Stage, Memory (MB), 015_assert                      27.972656
-  Stage, Memory (MB), 016_wraptop                     27.972656
-  Stage, Memory (MB), 017_const                       27.972656
-  Stage, Memory (MB), 018_split_var                   27.972656
-  Stage, Memory (MB), 019_split_var                   27.972656
-  Stage, Memory (MB), 020_dearray                     27.972656
-  Stage, Memory (MB), 021_linkdot                     27.972656
-  Stage, Memory (MB), 022_begin                       27.972656
-  Stage, Memory (MB), 023_tristate                    27.972656
-  Stage, Memory (MB), 024_unknown                     27.972656
-  Stage, Memory (MB), 025_inline                      40.972656
-  Stage, Memory (MB), 026_linkdot                     40.972656
-  Stage, Memory (MB), 027_const                       40.972656
-  Stage, Memory (MB), 028_deadDtypes                  40.972656
-  Stage, Memory (MB), 029_inst                        40.972656
-  Stage, Memory (MB), 030_const                       40.972656
-  Stage, Memory (MB), 031_scope                       40.972656
-  Stage, Memory (MB), 032_linkdot                     40.972656
-  Stage, Memory (MB), 033_class                       40.972656
-  Stage, Memory (MB), 034_const                       40.972656
-  Stage, Memory (MB), 035_deadDtypesScoped            40.972656
-  Stage, Memory (MB), 036_case                        40.972656
-  Stage, Memory (MB), 037_task                        40.972656
-  Stage, Memory (MB), 038_name                        40.972656
-  Stage, Memory (MB), 039_unroll                      40.972656
-  Stage, Memory (MB), 040_slice                       40.972656
-  Stage, Memory (MB), 041_const                       40.972656
-  Stage, Memory (MB), 042_life                        40.972656
-  Stage, Memory (MB), 043_table                       40.972656
-  Stage, Memory (MB), 044_const                       40.972656
-  Stage, Memory (MB), 045_deadDtypesScoped            40.972656
-  Stage, Memory (MB), 046_active                      40.972656
-  Stage, Memory (MB), 047_split                       40.972656
-  Stage, Memory (MB), 048_splitas                     40.972656
-  Stage, Memory (MB), 049_gate                        40.972656
-  Stage, Memory (MB), 050_const                       40.972656
-  Stage, Memory (MB), 051_deadAllScoped               40.972656
-  Stage, Memory (MB), 052_reorder                     40.972656
-  Stage, Memory (MB), 053_delayed                     40.972656
-  Stage, Memory (MB), 054_activetop                   40.972656
-  Stage, Memory (MB), 055_order                       40.972656
-  Stage, Memory (MB), 056_genclk                      40.972656
-  Stage, Memory (MB), 057_clock                       40.972656
-  Stage, Memory (MB), 058_const                       40.972656
-  Stage, Memory (MB), 059_life                        40.972656
-  Stage, Memory (MB), 060_life_post                   40.972656
-  Stage, Memory (MB), 061_const                       40.972656
-  Stage, Memory (MB), 062_deadAllScoped               40.972656
-  Stage, Memory (MB), 063_changed                     40.972656
-  Stage, Memory (MB), 064_localize                    41.972656
-  Stage, Memory (MB), 065_descope                     41.972656
-  Stage, Memory (MB), 066_combine                     41.972656
-  Stage, Memory (MB), 067_const                       41.972656
-  Stage, Memory (MB), 068_deadAll                     41.972656
-  Stage, Memory (MB), 069_clean                       41.972656
-  Stage, Memory (MB), 070_premit                      41.972656
-  Stage, Memory (MB), 071_expand                      49.972656
-  Stage, Memory (MB), 072_const_cpp                   49.972656
-  Stage, Memory (MB), 073_subst                       50.972656
-  Stage, Memory (MB), 074_const_cpp                   50.972656
-  Stage, Memory (MB), 075_deadAll                     50.972656
-  Stage, Memory (MB), 076_merge_cond                  50.972656
-  Stage, Memory (MB), 077_reloop                      50.972656
-  Stage, Memory (MB), 078_depth                       50.972656
-  Stage, Memory (MB), 079_cast                        50.972656
-  Stage, Memory (MB), 080_cuse                        50.972656
+  Stage, Memory (MB), 008_param                       27.968750
+  Stage, Memory (MB), 009_paramlink                   27.968750
+  Stage, Memory (MB), 010_deadModules                 27.968750
+  Stage, Memory (MB), 011_width                       27.968750
+  Stage, Memory (MB), 012_widthcommit                 27.968750
+  Stage, Memory (MB), 013_const                       27.968750
+  Stage, Memory (MB), 014_assertpre                   27.968750
+  Stage, Memory (MB), 015_assert                      27.968750
+  Stage, Memory (MB), 016_wraptop                     27.968750
+  Stage, Memory (MB), 017_const                       27.968750
+  Stage, Memory (MB), 018_split_var                   27.968750
+  Stage, Memory (MB), 019_split_var                   27.968750
+  Stage, Memory (MB), 020_dearray                     27.968750
+  Stage, Memory (MB), 021_linkdot                     27.968750
+  Stage, Memory (MB), 022_begin                       27.968750
+  Stage, Memory (MB), 023_tristate                    27.968750
+  Stage, Memory (MB), 024_unknown                     27.968750
+  Stage, Memory (MB), 025_inline                      40.968750
+  Stage, Memory (MB), 026_linkdot                     40.968750
+  Stage, Memory (MB), 027_const                       40.968750
+  Stage, Memory (MB), 028_deadDtypes                  40.968750
+  Stage, Memory (MB), 029_inst                        40.968750
+  Stage, Memory (MB), 030_const                       40.968750
+  Stage, Memory (MB), 031_scope                       40.968750
+  Stage, Memory (MB), 032_linkdot                     40.968750
+  Stage, Memory (MB), 033_class                       40.968750
+  Stage, Memory (MB), 034_const                       40.968750
+  Stage, Memory (MB), 035_deadDtypesScoped            40.968750
+  Stage, Memory (MB), 036_case                        40.968750
+  Stage, Memory (MB), 037_task                        40.968750
+  Stage, Memory (MB), 038_name                        40.968750
+  Stage, Memory (MB), 039_unroll                      40.968750
+  Stage, Memory (MB), 040_slice                       40.968750
+  Stage, Memory (MB), 041_const                       40.968750
+  Stage, Memory (MB), 042_life                        40.968750
+  Stage, Memory (MB), 043_table                       40.968750
+  Stage, Memory (MB), 044_const                       40.968750
+  Stage, Memory (MB), 045_deadDtypesScoped            40.968750
+  Stage, Memory (MB), 046_active                      40.968750
+  Stage, Memory (MB), 047_split                       40.968750
+  Stage, Memory (MB), 048_splitas                     40.968750
+  Stage, Memory (MB), 049_gate                        40.968750
+  Stage, Memory (MB), 050_const                       40.968750
+  Stage, Memory (MB), 051_deadAllScoped               40.968750
+  Stage, Memory (MB), 052_reorder                     40.968750
+  Stage, Memory (MB), 053_delayed                     40.968750
+  Stage, Memory (MB), 054_activetop                   40.968750
+  Stage, Memory (MB), 055_order                       40.968750
+  Stage, Memory (MB), 056_genclk                      40.968750
+  Stage, Memory (MB), 057_clock                       40.968750
+  Stage, Memory (MB), 058_const                       40.968750
+  Stage, Memory (MB), 059_life                        40.968750
+  Stage, Memory (MB), 060_life_post                   40.968750
+  Stage, Memory (MB), 061_const                       40.968750
+  Stage, Memory (MB), 062_deadAllScoped               40.968750
+  Stage, Memory (MB), 063_changed                     40.968750
+  Stage, Memory (MB), 064_localize                    41.968750
+  Stage, Memory (MB), 065_descope                     41.968750
+  Stage, Memory (MB), 066_combine                     41.968750
+  Stage, Memory (MB), 067_const                       41.968750
+  Stage, Memory (MB), 068_deadAll                     41.968750
+  Stage, Memory (MB), 069_clean                       41.968750
+  Stage, Memory (MB), 070_premit                      41.968750
+  Stage, Memory (MB), 071_expand                      49.968750
+  Stage, Memory (MB), 072_const_cpp                   49.968750
+  Stage, Memory (MB), 073_subst                       50.968750
+  Stage, Memory (MB), 074_const_cpp                   50.968750
+  Stage, Memory (MB), 075_deadAll                     50.968750
+  Stage, Memory (MB), 076_merge_cond                  50.968750
+  Stage, Memory (MB), 077_reloop                      50.968750
+  Stage, Memory (MB), 078_depth                       50.968750
+  Stage, Memory (MB), 079_cast                        50.968750
+  Stage, Memory (MB), 080_cuse                        50.968750
 
 Stage Statistics:
   Stat                                                                                     Link       PreOrder   Scoped     Final      Final_Fast

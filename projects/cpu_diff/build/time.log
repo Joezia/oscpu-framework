@@ -184,3 +184,14 @@ Fri, 24 Feb 2023 16:49:01 +0800
 Fri, 24 Feb 2023 16:49:01 +0800
 7.24user 1.11system 0:08.66elapsed 96%CPU (0avgtext+0avgdata 185032maxresident)k
 568inputs+3624outputs (6major+350998minor)pagefaults 0swaps
+
+[verilator] Generating C++ files...
+Sun, 12 Nov 2023 23:29:29 +0800
+0.04user 0.01system 0:00.06elapsed 94%CPU (0avgtext+0avgdata 18688maxresident)k
+80inputs+552outputs (0major+5244minor)pagefaults 0swaps
+
+[g++] Compiling C++ files...
+Sun, 12 Nov 2023 23:29:29 +0800
+Command exited with non-zero status 2
+0.01user 0.00system 0:00.02elapsed 60%CPU (0avgtext+0avgdata 3328maxresident)k
+248inputs+0outputs (0major+243minor)pagefaults 0swaps
